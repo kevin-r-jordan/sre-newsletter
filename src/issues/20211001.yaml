@@ -1,0 +1,35 @@
+---
+issue_number:   38
+release_date:   2021-10-01
+status:         published       # draft or published
+
+introduction: |
+    Welcome back everyone to the SRE Newsletter. It's been a couple of months since the last issue yet there's still been a lot of newsletter sign-ups which shows the world wants to know what's new in the world for site reliability engineering.
+    I'm going to do things a little differently going forward. In the past, I would publish the top 10 articles for the week. Sometimes this meant good things wouldn't make the cut and other weeks some articles were poorly written content marketing. This issue only has things I found worth reading, not another article explaining what's an SRE or defining SLAs vs SLOs. I'm also going to sprinkle in some of my commentary at the top of each issue as well as in the summaries. Hopefully, everyone appreciates the new changes.
+
+links:
+    - title:      "Long-term Strategies, OpenTelemetry, and the Value of Boring Systems"
+      url:        "https://www.opslevel.com/blog/opslevel-convos-paul-osman/"
+      summary:    "This is an interview with Paul Osman who worked at Under Armour, PagerDuty, and now Honeycomb. In this interview, he discusses prioritizing observability through OpenTelemetry and that there's no such thing as uncool architecture - there's just architecture that works."
+    - title:      "What Developer Self-Service Shouldn't Look Like"
+      url:        "https://humanitec.com/blog/what-developer-self-service-shouldnt-look-like"
+      summary:    "When adopting DevOps, some organizations apply the \"you built it, you run it\" approach while others have an ops engineer do all the lifting. The vast majority, however, end up somewhere between. Recognize that Dev and Ops are two different skill sets and seek to achieve a balance that allows them to understand what's going on without leaving them to fail or get completely bogged down in operational support."
+    - title:      "What is Expected in the SRE Role?"
+      url:        "https://spike.sh/blog/sre-role-2021-analysed-30-job-postings/"
+      summary:    "There's been a huge uptick in the number of SRE jobs. This article breaks down patterns in those description and concludes the SRE role is more than infrastructure and CI / CD. While I agree with the statement, the metrics tell another story. Just like DevOps, Agile, etc. most organization adopt nomenclature without changing their actual practices."
+    - title:      "How Big Tech Runs Projects and the Curious Absence of Scrum"
+      url:        "https://newsletter.pragmaticengineer.com/p/project-management-in-tech"
+      summary:    "[Long Read] After surveying over 100 companies, Gergely Orosz shares some patterns across different organization types such as big tech, venture-funded startups, non-tech companies, and consultancies. By looking at developer satisfaction and what the big tech companies do, he provides recommendations for how to run projects and when Scrum actually makes sense."
+    - title:      "Partitioning GitHub's Relational Databases to Handle Scale"
+      url:        "https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/"
+      summary:    "GitHub was started 10 years ago as a simple Ruby application build on a single MySQL database. Over time, they've split out certain data, but eventually they moved to a partitioned database to support horizontal scaling. This is the story of how they executed that transition without downtime."
+    - title:      "The Case for Developer Experience"
+      url:        "https://future.a16z.com/the-case-for-developer-experience/"
+      summary:    "[Long Read] There are more and more developers, which of course means more developer tools. Jean Yang breaks current tools into abstraction tools and complexity-exploring tools. There's been a lot of focus on abstraction tools, but software is increasingly complex and there's still a lack of tools that help developers deal with this complexity. She encourages the creation of new observability tools that work with existing ecosystems and companies to be willing to try these tools without expecting anything to be the silver bullet."
+    - title:      "Ask HN: How Do You Do Estimates in 2021?"
+      url:        "https://news.ycombinator.com/item?id=28662856"
+      summary:    "In this thread, a software development managers asks Hacker News how to improve his estimates after 20 years of agile and only delivering 20-30% of promised features. You see the classic answers like: t-shirt sizing and multiplying estimates by pi. Interestingly though a large percentage of teams are no-longer doing estimation."
+    - title:      "Designing Low Upkeep Software"
+      url:        "https://www.jefftk.com/p/designing-low-upkeep-software"
+      summary:    "This is a short one without a lot of actionable content, but I liked the idea of thinking about how you'd design software based primarily on future maintenance. In general, avoid dependencies and stick to core technologies and LTS releases."
+...      

@@ -1,0 +1,14 @@
+---
+issue_number:   41
+release_date:   2021-10-22
+is_latest:      false
+status:         draft       # draft or published
+
+introduction: |
+    blah blah blah
+
+links:
+    - title:      ""
+      url:        ""
+      summary:    ""
+...      

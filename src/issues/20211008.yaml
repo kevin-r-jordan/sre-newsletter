@@ -1,0 +1,32 @@
+---
+issue_number:   39
+release_date:   2021-10-08
+status:         published       # draft or published
+
+introduction: |
+    The theme of this week's issue is complexity. For those not in the trenches, site reliability sounds simple - just add some monitoring and a load balancer, right?
+    Facebook, the 3rd most visited site on the internet, went down proving that even with $1 million engineers things can go wrong. AWS is struggles figuring out how to provide usable IaC tools. And finally, GitLab and eBay provide some great details on what it takes to observe complex, distributed systems.
+
+links:
+    - title:      "Why we Spent the Last Month Eliminating PostgreSQL Subtransactions"
+      url:        "https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/"
+      summary:    "[Long Read] Since last June, GitLab would mysteriously stall for minutes leading to 500 errors. While the solution is provided (even showing the specific pull requests), the beauty of this post is its detailed walkthrough of how they tracked down the issue."
+    - title:      "More Details About the October 4 Outage"
+      url:        "https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/"
+      summary:    "This week, Facebook and their affiliated services WhatsApp and Instagram went down due to a faulty script and a bug in their audit tools. This is the fuffy, simplified version of the event."
+    - title:      "Understanding How Facebook Disappeared from the Internet"
+      url:        "https://blog.cloudflare.com/october-2021-facebook-outage/"
+      summary:    "When Facebook and Co. went down, Cloudflare thought it might have been something on their end. This is a more indepth explanation of how BGP and DNS work in relation to the Facebook outage and how traffic on other sites was affected as everyone tried to figure out what was going on."
+    - title:      "Do Not use AWS CloudFormation"
+      url:        "https://gswallow.medium.com/do-not-use-aws-cloudformation-7cf61f58bd5f"
+      summary:    "When should you use CloudFormation? According to Greg Swallows, almost never. Terraform works directly against AWS API which makes it faster and easier to troubleshoot."
+    - title:      "AWS Cloud Control API, a Uniform API to Access AWS & Third-Party Services"
+      url:        "https://aws.amazon.com/blogs/aws/announcing-aws-cloud-control-api/"
+      summary:    "AWS has announced their Cloud Control API, a set of common APIs to make it easy to manage AWS services. They key here is common, since before you'd have very different request and response structures when working with AWS services. It exposes five common verbs: CreateResource, GetResource, UpdateResource, DeleteResource, and ListResource."
+    - title:      "Groot: eBay’s Event-graph-based Approach for Root Cause Analysis"
+      url:        "https://tech.ebayinc.com/research/groot-ebays-event-graph-based-approach-for-root-cause-analysis/"
+      summary:    "eBay partnered with the University of Illinois Urbana-Champaign and Peking University to create a novel, event-driven and graph-based approach to conduct root cause analysis investigations. The framework was able to provide the root cause of issues significantly more accurately than traditional service-dependency mappings."
+    - title:      "2021 Accelerate State of DevOps Report"
+      url:        "https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report"
+      summary:    "Unfortunately, you'll have to sign up if you want to download the Google's DevOps Research and Assessment team's DevOps report, but this article provide a short summary of the key insights: a healthy team culture mitigates burnout during challenging times, the highest performers continue to raise the bar, SRE and DevOps are complementary philosophies, cloud adoption continues to drive performance, a secure software supply chain is both essential and drives performance, and finally, good documentation is foundational for successfully implementing DevOps capabilities."
+...      

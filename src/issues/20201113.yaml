@@ -1,0 +1,37 @@
+---
+issue_number:   1
+release_date:   2020-11-13
+status:         published       # draft or published
+
+links:
+    - title:      "Using What-if to Optimize ARM Template Deployments"
+      url:        "https://samlearnsazure.blog/2020/11/09/using-what-if-to-optimize-arm-template-deployments/"
+      summary:    "Speed up infrastructure as code deployments to Azure using PowerShell's What-If module on your ARM templates."
+    - title:      "Testing Your Database Backups Using SQL Server on Linux Containers"
+      url:        "https://www.sentryone.com/blog/testing-your-database-backups-using-sql-server-on-linux-containers"
+      summary:    "How SQL Server on Linux containers can be used along with Docker and Azure DevOps to create an automated process for testing your backups."
+    - title:      "How Can We Secretly Deploy This Key to Production?"
+      url:        "https://www.iheavy.com/2020/10/25/how-can-we-secretly-deploy-this-key-to-production/"
+      summary:    "Secrets create all sorts of issues when someone is getting fired. Here's one guys tales from the trenches."
+    - title:      "Testing in Production 101"
+      url:        "https://devops.com/testing-in-production-101/"
+      summary:    "Getting code that hasn't been fully vetted into production is the a new normal. This is one team's roll out plan using feature flags."
+    - title:      "FaaS Vs. Serverless: Resolving the Dilemma"
+      url:        "https://stackify.com/faas-vs-serverless-resolving-the-dilemma/"
+      summary:    "This post helps shed light on the similarities and differences between FaaS vs. Serverless architecture to help you decide which is better for your organization."
+    - title:      "What I Learned From Bombing a Technical Interview"
+      url:        "https://www.ceoraford.com/posts/what-i-learned-from-bombing-a-technical-interview/"
+      summary:    "Some sound advice during a time when I know a lot of DevOps people are being forced to interview."
+    - title:      "This is How I Git"
+      url:        "https://daniel.haxx.se/blog/2020/11/09/this-is-how-i-git/"
+      summary:    "Daniel, who works full time on open source projects, shares his way of working with git in curl."
+    - title:      "Many Websites will Stop Working on Older Android Versions in 2021"
+      url:        "https://www.androidpolice.com/2020/11/07/many-websites-will-stop-working-on-older-android-versions-in-2021/"
+      summary:    "Watch out! Let's Encrypt will stop signing new SSL certificates with DST Root X1."
+    - title:      "Microsoft Urges Users to Stop Using Phone-Based Multi-Factor Authentication"
+      url:        "https://www.zdnet.com/article/microsoft-urges-users-to-stop-using-phone-based-multi-factor-authentication/"
+      summary:    "Microsoft recommends using app-based authenticators and security keys instead."
+    - title:      "Eleven Years of Go"
+      url:        "https://blog.golang.org/11years"
+      summary:    "Go celebrates it's 11th birthday and takes a look back (and forward) of one of the fastest growing programming languages." 
+...      

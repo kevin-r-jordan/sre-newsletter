@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>SRE Newsletter - Issue #38</title>
+      <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+      <link href="./../../css/tailwind.min.css" rel="stylesheet" />
+   </head>
+   <body>
+      <div class="bg-white">
+         <div class="max-w-7xl mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:px-8">
+            <div class="text-center">
+               <a href="/">
+                  <h1 class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">SRE <span class="text-red-500">NEWS</span>LETTER</h1>
+               </a>
+               <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Issue #38 // October 1, 2021</p>
+            </div>
+         </div>
+      </div>
+      <div class="bg-gray-800">
+      <div class="max-w-xl mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:px-8">
+         <div id="mc_embed_signup" class="text-center">
+            <form action="https://srenewsletter.us7.list-manage.com/subscribe/post?u=2c48a37b5e33804b56095e418&amp;id=aa50401d00" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sm:flex" target="_blank" novalidate>
+               <label for="mce-EMAIL" class="sr-only">Email address</label>
+               <input type="email" id="mce-EMAIL" name="EMAIL" required class="required email w-full px-5 py-3 border border-transparent placeholder-gray-500 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white rounded-md" placeholder="your@email.com">
+               <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+               </div>
+               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2c48a37b5e33804b56095e418_aa50401d00" tabindex="-1" value=""></div>
+               <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
+                  <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500">
+                  Subscribe
+                  </button>
+               </div>
+            </form>
+         </div>
+      </div>
+      <div class="bg-white">
+         <div class="max-w-2xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+            <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
+               <div class="px-5 py-2">
+                  <a href="/issues/037" class="text-base text-gray-500 hover:text-gray-900">
+                  ← Prev Issue
+                  </a>
+               </div>
+               <div class="px-5 py-2">
+                  <a href="/issues" class="text-base text-gray-500 hover:text-gray-900">
+                  View Archive
+                  </a>
+               </div>
+               <div class="px-5 py-2">
+                  <a href="/issues/039" class="text-base text-gray-500 hover:text-gray-900">
+                  Next Issue →
+                  </a>
+               </div>
+            </nav>
+            <div>
+               <div class="mt-12 text-base text-gray-600">
+			      <p>Welcome back everyone to the SRE Newsletter. It's been a couple of months since the last issue yet there's still been a lot of newsletter sign-ups which shows the world wants to know what's new in the world for site reliability engineering.</p><p class="mt-3">I'm going to do things a little differently going forward. In the past, I would publish the top 10 articles for the week. Sometimes this meant good things wouldn't make the cut and other weeks some articles were poorly written content marketing. This issue only has things I found worth reading, not another article explaining what's an SRE or defining SLAs vs SLOs. I'm also going to sprinkle in some of my commentary at the top of each issue as well as in the summaries. Hopefully, everyone appreciates the new changes.</p>
+               </div>
+               <dl class="mt-12 space-y-8">
+                                    <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://www.opslevel.com/blog/opslevel-convos-paul-osman/" class="text-red-500 hover:underline" target="_blank">Long-term Strategies, OpenTelemetry, and the Value of Boring Systems</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// opslevel.com</span><br />
+                        This is an interview with Paul Osman who worked at Under Armour, PagerDuty, and now Honeycomb. In this interview, he discusses prioritizing observability through OpenTelemetry and that there's no such thing as uncool architecture - there's just architecture that works.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://humanitec.com/blog/what-developer-self-service-shouldnt-look-like" class="text-red-500 hover:underline" target="_blank">What Developer Self-Service Shouldn't Look Like</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// humanitec.com</span><br />
+                        When adopting DevOps, some organizations apply the "you built it, you run it" approach while others have an ops engineer do all the lifting. The vast majority, however, end up somewhere between. Recognize that Dev and Ops are two different skill sets and seek to achieve a balance that allows them to understand what's going on without leaving them to fail or get completely bogged down in operational support.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://spike.sh/blog/sre-role-2021-analysed-30-job-postings/" class="text-red-500 hover:underline" target="_blank">What is Expected in the SRE Role?</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// spike.sh</span><br />
+                        There's been a huge uptick in the number of SRE jobs. This article breaks down patterns in those description and concludes the SRE role is more than infrastructure and CI / CD. While I agree with the statement, the metrics tell another story. Just like DevOps, Agile, etc. most organization adopt nomenclature without changing their actual practices.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://newsletter.pragmaticengineer.com/p/project-management-in-tech" class="text-red-500 hover:underline" target="_blank">How Big Tech Runs Projects and the Curious Absence of Scrum</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// newsletter.pragmaticengineer.com</span><br />
+                        [Long Read] After surveying over 100 companies, Gergely Orosz shares some patterns across different organization types such as big tech, venture-funded startups, non-tech companies, and consultancies. By looking at developer satisfaction and what the big tech companies do, he provides recommendations for how to run projects and when Scrum actually makes sense.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/" class="text-red-500 hover:underline" target="_blank">Partitioning GitHub's Relational Databases to Handle Scale</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// github.blog</span><br />
+                        GitHub was started 10 years ago as a simple Ruby application build on a single MySQL database. Over time, they've split out certain data, but eventually they moved to a partitioned database to support horizontal scaling. This is the story of how they executed that transition without downtime.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://future.a16z.com/the-case-for-developer-experience/" class="text-red-500 hover:underline" target="_blank">The Case for Developer Experience</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// future.a16z.com</span><br />
+                        [Long Read] There are more and more developers, which of course means more developer tools. Jean Yang breaks current tools into abstraction tools and complexity-exploring tools. There's been a lot of focus on abstraction tools, but software is increasingly complex and there's still a lack of tools that help developers deal with this complexity. She encourages the creation of new observability tools that work with existing ecosystems and companies to be willing to try these tools without expecting anything to be the silver bullet.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://news.ycombinator.com/item?id=28662856" class="text-red-500 hover:underline" target="_blank">Ask HN: How Do You Do Estimates in 2021?</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// news.ycombinator.com</span><br />
+                        In this thread, a software development managers asks Hacker News how to improve his estimates after 20 years of agile and only delivering 20-30% of promised features. You see the classic answers like: t-shirt sizing and multiplying estimates by pi. Interestingly though a large percentage of teams are no-longer doing estimation.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://www.jefftk.com/p/designing-low-upkeep-software" class="text-red-500 hover:underline" target="_blank">Designing Low Upkeep Software</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// jefftk.com</span><br />
+                        This is a short one without a lot of actionable content, but I liked the idea of thinking about how you'd design software based primarily on future maintenance. In general, avoid dependencies and stick to core technologies and LTS releases.
+                     </dd>
+                  </div>
+
+               </dl>
+            </div>
+         </div>
+      </div>
+      <footer class="bg-white">
+         <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+            <p class="mt-8 text-center text-base text-gray-400">
+               A side project from <a class="text-red-500 hover:underline" href="https://kevinrjordan.com" target="_blank">Kevin Jordan</a>.
+            </p>
+         </div>
+      </footer>
+	  
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
+	  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYQ0FFW1PT"></script>
+	  <script>
+  	    window.dataLayer = window.dataLayer || [];
+	    function gtag(){dataLayer.push(arguments);}
+	    gtag('js', new Date());
+
+	    gtag('config', 'G-TYQ0FFW1PT');
+	  </script>
+   </body>
+</html>

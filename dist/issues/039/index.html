@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>SRE Newsletter - Issue #39</title>
+      <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+      <link href="./../../css/tailwind.min.css" rel="stylesheet" />
+   </head>
+   <body>
+      <div class="bg-white">
+         <div class="max-w-7xl mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:px-8">
+            <div class="text-center">
+               <a href="/">
+                  <h1 class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">SRE <span class="text-red-500">NEWS</span>LETTER</h1>
+               </a>
+               <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Issue #39 // October 8, 2021</p>
+            </div>
+         </div>
+      </div>
+      <div class="bg-gray-800">
+      <div class="max-w-xl mx-auto py-8 px-4 sm:py-12 sm:px-6 lg:px-8">
+         <div id="mc_embed_signup" class="text-center">
+            <form action="https://srenewsletter.us7.list-manage.com/subscribe/post?u=2c48a37b5e33804b56095e418&amp;id=aa50401d00" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sm:flex" target="_blank" novalidate>
+               <label for="mce-EMAIL" class="sr-only">Email address</label>
+               <input type="email" id="mce-EMAIL" name="EMAIL" required class="required email w-full px-5 py-3 border border-transparent placeholder-gray-500 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white rounded-md" placeholder="your@email.com">
+               <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+               </div>
+               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2c48a37b5e33804b56095e418_aa50401d00" tabindex="-1" value=""></div>
+               <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
+                  <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-red-500">
+                  Subscribe
+                  </button>
+               </div>
+            </form>
+         </div>
+      </div>
+      <div class="bg-white">
+         <div class="max-w-2xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+            <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
+               <div class="px-5 py-2">
+                  <a href="/issues/038" class="text-base text-gray-500 hover:text-gray-900">
+                  ← Prev Issue
+                  </a>
+               </div>
+               <div class="px-5 py-2">
+                  <a href="/issues" class="text-base text-gray-500 hover:text-gray-900">
+                  View Archive
+                  </a>
+               </div>
+               <div class="px-5 py-2">
+                  <a href="/issues/040" class="text-base text-gray-500 hover:text-gray-900">
+                  Next Issue →
+                  </a>
+               </div>
+            </nav>
+            <div>
+               <div class="mt-12 text-base text-gray-600">
+			      <p>The theme of this week's issue is complexity. For those not in the trenches, site reliability sounds simple - just add some monitoring and a load balancer, right?</p><p class="mt-3">Facebook, the 3rd most visited site on the internet, went down proving that even with $1 million engineers things can go wrong. AWS is struggles figuring out how to provide usable IaC tools. And finally, GitLab and eBay provide some great details on what it takes to observe complex, distributed systems.</p>
+               </div>
+               <dl class="mt-12 space-y-8">
+                                    <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/" class="text-red-500 hover:underline" target="_blank">Why we Spent the Last Month Eliminating PostgreSQL Subtransactions</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// about.gitlab.com</span><br />
+                        [Long Read] Since last June, GitLab would mysteriously stall for minutes leading to 500 errors. While the solution is provided (even showing the specific pull requests), the beauty of this post is its detailed walkthrough of how they tracked down the issue.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/" class="text-red-500 hover:underline" target="_blank">More Details About the October 4 Outage</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// engineering.fb.com</span><br />
+                        This week, Facebook and their affiliated services WhatsApp and Instagram went down due to a faulty script and a bug in their audit tools. This is the fuffy, simplified version of the event.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://blog.cloudflare.com/october-2021-facebook-outage/" class="text-red-500 hover:underline" target="_blank">Understanding How Facebook Disappeared from the Internet</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// blog.cloudflare.com</span><br />
+                        When Facebook and Co. went down, Cloudflare thought it might have been something on their end. This is a more indepth explanation of how BGP and DNS work in relation to the Facebook outage and how traffic on other sites was affected as everyone tried to figure out what was going on.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://gswallow.medium.com/do-not-use-aws-cloudformation-7cf61f58bd5f" class="text-red-500 hover:underline" target="_blank">Do Not use AWS CloudFormation</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// gswallow.medium.com</span><br />
+                        When should you use CloudFormation? According to Greg Swallows, almost never. Terraform works directly against AWS API which makes it faster and easier to troubleshoot.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://aws.amazon.com/blogs/aws/announcing-aws-cloud-control-api/" class="text-red-500 hover:underline" target="_blank">AWS Cloud Control API, a Uniform API to Access AWS & Third-Party Services</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// aws.amazon.com</span><br />
+                        AWS has announced their Cloud Control API, a set of common APIs to make it easy to manage AWS services. They key here is common, since before you'd have very different request and response structures when working with AWS services. It exposes five common verbs: CreateResource, GetResource, UpdateResource, DeleteResource, and ListResource.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://tech.ebayinc.com/research/groot-ebays-event-graph-based-approach-for-root-cause-analysis/" class="text-red-500 hover:underline" target="_blank">Groot: eBay’s Event-graph-based Approach for Root Cause Analysis</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// tech.ebayinc.com</span><br />
+                        eBay partnered with the University of Illinois Urbana-Champaign and Peking University to create a novel, event-driven and graph-based approach to conduct root cause analysis investigations. The framework was able to provide the root cause of issues significantly more accurately than traditional service-dependency mappings.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report" class="text-red-500 hover:underline" target="_blank">2021 Accelerate State of DevOps Report</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// cloud.google.com</span><br />
+                        Unfortunately, you'll have to sign up if you want to download the Google's DevOps Research and Assessment team's DevOps report, but this article provide a short summary of the key insights: a healthy team culture mitigates burnout during challenging times, the highest performers continue to raise the bar, SRE and DevOps are complementary philosophies, cloud adoption continues to drive performance, a secure software supply chain is both essential and drives performance, and finally, good documentation is foundational for successfully implementing DevOps capabilities.
+                     </dd>
+                  </div>
+
+               </dl>
+            </div>
+         </div>
+      </div>
+      <footer class="bg-white">
+         <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+            <p class="mt-8 text-center text-base text-gray-400">
+               A side project from <a class="text-red-500 hover:underline" href="https://kevinrjordan.com" target="_blank">Kevin Jordan</a>.
+            </p>
+         </div>
+      </footer>
+	  
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
+	  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYQ0FFW1PT"></script>
+	  <script>
+  	    window.dataLayer = window.dataLayer || [];
+	    function gtag(){dataLayer.push(arguments);}
+	    gtag('js', new Date());
+
+	    gtag('config', 'G-TYQ0FFW1PT');
+	  </script>
+   </body>
+</html>

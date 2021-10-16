@@ -1,0 +1,33 @@
+---
+issue_number:   40
+release_date:   2021-10-15
+is_latest:      true
+status:         published       # draft or published
+
+introduction: |
+    This week we take a look at management of distributed systems. Digital Ocean shares how scale eventually led them to rearchitect around microservices and queues instead of a centralized database. We also take a look serverless and how we can optimize performance.
+    Don't forget the lessons that come with 20 years of experience. Software is about a lot more than building the most scalable system.
+
+links:
+    - title:      "20 Things I’ve Learned in my 20 Years as a Software Engineer"
+      url:        "https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/"
+      summary:    "A feel good list of 20 axioms from Justin Etheredge about the vocation that is software engineering."
+    - title:      "From 15,000 Database Connections to Under 100"
+      url:        "https://www.youtube.com/watch?v=J8J-RX_sULU"
+      summary:    "[Video] In 2012, Digital Ocean created less than 100 droplets per day. By 2017 they created over 140K per day. This is a walk through of how they started with a simple architecture until it no longer worked and then rearchitected for scale."
+    - title:      "AWS Lambda Battle 2021"
+      url:        "https://filia-aleks.medium.com/aws-lambda-battle-2021-performance-comparison-for-all-languages-c1b441005fd1"
+      summary:    "Aleksandr Filichkin compares the performances of different programming languages running on AWS Lambda (NodeJs, Python, Go, Ruby, .NET Core, Java, Rust, and GraalVM). Java and .NET Core have slow cold start times. NodeJS, Ruby, Python, and Java have slow overall performance. Go and Rust are the clear winners."
+    - title:      ".NET ReadyToRun Compilation"
+      url:        "https://docs.microsoft.com/en-us/dotnet/core/deploying/ready-to-run"
+      summary:    "Piggie backing on the AWS Lambda battle, last month Microsoft announced ahead-of-time compilation. I'm really curious how this affects cold start times on serverless compute. This does require compiling for a specific architecture and leads to much larger binaries."
+    - title:      "Trigger a Kubernetes HPA with Prometheus Metrics"
+      url:        "https://sysdig.com/blog/kubernetes-hpa-prometheus/"
+      summary:    "This post walks you through using Keda, an open source project that uses Prometheus queries to scale Kubernetes pods."
+    - title:      "OpenTelemetry Support in the Azure SDK for .NET"
+      url:        "https://devblogs.microsoft.com/azure-sdk/introducing-experimental-opentelemetry-support-in-the-azure-sdk-for-net/"
+      summary:    "Microsoft announced experiemental support for OpenTelemetry in the Azure SDK for .NET. OpenTelemetry unifies instrumentation, collection, and export of distributed tracing data across languages, clouds, and libraries."
+    - title:      "SRE Doesn't Scale"
+      url:        "https://bravenewgeek.com/sre-doesnt-scale/"
+      summary:    "I didn't particularly like this article, but it gained a lot of traction this week so it's worth sharing. The group at Real Kinetic somehow thought SRE always means microservices which always means developers can choose any language, tools, platform they want. Then they say that SRE doesn't scale because you'd have to hire an army to support this type of entropy. At the end of the article they admit that Google has standards and best practices negating their arguement."
+...      
