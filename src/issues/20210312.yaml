@@ -1,0 +1,38 @@
+---
+issue_number:   18
+release_date:   2021-03-12
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "DevOps vs SRE: Enabling Efficiency and Resiliency"
+      url:        "https://harness.io/blog/devops/sre-vs-devops/"
+      summary:    "Understanding the overlap and differences between the two skillsets and organizations is important. Both solve very distinct challenges with unique and innovative approaches, ushering in new paradigms in technology."
+    - title:      "CI/CD Review - How DevOps in Real Life & Mature Organizations Works"
+      url:        "https://julie.io/writing/ci-cd-review/"
+      summary:    "This exercise focuses on DevOps in practice, not in theory. After going through the questions, you should be able to better gauge your confidence in your practices meeting the requirements of your use case. It will also help you figure out what is the next practice you want to improve upon."
+    - title:      "Best Practices Can Slow Your Application Down"
+      url:        "https://stackoverflow.blog/2021/03/03/best-practices-can-slow-your-application-down/"
+      summary:    "In order to get the most performant site possible when building the codebase for the public Stack Overflow site, they didn’t always follow best practices."
+    - title:      "The Many Faces of a 10x Software Engineer"
+      url:        "https://www.worldofbs.com/ten-x-engineer/"
+      summary:    "Everybody wants to hire, or to be, a 10x software engineer at the company. Some forms of a 10x engineer are actually detrimental to the company. The only thing that is constant about a 10x engineer is that they produce 10x the PERCEIVED work relative to their peers."
+    - title:      "You Don’t Need All That Complex/Expensive/Distracting Infrastructure"
+      url:        "https://blog.usejournal.com/you-dont-need-all-that-complex-expensive-distracting-infrastructure-a70dbe0dbccb?gi=1744e357116c"
+      summary:    "How do you run your web products? Kubernetes clusters? Load balancers across multiple cloud regions? Zero-click, Blue-Green deployment based on real-time metrics from a continuous deployment pipeline? It’s all really cool. But it’s all a nightmare."
+    - title:      "Building a Scalable Monolith"
+      url:        "https://adlrocha.substack.com/p/adlrocha-building-a-scalable-monolith"
+      summary:    "Monolith or microservices? The truth is that there is no “one size fits all” solution, and each architecture will fit different purposes, systems and companies."
+    - title:      "Understanding the Kubernetes Event Horizon"
+      url:        "https://www.weave.works/blog/understanding-kubernetes-events"
+      summary:    "Every part of Kubernetes sends out Events. Events are small messages telling you what is happening inside each component purely for diagnostic purposes, not to trigger any behaviour."
+    - title:      "HTTPWTF"
+      url:        "https://httptoolkit.tech/blog/http-wtf/"
+      summary:    "HTTP is fundamental to modern development, but like any widespread standard, it's got some funky skeletons in the closet. Some of these skeletons are little-known but genuinely useful features, some of them are legacy oddities relied on by billions of connections daily, and some of them really shouldn't exist at all."
+    - title:      "Atlas: Our Journey from a Python Monolith to a Managed Platform"
+      url:        "https://dropbox.tech/infrastructure/atlas--our-journey-from-a-python-monolith-to-a-managed-platform"
+      summary:    "Dropbox needs to be a reliable and responsive service. In this post, they’ll explain why and how they developed and deployed Atlas, a platform which provides the majority of benefits of a Service Oriented Architecture, while minimizing the operational cost that typically comes with owning a service."
+    - title:      "Don’t Blame Bad Software on Developers – Blame it on their Managers (2015)"
+      url:        "https://swreflections.blogspot.com/2015/07/dont-blame-bad-software-on-developers.html"
+      summary:    "Managers – not developers – decide what quality means for the organization. What is good, and what is “good enough”."
+...      

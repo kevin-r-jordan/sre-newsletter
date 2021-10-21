@@ -1,0 +1,38 @@
+---
+issue_number:   2
+release_date:   2020-11-20
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "Atlassian's Definitive, Road-Tested Virtual Onboarding Checklist"
+      url:        "https://www.atlassian.com/blog/teamwork/virtual-onboarding-checklist"
+      summary:    "Starting new team members in the time of COVID is tough. Atlassian shares their process to get people integrated quickly."
+    - title:      "3 Steps to Turn a Data Deluge Into Actionable Intelligence"
+      url:        "https://devops.com/3-steps-to-turn-a-data-deluge-into-actionable-intelligence/"
+      summary:    "Digital transformation is creating even more data for organizations to manage effectively. Here’s how to find the intelligence needle in the data haystack."
+    - title:      "How to Handle Errors and Exceptions in Large Scale Software Projects"
+      url:        "https://dzone.com/articles/how-to-handle-errors-and-exceptions-in-large-scale"
+      summary:    "Just because you didn't find bugs during testing, doesn't mean they aren't there. Learn to handle unhandled exceptions as they occur."
+    - title:      "Windows Server Performance Monitoring Best Practices"
+      url:        "https://stackify.com/windows-server-performance-monitoring-best-practices/"
+      summary:    "This post discusses Windows Server Performance monitoring, why it's important, as well as best practices for Windows Server performance monitoring."
+    - title:      "Docker Rate Limiting by the Numbers"
+      url:        "https://www.docker.com/blog/rate-limiting-by-the-numbers/"
+      summary:    "Docker has been rolling out limits on docker pulls to the heaviest users of Docker Hub. Here they share some of the facts and figures behind their effort."
+    - title:      "The Engineer's Guide To Preparing For Black Friday 2020"
+      url:        "https://dzone.com/articles/the-engineers-guide-to-preparing-for-black-friday"
+      summary:    "This post covers how SLO-based alerting, runbooks, and other practices to drive preparedness are crucial for holiday season success."
+    - title:      "Taking Back DevOps"
+      url:        "https://www.opslevel.com/2020/11/18/taking-back-devops/"
+      summary:    "We broke DevOps. If we want to get back to shipping code even faster, more securely, and with less risk, we need to reset DevOps so that it’s synonymous with Service Ownership."
+    - title:      "Linux Foundation Adds Professional DevOps Certificate Program"
+      url:        "https://devops.com/linux-foundation-adds-professional-devops-certificate-program/"
+      summary:    "The Linux Foundation this week made an addition to its professional certificate program that trains IT professionals on the fundamentals of best DevOps practices."
+    - title:      "How to Clean JSON Data at the Command Line"
+      url:        "https://www.ezzeddinabdullah.com/posts/how-to-clean-json-data-at-the-command-line"
+      summary:    "A tutorial about cleaning a JSON file using command-line program jq."
+    - title:      Announcing the GitOps Working Group""
+      url:        "https://www.weave.works/blog/announcing-gitops-working-group"
+      summary:    "This week Amazon, Codefresh, GitHub, Microsoft, and Weaveworks are announcing the creation of the GitOps Working Group."
+...      

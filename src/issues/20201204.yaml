@@ -1,0 +1,38 @@
+---
+issue_number:   4
+release_date:   2020-12-04
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "Don't Panic: Kubernetes and Docker"
+      url:        "https://kubernetes.io/blog/2020/12/02/dont-panic-kubernetes-and-docker/"
+      summary:    "Kubernetes is deprecating Docker as a container in favor of runtimes that use the Container Runtime Interface(CRI) created for Kubernetes. Docker-produced images will continue to work in your cluster with all runtimes."
+    - title:      "How Microsoft Crushed Slack"
+      url:        "https://www.platformer.news/p/how-microsoft-crushed-slack"
+      summary:    "Salesforce bought Slack for $27.7B this week and why the era of worker-centered work tools may be over."
+    - title:      "Architectures for Mitigating AWS Outages"
+      url:        "https://www.forelse.io/posts/architectures-for-mitigating-aws-outages/"
+      summary:    "With the recent outage on AWS last week, there have been a lot of discussions about various architectures and how effective they would've been to combat the downtime."
+    - title:      "AWS Just Went Multi-Cloud"
+      url:        "https://acloudguru.com/blog/business/aws-just-went-multi-cloud-and-its-only-the-beginning"
+      summary:    "The FAQ for EKS Anywhere, announced this week for 2021 has references to \"on-premises\", bare metal compute, and VSphere. AWS's stated rationale for expanding access to their managed Kubernetes service is all about hybrid cloud."
+    - title:      "The Rise of Internal Developer Platforms"
+      url:        "https://humanitec.com/blog/the-rise-of-internal-developer-platforms"
+      summary:    "Determining what knowledge is intrinsic to a team member's role and what is outside of their scope is critical to reduce the strain on their cognitive load. Internal Developer Platforms provide a way to compartmentalize complexity, and enable people to focus on what's critical to their role."
+    - title:      "Hire People Who Give a Shit"
+      url:        "https://alexw.substack.com/p/hire"
+      summary:    "Alexandr Wang of Scale shares an old company memo before growing hit team to 150: \"The uncomfortable truth is that most people don't give a shit.\""
+    - title:      "How I Passed 2 AWS Solution Architect Exams in a Month"
+      url:        "https://bhaskargandavabi.medium.com/how-i-passed-2-aws-solution-architect-exams-in-a-month-76d6e612f260"
+      summary:    "Bhaskar knocks out the AWS Associate and Professional exams and gives his insights into the two certifications."
+    - title:      "A Better Kubernetes, from the Ground Up"
+      url:        "https://blog.dave.tf/post/new-kubernetes/"
+      summary:    "Dave Anderson and Vallery Lancey discuss what they would do differently if they built something new, from the ground up, with no regard for compatibility with Kubernetes."
+    - title:      "Why GitHub Built Their Own Internal Developer Platform"
+      url:        "https://humanitec.com/blog/jason-warner-why-github-built-their-own-internal-developer-platform"
+      summary:    "An Internal Developer Platform (IDP) is an essential step for rapidly scaling companies to keep their developers working productively and happily. This is a roundtable discussion with Jason Warner, the current CTO of GitHub and previous VP of Engineering for Heroku about how IDPs help teams of that scale build efficiently."
+    - title:      "Amazon's Cloudy Macs Cost $25.99 a Day"
+      url:        "https://www.theregister.com/2020/12/02/aws_ec2_mac_pricing/"
+      summary:    "Other Mac hosts are cheaper, Azure has had cloudy Macs for months, but AWS may still have a play."
+...      

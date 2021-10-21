@@ -1,0 +1,30 @@
+The theme of this week's issue is complexity. For those not in the trenches, site reliability sounds simple - just add some monitoring and a load balancer, right?<br /><br />
+Facebook, the 3rd most visited site on the internet, went down proving that even with $1 million engineers things can go wrong. AWS is struggles figuring out how to provide usable IaC tools. And finally, GitLab and eBay provide some great details on what it takes to observe complex, distributed systems.<br /><br />
+<a href="https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/" style="text-decoration:none;color:#ef4444;" target="_blank">Why we Spent the Last Month Eliminating PostgreSQL Subtransactions</a><br />
+<span style="color:#808080; font-size:14px">// about.gitlab.com</span><br />
+[Long Read] Since last June, GitLab would mysteriously stall for minutes leading to 500 errors. While the solution is provided (even showing the specific pull requests), the beauty of this post is its detailed walkthrough of how they tracked down the issue.<br />
+<br />
+<a href="https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/" style="text-decoration:none;color:#ef4444;" target="_blank">More Details About the October 4 Outage</a><br />
+<span style="color:#808080; font-size:14px">// engineering.fb.com</span><br />
+This week, Facebook and their affiliated services WhatsApp and Instagram went down due to a faulty script and a bug in their audit tools. This is the fuffy, simplified version of the event.<br />
+<br />
+<a href="https://blog.cloudflare.com/october-2021-facebook-outage/" style="text-decoration:none;color:#ef4444;" target="_blank">Understanding How Facebook Disappeared from the Internet</a><br />
+<span style="color:#808080; font-size:14px">// blog.cloudflare.com</span><br />
+When Facebook and Co. went down, Cloudflare thought it might have been something on their end. This is a more indepth explanation of how BGP and DNS work in relation to the Facebook outage and how traffic on other sites was affected as everyone tried to figure out what was going on.<br />
+<br />
+<a href="https://gswallow.medium.com/do-not-use-aws-cloudformation-7cf61f58bd5f" style="text-decoration:none;color:#ef4444;" target="_blank">Do Not use AWS CloudFormation</a><br />
+<span style="color:#808080; font-size:14px">// gswallow.medium.com</span><br />
+When should you use CloudFormation? According to Greg Swallows, almost never. Terraform works directly against AWS API which makes it faster and easier to troubleshoot.<br />
+<br />
+<a href="https://aws.amazon.com/blogs/aws/announcing-aws-cloud-control-api/" style="text-decoration:none;color:#ef4444;" target="_blank">AWS Cloud Control API, a Uniform API to Access AWS & Third-Party Services</a><br />
+<span style="color:#808080; font-size:14px">// aws.amazon.com</span><br />
+AWS has announced their Cloud Control API, a set of common APIs to make it easy to manage AWS services. They key here is common, since before you'd have very different request and response structures when working with AWS services. It exposes five common verbs: CreateResource, GetResource, UpdateResource, DeleteResource, and ListResource.<br />
+<br />
+<a href="https://tech.ebayinc.com/research/groot-ebays-event-graph-based-approach-for-root-cause-analysis/" style="text-decoration:none;color:#ef4444;" target="_blank">Groot: eBay’s Event-graph-based Approach for Root Cause Analysis</a><br />
+<span style="color:#808080; font-size:14px">// tech.ebayinc.com</span><br />
+eBay partnered with the University of Illinois Urbana-Champaign and Peking University to create a novel, event-driven and graph-based approach to conduct root cause analysis investigations. The framework was able to provide the root cause of issues significantly more accurately than traditional service-dependency mappings.<br />
+<br />
+<a href="https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report" style="text-decoration:none;color:#ef4444;" target="_blank">2021 Accelerate State of DevOps Report</a><br />
+<span style="color:#808080; font-size:14px">// cloud.google.com</span><br />
+Unfortunately, you'll have to sign up if you want to download the Google's DevOps Research and Assessment team's DevOps report, but this article provide a short summary of the key insights: a healthy team culture mitigates burnout during challenging times, the highest performers continue to raise the bar, SRE and DevOps are complementary philosophies, cloud adoption continues to drive performance, a secure software supply chain is both essential and drives performance, and finally, good documentation is foundational for successfully implementing DevOps capabilities.<br />
+<br />

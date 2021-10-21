@@ -16,6 +16,9 @@ namespace SreNewsletter
             string issueLinkTemplatePath = @"..\..\..\..\..\templates\issue_link.html";
             string issueLinkTemplate = File.ReadAllText(issueLinkTemplatePath);
 
+            string mailLinkTemplatePath = @"..\..\..\..\..\templates\mail_link.html";
+            string mailLinkTemplate = File.ReadAllText(mailLinkTemplatePath);
+
             var deserializer = new DeserializerBuilder()
                .WithNamingConvention(UnderscoredNamingConvention.Instance)
                .Build();
@@ -33,6 +36,9 @@ namespace SreNewsletter
                 {
                     string issueContents = BuildIssueContents(issueTemplate, issueLinkTemplate, issue);
                     SaveIssue(issue, issueContents);
+
+                    string mailContents = BuildMailContents(mailLinkTemplate, issue);
+                    SaveMail(issue, mailContents);
                 }
             }
 
@@ -104,16 +110,48 @@ namespace SreNewsletter
             }
             issueContents = issueContents.Replace("{{introduction}}", introductionText);
 
-            var postListContents = "";
-            foreach (var postLink in issue.Links)
+            var issueListContents = "";
+            foreach (var issueLink in issue.Links)
             {
-                postListContents += issueLinkTemplate.Replace("{{link_url}}", postLink.Url)
-                    .Replace("{{link_title}}", postLink.Title)
-                    .Replace("{{link_domain}}", postLink.UrlDomain)
-                    .Replace("{{link_summary}}", postLink.Summary) + "\n";
+                issueListContents += issueLinkTemplate.Replace("{{link_url}}", issueLink.Url)
+                    .Replace("{{link_title}}", issueLink.Title)
+                    .Replace("{{link_domain}}", issueLink.UrlDomain)
+                    .Replace("{{link_summary}}", issueLink.Summary) + "\n";
             }
-            issueContents = issueContents.Replace("{{links}}", postListContents);
+            issueContents = issueContents.Replace("{{links}}", issueListContents);
+
             return issueContents;
+        }
+
+        private static void SaveMail(Issue issue, string mailContents)
+        {
+            string mailPath = $@"..\..\..\..\..\..\mail";
+            if (!Directory.Exists(mailPath))
+                Directory.CreateDirectory(mailPath);
+
+            File.WriteAllText($"{mailPath}\\{issue.IssueNumber.ToString("D3")}.html", mailContents);
+        }
+
+        private static string BuildMailContents(string mailLinkTemplate, Issue issue)
+        {
+            var mailContents = "";
+            foreach (var line in issue.Introduction?.Split("\n") ?? new string[0])
+            {
+                if (String.IsNullOrEmpty(line))
+                    continue;
+
+                mailContents += $"{line}<br /><br />\n";
+            }
+
+            foreach (var issueLink in issue.Links)
+            {
+                mailContents += mailLinkTemplate.Replace("{{link_url}}", issueLink.Url)
+                    .Replace("{{link_title}}", issueLink.Title)
+                    .Replace("{{link_domain}}", issueLink.UrlDomain)
+                    .Replace("{{link_summary}}", issueLink.Summary) + "\n";
+            }
+
+            return mailContents;
         }
     }
 }

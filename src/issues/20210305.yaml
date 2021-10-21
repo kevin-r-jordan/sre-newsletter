@@ -1,0 +1,38 @@
+---
+issue_number:   17
+release_date:   2021-03-05
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "Increment: Reliability"
+      url:        "https://increment.com/reliability/"
+      summary:    "This months issue of Increment shares approaches to reliability and resiliency in our software, technologies, and teams, and offers perspectives on the realities of failure in the systems we build."
+    - title:      "An Oral History of #hugops"
+      url:        "https://www.protocol.com/enterprise/oral-history-hugops"
+      summary:    "A little over 10 years ago, a group of operations-oriented engineers decided they were fed up with software developers who didn't care if their code actually worked. Those engineers created the Velocity Conference in order to band together and to come together as a community. That community sparked a revolution known as DevOps."
+    - title:      "How We Minimized the Overhead of Kubernetes in our Job System"
+      url:        "https://www.datadoghq.com/blog/engineering/moving-a-jobsystem-to-kubernetes/"
+      summary:    "Datadog, moved their job system to Kubernetes. It took substantially more CPU time than before, yet completed jobs at a 40-50% slower rate. This post describes how they solved this performance regression. The solution involved some performance experiment design, light performance tuning, and timing analysis to get back to parity."
+    - title:      "How Etsy Prepared for Historic Volumes of Holiday Traffic in 2020"
+      url:        "https://codeascraft.com/2021/02/25/how-etsy-prepared-for-historic-volumes-of-holiday-traffic-in-2020/"
+      summary:    "For Etsy, 2020 was a year of unprecedented and volatile growth. Their site traffic leapt up in the second quarter, when lockdowns went into widespread effect, by an amount it normally would have taken several years to achieve. If they over-scaled, there was a risk of wasting money. If they under-scaled, it could have been much worse for their sellers."
+    - title:      "Jonah Edwards - Internet Archive Infrastructure"
+      url:        "https://archive.org/details/jonah-edwards-presentation"
+      summary:    "[Video] Jonah Edwards runs the core infrastructure team at the Internet Archive. In this video he goes through the scale of the infrastructure that runs the Internet Archive."
+    - title:      "Why You Should Take a Look at Nomad before Jumping on Kubernetes"
+      url:        "https://atodorov.me/2021/02/27/why-you-should-take-a-look-at-nomad-before-jumping-on-kubernetes/"
+      summary:    "A decent part of the proposals for a “new Kubernetes” are design choices made by Hashicorp's Nomad, which is a pretty underrated orchestrator, and drastically simpler."
+    - title:      "Principles of a Good Product Roadmap"
+      url:        "https://productcrunch.substack.com/p/principles-of-a-good-product-roadmap"
+      summary:    "Can the characteristics of an agile roadmap be distilled into a set of universal principles? Principles help you assess an existing roadmap or create a roadmap with them in mind. The result is an attempt at defining agile roadmapping principles."
+    - title:      "Microsoft previews Windows Server 2022"
+      url:        "https://www.theregister.com/2021/03/02/microsoft_previews_windows_server_2022/"
+      summary:    "Windows Server releases every three years or so, and continues to make progress on its goals of easier administration, removing reliance on the server desktop GUI, and stripping down the operating system so that most features are optional components."
+    - title:      "Retry Pattern in Microservices"
+      url:        "https://engineering.mercari.com/en/blog/entry/20210126-retry-pattern-in-microservices/"
+      summary:    "This blog post provides an understanding of the retry pattern used in microservices architecture, why it should be used, a few considerations while using the retry pattern, and how to use it in Python."
+    - title:      "SolarWind, Enough with the Password Already!"
+      url:        "https://gru.gq/2021/02/28/solarwind-enough-with-the-password-already/"
+      summary:    "This is a discussion on the complexity of the SolarWind hack. Could SolarWind have been too difficult for the KGB to use them in an enablement operation? Yes. Of course, SolarWind wasn’t close to reaching that level."
+...      

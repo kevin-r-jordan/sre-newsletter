@@ -1,0 +1,38 @@
+---
+issue_number:   7
+release_date:   2020-12-25
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "Why I've Been Merging Microservices Back Into The Monolith"
+      url:        "https://www.bennadel.com/blog/3944-why-ive-been-merging-microservices-back-into-the-monolith-at-invision.htm"
+      summary:    "Ben Nadel at InVision explains why he's killing-off his microservices and share a bit more insight about this particular journey in the world of web application development."
+    - title:      "We Rendered a Million Web Pages to Find Out What Makes the Web Slow"
+      url:        "https://itnext.io/we-rendered-a-million-web-pages-to-find-out-what-makes-the-web-slow-72bbba9ade96"
+      summary:    "Lars Eidnes and team rendered the top 1 million pages on the web, tracking every conceivable performance metric, logging every error, and noting every requested URL. In this article, he analyzes what the data can tell us about creating high performance web sites."
+    - title:      "Inside the Whale: An Interview with an Anonymous Amazonian"
+      url:        "https://logicmag.io/commons/inside-the-whale-an-interview-with-an-anonymous-amazonian/"
+      summary:    "An inside discussion with an AWS cybersecurity engineer about how to think about the behemoth and how it feels to work inside it."
+    - title:      "Back to the '70s with Serverless"
+      url:        "http://evrl.com/devops/cloud/2020/12/18/serverless.html"
+      summary:    "The Cloud was born, first as a marketing label for an old business model (offering “virtual private servers” to the public), but more and more as a marketing label for an even older business model (the mainframe - we run it, we own it, you lease capacity)."
+    - title:      "Microsoft Reportedly Designing its Own ARM-Based Chips for Servers"
+      url:        "https://www.theverge.com/2020/12/18/22189450/microsoft-arm-processors-chips-servers-surface-report"
+      summary:    "Microsoft is designing its own ARM-based processors for servers and possibly a future Surface device. The processors will be used in servers for Microsoft’s Azure cloud services and be based around ARM designs."
+    - title:      "AWS Lambda is Winning, But First it had to Die"
+      url:        "https://acloudguru.com/blog/engineering/aws-lambda-is-winning-but-first-it-had-to-die"
+      summary:    "Lambda is finally gaining serious adoption because it’s shedding the FaaS purism that marked its early days — without compromising on its real value prop, the progressive promise of own less, build more."
+    - title:      "Improving Cross-Browser Testing, Part 1"
+      url:        "https://hacks.mozilla.org/2020/12/cross-browser-testing-part-1-web-app-testing-today/"
+      summary:    "In this series of posts Mozilla explores the current web-application testing landscape and explain what Firefox is doing today to allow developers to run more kinds of tests in Firefox."
+    - title:      "Google Cloud Infrastructure Components Incident Post Mortem"
+      url:        "https://status.cloud.google.com/incident/zall/20013#20013004"
+      summary:    "On Monday December 14, for a duration of 47 minutes, customer-facing Google services that required Google OAuth access were unavailable. This is Google's root cause analysis and plan to prevent future issues."
+    - title:      "Chef Cofounder on CentOS: It’s Time to Open Source Everything"
+      url:        "https://planetstoryline.com/chef-cofounder-on-centos-its-time-to-open-source-everything/"
+      summary:    "Red Hat has been in hot water about changing the way CentOS operates, but that model looks like the exact right way for open source entrepreneurs to operate."
+    - title:      "VMware Flaw a Vector in SolarWinds Breach"
+      url:        "https://krebsonsecurity.com/2020/12/vmware-flaw-a-vector-in-solarwinds-breach/"
+      summary:    "The attackers behind the widespread hacking spree stemming from the compromise at network software firm SolarWinds used weaknesses in other, non-SolarWinds products to attack high-value targets. According to sources, among those was a flaw in software virtualization platform VMware."
+...      

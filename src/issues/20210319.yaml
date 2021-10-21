@@ -1,0 +1,38 @@
+---
+issue_number:   19
+release_date:   2021-03-19
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "How to Deal with Difficult People on Software Projects"
+      url:        "https://www.howtodeal.dev/"
+      summary:    "This fun guide is primarily meant for people in a managerial or leadership role, but it's also a tool for self-identification, self-reflection, and self-improvement."
+    - title:      "How to Build an SRE Team with a Growth Mindset"
+      url:        "https://www.blameless.com/blog/how-to-build-an-sre-team-with-a-growth-mindset"
+      summary:    "SRE team should be your champions for cultural development. To drive change, SREs need to embody a growth mindset. They need to believe that their own abilities and perspectives can always grow, and encourage this mindset across the organization."
+    - title:      "The 5 Common Mistakes Of New Engineering Managers"
+      url:        "https://ochronus.online/the-5-common-mistakes-of-new-engineering-managers/"
+      summary:    "(1) Still doing much technical work (2) Not giving enough holistic feedback (3) Doing all the project management (4) Not sharing enough information with the team (5) Not doing one-on-one coaching"
+    - title:      "How HashiCorp Works"
+      url:        "https://works.hashicorp.com/"
+      summary:    "How HashiCorp Works started as an internal resource to document practices to help new employees be successful. This encouraged them to make the implicit explicit and turn siloed knowledge into knowledge that could be used by anyone."
+    - title:      "Reverse Engineering a Docker Image"
+      url:        "https://theartofmachinery.com/2021/03/18/reverse_engineering_a_docker_image.html"
+      summary:    "The Docker image format is a lot more transparent than it could be. A little detective work is needed, but a lot can be figured out just by pulling apart an image file."
+    - title:      "Awesome .NET Performance"
+      url:        "https://github.com/adamsitnik/awesome-dot-net-performance"
+      summary:    "A curated list of awesome .NET Performance books, courses, trainings, conference talks, blogs and most inspiring open source contributors."
+    - title:      "Stack Overflow for Teams is Now Free Forever for Up to 50 Users"
+      url:        "https://stackoverflow.blog/2021/03/17/stack-overflow-for-teams-is-now-free-forever-for-up-to-50-users/"
+      summary:    "Stack Overflow for Teams, combines the best features of the public Stack Overflow platform with features tailored for companies who need a private knowledge sharing and async collaboration platform."
+    - title:      "Open Source Solutions for Chaos Engineering in Kubernetes"
+      url:        "https://blog.flant.com/chaos-engineering-in-kubernetes-open-source-tools/"
+      summary:    "Chaos engineering for Kubernetes gets more and more popular, and rightly so: after all, K8s was designed with the ideas of availability and resiliency in mind. Therefore these marvelous features must be tested on real-life projects occasionally. Fortunately, there are many Open Source solutions available that can help you with experimenting."
+    - title:      "ConsoleMe: A Central Control Plane for AWS Permissions"
+      url:        "https://netflixtechblog.com/consoleme-a-central-control-plane-for-aws-permissions-and-access-fd09afdd60a8"
+      summary:    "At AWS re:Invent 2020, Netflix open sourced two new tools for managing multi-account AWS permissions and access, ConsoleMe and its CLI utility, Weep!"
+    - title:      "GitHub Action for Azure Policy Compliance Scan"
+      url:        "https://github.com/Azure/policy-compliance-scan"
+      summary:    "With the Azure Policy Compliance Scan action, you can now easily trigger a on demand scan from your GitHub workflow on one or multiple resources, resource groups or subscriptions, and continue/fail the workflow based on the compliance state of resources. You can also use this Github Action to generate a report on the compliance state of scanned resources for further analysis or archiving."
+...      

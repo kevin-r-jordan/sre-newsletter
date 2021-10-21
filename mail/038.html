@@ -1,0 +1,34 @@
+Welcome back everyone to the SRE Newsletter. It's been a couple of months since the last issue yet there's still been a lot of newsletter sign-ups which shows the world wants to know what's new in the world for site reliability engineering.<br /><br />
+I'm going to do things a little differently going forward. In the past, I would publish the top 10 articles for the week. Sometimes this meant good things wouldn't make the cut and other weeks some articles were poorly written content marketing. This issue only has things I found worth reading, not another article explaining what's an SRE or defining SLAs vs SLOs. I'm also going to sprinkle in some of my commentary at the top of each issue as well as in the summaries. Hopefully, everyone appreciates the new changes.<br /><br />
+<a href="https://www.opslevel.com/blog/opslevel-convos-paul-osman/" style="text-decoration:none;color:#ef4444;" target="_blank">Long-term Strategies, OpenTelemetry, and the Value of Boring Systems</a><br />
+<span style="color:#808080; font-size:14px">// opslevel.com</span><br />
+This is an interview with Paul Osman who worked at Under Armour, PagerDuty, and now Honeycomb. In this interview, he discusses prioritizing observability through OpenTelemetry and that there's no such thing as uncool architecture - there's just architecture that works.<br />
+<br />
+<a href="https://humanitec.com/blog/what-developer-self-service-shouldnt-look-like" style="text-decoration:none;color:#ef4444;" target="_blank">What Developer Self-Service Shouldn't Look Like</a><br />
+<span style="color:#808080; font-size:14px">// humanitec.com</span><br />
+When adopting DevOps, some organizations apply the "you built it, you run it" approach while others have an ops engineer do all the lifting. The vast majority, however, end up somewhere between. Recognize that Dev and Ops are two different skill sets and seek to achieve a balance that allows them to understand what's going on without leaving them to fail or get completely bogged down in operational support.<br />
+<br />
+<a href="https://spike.sh/blog/sre-role-2021-analysed-30-job-postings/" style="text-decoration:none;color:#ef4444;" target="_blank">What is Expected in the SRE Role?</a><br />
+<span style="color:#808080; font-size:14px">// spike.sh</span><br />
+There's been a huge uptick in the number of SRE jobs. This article breaks down patterns in those description and concludes the SRE role is more than infrastructure and CI / CD. While I agree with the statement, the metrics tell another story. Just like DevOps, Agile, etc. most organization adopt nomenclature without changing their actual practices.<br />
+<br />
+<a href="https://newsletter.pragmaticengineer.com/p/project-management-in-tech" style="text-decoration:none;color:#ef4444;" target="_blank">How Big Tech Runs Projects and the Curious Absence of Scrum</a><br />
+<span style="color:#808080; font-size:14px">// newsletter.pragmaticengineer.com</span><br />
+[Long Read] After surveying over 100 companies, Gergely Orosz shares some patterns across different organization types such as big tech, venture-funded startups, non-tech companies, and consultancies. By looking at developer satisfaction and what the big tech companies do, he provides recommendations for how to run projects and when Scrum actually makes sense.<br />
+<br />
+<a href="https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/" style="text-decoration:none;color:#ef4444;" target="_blank">Partitioning GitHub's Relational Databases to Handle Scale</a><br />
+<span style="color:#808080; font-size:14px">// github.blog</span><br />
+GitHub was started 10 years ago as a simple Ruby application build on a single MySQL database. Over time, they've split out certain data, but eventually they moved to a partitioned database to support horizontal scaling. This is the story of how they executed that transition without downtime.<br />
+<br />
+<a href="https://future.a16z.com/the-case-for-developer-experience/" style="text-decoration:none;color:#ef4444;" target="_blank">The Case for Developer Experience</a><br />
+<span style="color:#808080; font-size:14px">// future.a16z.com</span><br />
+[Long Read] There are more and more developers, which of course means more developer tools. Jean Yang breaks current tools into abstraction tools and complexity-exploring tools. There's been a lot of focus on abstraction tools, but software is increasingly complex and there's still a lack of tools that help developers deal with this complexity. She encourages the creation of new observability tools that work with existing ecosystems and companies to be willing to try these tools without expecting anything to be the silver bullet.<br />
+<br />
+<a href="https://news.ycombinator.com/item?id=28662856" style="text-decoration:none;color:#ef4444;" target="_blank">Ask HN: How Do You Do Estimates in 2021?</a><br />
+<span style="color:#808080; font-size:14px">// news.ycombinator.com</span><br />
+In this thread, a software development managers asks Hacker News how to improve his estimates after 20 years of agile and only delivering 20-30% of promised features. You see the classic answers like: t-shirt sizing and multiplying estimates by pi. Interestingly though a large percentage of teams are no-longer doing estimation.<br />
+<br />
+<a href="https://www.jefftk.com/p/designing-low-upkeep-software" style="text-decoration:none;color:#ef4444;" target="_blank">Designing Low Upkeep Software</a><br />
+<span style="color:#808080; font-size:14px">// jefftk.com</span><br />
+This is a short one without a lot of actionable content, but I liked the idea of thinking about how you'd design software based primarily on future maintenance. In general, avoid dependencies and stick to core technologies and LTS releases.<br />
+<br />

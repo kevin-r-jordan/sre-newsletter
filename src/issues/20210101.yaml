@@ -1,0 +1,38 @@
+---
+issue_number:   8
+release_date:   2021-01-01
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "The Commodification of DevOps"
+      url:        "https://aparker.io/posts/the-commodification-of-devops/"
+      summary:    "DevOps is a reaction to the commodification of Agile, and the rise of SRE is a reaction to the commodification of DevOps. Many of the trends you see in software development and delivery can be understood as a cyclical reaction to anarchists running headlong into the invisible backhand of the free market."
+    - title:      "How we Compress Pub/Sub Messages, Saving a Load of Money"
+      url:        "https://blog.lawrencejones.dev/compress-everything/"
+      summary:    "Outside of well known use cases, there are a variety of opportunities to improve efficiency or save a load of money by leveraging compression. It’s useful to be aware of common use cases, so you can take these opportunities when they arise."
+    - title:      "APIs All the Way Down"
+      url:        "https://notboring.substack.com/p/apis-all-the-way-down"
+      summary:    "Packy, a less than technical guy goes down the API-first ecosystem rabbit hole with Shopify, Stripe, Twilio, and more."
+    - title:      "Let’s Encrypt Comes Up with Workaround for Abandonware Android Devices"
+      url:        "https://arstechnica.com/gadgets/2020/12/lets-encrypt-comes-up-with-workaround-for-abandonware-android-devices/"
+      summary:    "Let's Encrypt's transition to a standalone certificate authority (CA) isn't going to break a ton of old Android phones. This was a serious concern earlier due to an expiring root certificate, but Let's Encrypt has come up with a workaround."
+    - title:      "Scott Hanselman's 2021 Ultimate Developer and Power Users Tool List for Windows"
+      url:        "https://www.hanselman.com/blog/scott-hanselmans-2021-ultimate-developer-and-power-users-tool-list-for-windows"
+      summary:    "Scott Hanselman finally updates his personal list of tools that he touches at least a few times per week. If it saves him time, and seamlessly integrates with his life, it's the bomb. Many are free some aren't."
+    - title:      "AWS Lambda the Terraform Way"
+      url:        "https://github.com/nsriram/lambda-the-terraform-way"
+      summary:    "The objective of this tutorial is to understand AWS Lambda in-depth, beyond executing functions, using Terraform. This tutorial walks through setting up Terraform, dependencies for AWS Lambda, getting your first Lambda function running, many of its important features & finally integrating with other AWS services."
+    - title:      "How are Docker Images Built? A Look into the Linux Overlay File-Systems"
+      url:        "https://napicella.medium.com/how-are-docker-images-built-a-look-into-the-linux-overlay-file-systems-and-the-oci-specification-51d65c73c416"
+      summary:    "This post starts with a brief description of overlay filesystems. Then goes into how it applies to docker images and how docker builds an image from a dockerfile. Then conclude with layers cache and OCI format for container images."
+    - title:      "Linux Hardening Guide"
+      url:        "https://madaidans-insecurities.github.io/guides/linux-hardening.html"
+      summary:    "Linux is not a secure operating system. However, there are steps you can take to improve it. This guide aims to explain how to harden Linux as much as possible for security and privacy."
+    - title:      "Ransomware Is Headed Down a Dire Path"
+      url:        "https://www.wired.com/story/ransomware-2020-headed-down-dire-path/"
+      summary:    "2020 was a great year for ransomware gangs. For hospitals, schools, municipal governments, and everyone else, it’s going to get worse before it gets better."
+    - title:      "How Will DevOps Change in 2021?"
+      url:        "https://dzone.com/articles/how-will-devops-change-in-2021"
+      summary:    "This articles goes over some hard-learned lessons from 2020 and changes to the DevOps process that developers and organizations can expect to see in the coming year."
+...      

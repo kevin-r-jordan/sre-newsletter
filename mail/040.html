@@ -1,0 +1,30 @@
+This week we take a look at management of distributed systems. Digital Ocean shares how scale eventually led them to rearchitect around microservices and queues instead of a centralized database. We also take a look serverless and how we can optimize performance.<br /><br />
+Don't forget the lessons that come with 20 years of experience. Software is about a lot more than building the most scalable system.<br /><br />
+<a href="https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/" style="text-decoration:none;color:#ef4444;" target="_blank">20 Things I’ve Learned in my 20 Years as a Software Engineer</a><br />
+<span style="color:#808080; font-size:14px">// simplethread.com</span><br />
+A feel good list of 20 axioms from Justin Etheredge about the vocation that is software engineering.<br />
+<br />
+<a href="https://www.youtube.com/watch?v=J8J-RX_sULU" style="text-decoration:none;color:#ef4444;" target="_blank">From 15,000 Database Connections to Under 100</a><br />
+<span style="color:#808080; font-size:14px">// youtube.com</span><br />
+[Video] In 2012, Digital Ocean created less than 100 droplets per day. By 2017 they created over 140K per day. This is a walk through of how they started with a simple architecture until it no longer worked and then rearchitected for scale.<br />
+<br />
+<a href="https://filia-aleks.medium.com/aws-lambda-battle-2021-performance-comparison-for-all-languages-c1b441005fd1" style="text-decoration:none;color:#ef4444;" target="_blank">AWS Lambda Battle 2021</a><br />
+<span style="color:#808080; font-size:14px">// filia-aleks.medium.com</span><br />
+Aleksandr Filichkin compares the performances of different programming languages running on AWS Lambda (NodeJs, Python, Go, Ruby, .NET Core, Java, Rust, and GraalVM). Java and .NET Core have slow cold start times. NodeJS, Ruby, Python, and Java have slow overall performance. Go and Rust are the clear winners.<br />
+<br />
+<a href="https://docs.microsoft.com/en-us/dotnet/core/deploying/ready-to-run" style="text-decoration:none;color:#ef4444;" target="_blank">.NET ReadyToRun Compilation</a><br />
+<span style="color:#808080; font-size:14px">// docs.microsoft.com</span><br />
+Piggie backing on the AWS Lambda battle, last month Microsoft announced ahead-of-time compilation. I'm really curious how this affects cold start times on serverless compute. This does require compiling for a specific architecture and leads to much larger binaries.<br />
+<br />
+<a href="https://sysdig.com/blog/kubernetes-hpa-prometheus/" style="text-decoration:none;color:#ef4444;" target="_blank">Trigger a Kubernetes HPA with Prometheus Metrics</a><br />
+<span style="color:#808080; font-size:14px">// sysdig.com</span><br />
+This post walks you through using Keda, an open source project that uses Prometheus queries to scale Kubernetes pods.<br />
+<br />
+<a href="https://devblogs.microsoft.com/azure-sdk/introducing-experimental-opentelemetry-support-in-the-azure-sdk-for-net/" style="text-decoration:none;color:#ef4444;" target="_blank">OpenTelemetry Support in the Azure SDK for .NET</a><br />
+<span style="color:#808080; font-size:14px">// devblogs.microsoft.com</span><br />
+Microsoft announced experiemental support for OpenTelemetry in the Azure SDK for .NET. OpenTelemetry unifies instrumentation, collection, and export of distributed tracing data across languages, clouds, and libraries.<br />
+<br />
+<a href="https://bravenewgeek.com/sre-doesnt-scale/" style="text-decoration:none;color:#ef4444;" target="_blank">SRE Doesn't Scale</a><br />
+<span style="color:#808080; font-size:14px">// bravenewgeek.com</span><br />
+I didn't particularly like this article, but it gained a lot of traction this week so it's worth sharing. The group at Real Kinetic somehow thought SRE always means microservices which always means developers can choose any language, tools, platform they want. Then they say that SRE doesn't scale because you'd have to hire an army to support this type of entropy. At the end of the article they admit that Google has standards and best practices negating their arguement.<br />
+<br />

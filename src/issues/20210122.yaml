@@ -1,0 +1,38 @@
+---
+issue_number:   11
+release_date:   2021-01-22
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "2021 Cloud Report"
+      url:        "https://www.cockroachlabs.com/guides/2021-cloud-report"
+      summary:    "The 2021 Cloud Report from Cockroach Labs compares AWS, Azure, and GCP on benchmarks that reflect critical applications and workloads. They try to answer which cloud is the most cost efficient, how to evaluate performance tradeoffs, and how to assess the cost/benefit of disks and CPU processors."
+    - title:      "Maximizing Developer Effectiveness"
+      url:        "https://martinfowler.com/articles/developer-effectiveness.html"
+      summary:    "In this article, Tim Cochran introduces a framework for maximizing developer effectiveness. Through research he has identified key developer feedback loops, including micro-feedback loops that developers do 200 times a day."
+    - title:      "Building DigitalOcean's API Gateway"
+      url:        "https://mauricio.github.io/2021/01/14/building-digitaloceans-api-gateway.html"
+      summary:    "The history of building DigitalOcean’s API gateway. How they made it easier for folks to build new microservices instead of continuing to add code to our monoliths, the successes, failures and lessons learned."
+    - title:      "The Most Underappreciated Skill for SREs"
+      url:        "https://www.blameless.com/blog/the-most-underappreciated-skill-for-sres"
+      summary:    "Glue work often goes unrecognized as it can be more difficult to measure. This blog post highlights some examples of glue work SREs perform: building a common language, forging connections, and establishing culture."
+    - title:      "Minimize Team Cognitive Load to Increase Flow"
+      url:        "https://itrevolution.com/minimize-cognitive-load-of-teams/"
+      summary:    "A team working with software systems that require too high of a cognitive load cannot effectively own or safely evolve the software. This post identifies ways in which the cognitive load on teams can be detected and limited in order to safely promote fast flow of change."
+    - title:      "Elasticsearch and Kibana are Now Business Risks"
+      url:        "https://anonymoushash.vmbrasseur.com/2021/01/14/elasticsearch-and-kibana-are-now-business-risks"
+      summary:    "In a play to convert users of their open source projects into paying customers, today Elastic announced that they are changing the license of both Elasticsearch and Kibana from the open source Apache v2 license to Server Side Public License (SSPL)."
+    - title:      "The Next Gen Database Servers Powering Let's Encrypt"
+      url:        "https://letsencrypt.org/2021/01/21/next-gen-database-servers.html"
+      summary:    "The Let's Encrypt SRE team discusses the process for upgrading their database servers and its effect on performance."
+    - title:      "Measuring the Business Benefits of AIOps"
+      url:        "https://devops.com/measuring-the-business-benefits-of-aiops/"
+      summary:    "Companies are increasingly turning to AIOps – the use of machine learning and artificial intelligence to analyze large volumes of IT operations data – to help automate and optimize IT operations. But before investing in a new technology, leaders want assurances that it will bring value to end users, customers and the business at large."
+    - title:      "Five Benefits of DevOps for Database and How to Achieve Them"
+      url:        "https://dzone.com/articles/five-benefits-of-devops-for-database-and-how-to-ac"
+      summary:    "Shorter iterations, more visibility, and more — this is what awaits you when you involve DevOps in your database ops."
+    - title:      "VSCode, Dev Containers and Docker: Moving Software Development Forward"
+      url:        "https://blog.feabhas.com/2021/01/vscode-dev-containers-and-docker-moving-software-development-forward/"
+      summary:    "Microsoft introduced a Visual Studio Code (VSCode) extension Remote – Containers. With one quick stroke, this extension allows you to open a VSCode project within a Docker container."
+...      

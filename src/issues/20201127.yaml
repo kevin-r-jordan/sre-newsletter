@@ -1,0 +1,38 @@
+---
+issue_number:   3
+release_date:   2020-11-27
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "An Ex-Googler's Guide to Dev Tools"
+      url:        "https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/"
+      summary:    "A guide to dev tools outside of Google for the ex-Googler, written with an eye toward pragmatism and practicality."
+    - title:      "AWS Outage has Taken Down a Big Chunk of the Internet"
+      url:        "https://www.theverge.com/2020/11/25/21719396/amazon-web-services-aws-outage-down-internet"
+      summary:    "Amazon Web Services (AWS), the backbone of many websites and apps, experienced a multi-hour outage on Wednesday that affected a large portion of the internet."
+    - title:      "Salesforce Could Buy Slack Next Week"
+      url:        "https://www.zdnet.com/article/salesforce-could-buy-microsoft-teams-rival-slack-next-week/"
+      summary:    "Salesforce wants to buy chat company Slack which hasn't benefited from the rise in demand for video meetings during the pandemic."
+    - title:      "Interview Questions To Ask DevOps Engineers"
+      url:        "https://dzone.com/articles/devops-engineers-need-to-go-beyond-one-persons-job"
+      summary:    "10 questions you should ask (or expect to get asked) DevOps applicants to see who is a good fit for your company."
+    - title:      "Building Your Own AIOps Platform Is a Bad Idea"
+      url:        "https://devops.com/building-your-own-aiops-platform-is-a-bad-idea/"
+      summary:    "It takes considerable expertise to not only build, integrate and maintain an AIOps platform."
+    - title:      "How to Monitor Website Performance"
+      url:        "https://stackify.com/how-to-monitor-website-performance/"
+      summary:    "Website performance monitoring is an evolving paradigm that goes beyond simple measurement of web services and the features' ability to respond efficiently to end-users."
+    - title:      "Redis Becomes the Most Popular Database on AWS"
+      url:        "https://www.theregister.com/2020/11/23/redis_the_most_popular_db_on_aws/"
+      summary:    "According to Sumo Logic's research of 2,100 companies that it monitors, Redis is the number one database in AWS – with 28 per cent market share."
+    - title:      "Introducing Another Free CA as an Alternative to Let's Encrypt"
+      url:        "https://scotthelme.co.uk/introducing-another-free-ca-as-an-alternative-to-lets-encrypt/"
+      summary:    "ZeroSSL.com is now joining the very small group of awesome CAs giving away free, 90-day certs via ACME."
+    - title:      "3 Git Commands You Should NEVER Use"
+      url:        "https://mquettan.medium.com/3-git-commands-you-should-never-use-99f6ec910989"
+      summary:    "These are three git commands that you should NEVER use unless you truly understand what you’re doing: submodule, filter-branch, and rebase."
+    - title:      "Ten Commandments of Egoless Programming"
+      url:        "https://blog.codonomics.com/2020/11/ten-commandments-of-egoless-programming.html"
+      summary:    "Many decades ago, Gerald M. Weinberg authored The Psychology of Computer Programming. In it, he listed The Ten Commandments of Egoless Programming, which remains relevant even today for us as not just programmers but as team-members."
+...      

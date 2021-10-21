@@ -1,0 +1,38 @@
+---
+issue_number:   16
+release_date:   2021-02-26
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "Google Cloud vs AWS Onboarding Comparison"
+      url:        "https://www.kevinslin.com/notes/ebd7fd65-988f-422a-93f5-b1fe5c3f29ce.html"
+      summary:    "As part of YCW21, Dendron was eligible for significant credits from all major cloud providers. This articles goes over the experience redeeming credits in two in particular: AWS and Google Cloud."
+    - title:      "Mistakes I’ve Made as an Engineering Manager"
+      url:        "https://css-tricks.com/mistakes-ive-made-as-an-engineering-manager/"
+      summary:    "Being a manager is tough. Your mistakes impact people. Sarah her experiences and learnings as a manager for many years at companies of different scales."
+    - title:      "Best Practices for REST API Design"
+      url:        "https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/"
+      summary:    "This article, looks at how to design REST APIs to be easy to understand for anyone consuming them, future-proof, and secure and fast since they serve data to clients that may be confidential."
+    - title:      "How Can You Not Be Romantic About Programming?"
+      url:        "https://thorstenball.com/blog/2020/09/08/how-can-you-not-be-romantic-about-programming/"
+      summary:    "Code, we say, can be: neat, nice, clean, crafted, baroque, minimal, solid, defensive, hacky, a hack, art, a piece of shit, the stupidest thing I’ve ever read, beautiful, like a poem."
+    - title:      "Modules, Monoliths, and Microservices"
+      url:        "https://tailscale.com/blog/modules-monoliths-and-microservices/"
+      summary:    "You simply don't need to juggle a lot of microservices to get what you want. Architect things the easy way until you're absolutely forced to do them the hard way."
+    - title:      "Engineering Dependability and Fault Tolerance in a Distributed System"
+      url:        "https://ably.com/blog/engineering-dependability-and-fault-tolerance-in-a-distributed-system"
+      summary:    "This article discusses the concepts of dependability and fault tolerance in detail and explain how the Ably platform is designed with fault tolerant approaches to uphold its dependability guarantees."
+    - title:      "Free for Developers"
+      url:        "https://free-for.dev/#/"
+      summary:    "This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers. This particular list is limited to things that infrastructure developers (System Administrator, DevOps Practitioners, etc.) are likely to find useful."
+    - title:      "What Is True Resilience? (Hint: It’s Not About Managing Risk)"
+      url:        "https://www.forbes.com/sites/googlecloud/2021/02/17/what-is-true-resilience-hint-its-not-about-managing-risk/"
+      summary:    "True resilience isn't about managing a particular instance of risk, but being ready for anything through the way you operate. Today’s disasters may come from wild, unanticipated success (leading to traffic spikes) as much as devastating unforeseen failure (be that a natural disaster, a political event, or a system configuration error that cascades into a global outage). "
+    - title:      "The Future of Web Software Is HTML-over-WebSockets"
+      url:        "https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/"
+      summary:    "The dual approach of marrying a Single Page App with an API service has left many dev teams mired in endless JSON wrangling and state discrepancy bugs across two layers. But a new WebSockets-driven approach is catching web developers' attention."
+    - title:      "Common Nginx Misconfigurations that Leave Your Web Server Open to Attack"
+      url:        "https://blog.detectify.com/2020/11/10/common-nginx-misconfigurations/"
+      summary:    "Nginx is the web server powering one-third of all websites in the world. Detectify Crowdsource has detected some common Nginx misconfigurations that, if left unchecked, leave your web site vulnerable to attack. Here’s how to find some of the most common misconfigurations before an attacker exploits them."
+...      

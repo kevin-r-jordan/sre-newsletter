@@ -1,0 +1,38 @@
+The big news this week comes from Cloudflare. They are working to become the 4th major cloud provider and taking a complete different approach than Amazon, Microsoft, and Google.<br /><br />
+We also see a number of articles about planning for failure. Site reliability engineering isn't about avoidance. It's knowing that failure will happen and coming up with the appropriate strategy on how to handle it.<br /><br />
+<a href="https://www.swyx.io/cloudflare-go/" style="text-decoration:none;color:#ef4444;" target="_blank">Eating the Cloud from Outside In</a><br />
+<span style="color:#808080; font-size:14px">// swyx.io</span><br />
+"AWS is playing chess. Cloudflare is playing go." Cloudflare is getting lots of love after announcing R2. This is a really good article about their unorthodox strategy of surrounding and smothering alternative services (like the game, go) as opposed to directly competing (as in chess).<br />
+<br />
+<a href="https://developer.redis.com/howtos/antipatterns/" style="text-decoration:none;color:#ef4444;" target="_blank">Redis Anti-Patterns Every Developer Should Avoid</a><br />
+<span style="color:#808080; font-size:14px">// developer.redis.com</span><br />
+Redis is the most loved database according to Stack Overflow, and I believe the most common database ran on AWS now. This article shares a list of 12 things to watch out for.<br />
+<br />
+<a href="https://cloudpundit.com/2021/10/14/multicloud-failover-is-almost-always-a-terrible-idea/" style="text-decoration:none;color:#ef4444;" target="_blank">Multicloud Failover is Almost Always a Terrible Idea</a><br />
+<span style="color:#808080; font-size:14px">// cloudpundit.com</span><br />
+A full AWS / Azure / GCP outage of all regions is extremely rare. Even if you use IaaS or containers, there's a ton of effort just understanding the different architectures and features of each cloud provider. The odds of you making an error is higher if you don't stick to one.<br />
+<br />
+<a href="http://www.willett.io/posts/domains/" style="text-decoration:none;color:#ef4444;" target="_blank">SRE Toolkit: Failure Domains</a><br />
+<span style="color:#808080; font-size:14px">// willett.io</span><br />
+A simple little article about avoiding cascading failure. Worth reading just for the cartoon cow.<br />
+<br />
+<a href="https://drewdevault.com/2021/10/17/Reliability.html" style="text-decoration:none;color:#ef4444;" target="_blank">Software Developers have Stopped Caring about Reliability</a><br />
+<span style="color:#808080; font-size:14px">// drewdevault.com</span><br />
+An opinionated piece fighting against the concept of "move fast and break things". The article is less about reliability and mostly about the overall laziness and lack of craftsmanship in application development - especially when it comes to usability.<br />
+<br />
+<a href="https://www.setops.co/blog/aws-communism-part-1-how-we-cut-our-load-balancing-cost" style="text-decoration:none;color:#ef4444;" target="_blank">How We Cut Our Load Balancing Cost by More Than 96%</a><br />
+<span style="color:#808080; font-size:14px">// setops.co</span><br />
+I've seen this a number of times... You're overpaying in the cloud because you've provision a resource per application or per service (such as a load balancer) either due to copy and pasting IaC files or some "best practice". Save some money. Share.<br />
+<br />
+<a href="https://www.nomadproject.io/docs/nomad-vs-kubernetes" style="text-decoration:none;color:#ef4444;" target="_blank">Nomad vs. Kubernetes</a><br />
+<span style="color:#808080; font-size:14px">// nomadproject.io</span><br />
+If you're already familiar with HashCorp's Nomad skip this one, but K8s get's so much love, I thought this was worth sharing. Nomad offers an architecturally simpler alternative to Kubernetes. This article dives goes into more detail on why Nomad may be a better fit for your containers.<br />
+<br />
+<a href="https://code.visualstudio.com/blogs/2021/10/20/vscode-dev" style="text-decoration:none;color:#ef4444;" target="_blank">vscode.dev</a><br />
+<span style="color:#808080; font-size:14px">// code.visualstudio.com</span><br />
+Now when you go to https://vscode.dev, you'll be presented with a lightweight version of VS Code running fully in the browser. Open a folder on your local machine and start coding. No install required.<br />
+<br />
+<a href="https://venturebeat.com/2021/10/10/4-lessons-every-company-should-learn-from-the-back-to-back-facebook-outages/" style="text-decoration:none;color:#ef4444;" target="_blank">Four Lessons Every Company Should Learn from the Back-to-Back Facebook Outages</a><br />
+<span style="color:#808080; font-size:14px">// venturebeat.com</span><br />
+I hope you have AdBlock for this site. Yuck. Here's a summary: (1) Acknowledge human error as a given and aim to compensate for it. (2) Conduct blameless post-mortems. (3) Avoid cascading failures. (4) Favor decentralized IT architectures.<br />
+<br />

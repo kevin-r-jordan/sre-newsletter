@@ -1,14 +1,56 @@
 ---
 issue_number:   41
 release_date:   2021-10-22
-is_latest:      false
-status:         draft       # draft or published
+is_latest:      true
+status:         published       # draft or published
 
 introduction: |
-    blah blah blah
+    The big news this week comes from Cloudflare. They are working to become the 4th major cloud provider and taking a complete different approach than Amazon, Microsoft, and Google.
+    We also see a number of articles about planning for failure. Site reliability engineering isn't about avoidance. It's knowing that failure will happen and coming up with the appropriate strategy on how to handle it.
 
 links:
-    - title:      ""
-      url:        ""
-      summary:    ""
+    - title:      "Eating the Cloud from Outside In"
+      url:        "https://www.swyx.io/cloudflare-go/"
+      summary:    "\"AWS is playing chess. Cloudflare is playing go.\" Cloudflare is getting lots of love after announcing R2. This is a really good article about their unorthodox strategy of surrounding and smothering alternative services (like the game, go) as opposed to directly competing (as in chess)."
+    - title:      "Redis Anti-Patterns Every Developer Should Avoid"
+      url:        "https://developer.redis.com/howtos/antipatterns/"
+      summary:    "Redis is the most loved database according to Stack Overflow, and I believe the most common database ran on AWS now. This article shares a list of 12 things to watch out for."
+    - title:      "Multicloud Failover is Almost Always a Terrible Idea"
+      url:        "https://cloudpundit.com/2021/10/14/multicloud-failover-is-almost-always-a-terrible-idea/"
+      summary:    "A full AWS / Azure / GCP outage of all regions is extremely rare. Even if you use IaaS or containers, there's a ton of effort just understanding the different architectures and features of each cloud provider. The odds of you making an error is higher if you don't stick to one."
+    - title:      "SRE Toolkit: Failure Domains"
+      url:        "http://www.willett.io/posts/domains/"
+      summary:    "A simple little article about avoiding cascading failure. Worth reading just for the cartoon cow."
+    - title:      "Software Developers have Stopped Caring about Reliability"
+      url:        "https://drewdevault.com/2021/10/17/Reliability.html"
+      summary:    "An opinionated piece fighting against the concept of \"move fast and break things\". The article is less about reliability and mostly about the overall laziness and lack of craftsmanship in application development - especially when it comes to usability."
+    - title:      "How We Cut Our Load Balancing Cost by More Than 96%"
+      url:        "https://www.setops.co/blog/aws-communism-part-1-how-we-cut-our-load-balancing-cost"
+      summary:    "I've seen this a number of times... You're overpaying in the cloud because you've provision a resource per application or per service (such as a load balancer) either due to copy and pasting IaC files or some \"best practice\". Save some money. Share."
+    - title:      "Nomad vs. Kubernetes"
+      url:        "https://www.nomadproject.io/docs/nomad-vs-kubernetes"
+      summary:    "If you're already familiar with HashCorp's Nomad skip this one, but K8s get's so much love, I thought this was worth sharing. Nomad offers an architecturally simpler alternative to Kubernetes. This article dives goes into more detail on why Nomad may be a better fit for your containers."
+    - title:      "vscode.dev"
+      url:        "https://code.visualstudio.com/blogs/2021/10/20/vscode-dev"
+      summary:    "Now when you go to https://vscode.dev, you'll be presented with a lightweight version of VS Code running fully in the browser. Open a folder on your local machine and start coding. No install required."
+    - title:      "Four Lessons Every Company Should Learn from the Back-to-Back Facebook Outages"
+      url:        "https://venturebeat.com/2021/10/10/4-lessons-every-company-should-learn-from-the-back-to-back-facebook-outages/"
+      summary:    "I hope you have AdBlock for this site. Yuck. Here's a summary: (1) Acknowledge human error as a given and aim to compensate for it. (2) Conduct blameless post-mortems. (3) Avoid cascading failures. (4) Favor decentralized IT architectures."
 ...      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+---
+issue_number:   10
+release_date:   2021-01-15
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "The Engineering Manager's Booklist"
+      url:        "https://github.com/jesselpalmer/the-engineering-managers-booklist"
+      summary:    "Books for people who are or aspire to manage/lead teams of software engineers. This includes, but isn't limited to, Team Leads, Tech Leads, Managers, Directors, VPs of Engineering and CTOs."
+    - title:      "Building On-Call Culture at GitHub"
+      url:        "https://github.blog/2021-01-06-building-on-call-culture-at-github/"
+      summary:    "As GitHub grows in size and our product offerings grow in number and complexity, we need to constantly evolve our on-call strategy. This post gives you a window into one of the major steps along their journey for operational excellence at GitHub."
+    - title:      "Lessons Learned in Incident Management"
+      url:        "https://dropbox.tech/infrastructure/lessons-learned-in-incident-management"
+      summary:    "This post goes deeper into some of the lessons Dropbox has learned in incident management and serves as a case study for how you can take a systematic view of your organization’s own incident response and evolve it to meet your users’ needs."
+    - title:      "8 Recommended Talks from DevOps Enterprise Summit"
+      url:        "https://itrevolution.com/8-recommended-talks/"
+      summary:    "Gene Kim gives his recommend talks (and why they'd be of interest) from the DevOps Enterprise Summit."
+    - title:      "Vertical Pod Autoscaling: The Definitive Guide"
+      url:        "https://povilasv.me/vertical-pod-autoscaling-the-definitive-guide/"
+      summary:    "This is a complete guide to Vertical Pod Autoscaling in Kubernetes which dives into the what, why, and how to do VPA."
+    - title:      "The Many Lies About Reducing Complexity: Cloud"
+      url:        "https://ea.rna.nl/2021/01/10/the-many-lies-about-reducing-complexity-part-2-cloud/"
+      summary:    "As we move away from our own IT ‘on-premises’ to more and more in the cloud, we are outsourcing more, we are responsible for less, our life simplifies. More cloud is cheaper, simpler and more flexible. All this, however, is for a large part a lie."
+    - title:      "Azure Active Directory’s Gateway is on .NET Core 3.1"
+      url:        "https://devblogs.microsoft.com/dotnet/azure-active-directorys-gateway-service-is-on-net-core-3-1/"
+      summary:    "Microsoft reduced the number of cores required by their Azure Active Directory Gateway services from ~40k to ~20k by moving to .NET Core from .NET Framework 4.6.2."
+    - title:      "How AWS is Helping to Secure Internet Routing"
+      url:        "https://aws.amazon.com/blogs/networking-and-content-delivery/how-aws-is-helping-to-secure-internet-routing/"
+      summary:    "To help put an end to BGP hijacking, AWS has been working closely with other industry leaders to make an industry-wide standard practice the use of Resource Public Key Infrastructure (RPKI) to digitally sign route announcements."
+    - title:      "If it Matters After Today, Stop Talking About it in a Chat Room"
+      url:        "https://critter.blog/2021/01/12/if-it-matters-after-today-stop-talking-about-it-in-a-chat-room/"
+      summary:    "Live chat (Slack, Teams, etc.) sucks for important discussions. If a discussion will matter after today, opt for tools that better solve the problem."
+...      

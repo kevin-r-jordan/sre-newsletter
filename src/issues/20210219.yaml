@@ -1,0 +1,38 @@
+---
+issue_number:   15
+release_date:   2021-02-19
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "\"I'm Just Doing my Job,\" An SRE Myth"
+      url:        "https://www.blameless.com/blog/im-just-doing-my-job-an-sre-myth"
+      summary:    "SRE can help ensure that teams are customer-focused, even if the best way forward breaks the rules or requires you to re-write them. Two ways SRE accomplishes this are by fostering a culture of blamelessness and using SLOs to glean insights into the customers’ experience."
+    - title:      "Open Source Update: School of SRE"
+      url:        "https://engineering.linkedin.com/blog/2021/open-source-update--school-of-sre"
+      summary:    "A curated curriculum for aspiring site reliability engineers recently open sourced and made available on GitHub. Developed by LinkedIn engineers to equip their new SREs with the knowledge and skills to flourish before integrating with a specific team."
+    - title:      "Zero Downtime Release: Disruption-free Load Balancing of a Multi-Billion User Website"
+      url:        "https://research.fb.com/publications/zero-downtime-release-disruption-free-load-balancing-of-a-multi-billion-user-website/"
+      summary:    "This paper shows how Facebook leverage differents networking infrastructure to prevent or mask any disruptions during releases. Zero Downtime Release is a collection of mechanisms used at Facebook to shield the end-users from any disruptions, preserve the cluster capacity and robustness of the infrastructure when updates are released globally."
+    - title:      "AWS EC2 Launch Configurations vs Launch Templates"
+      url:        "https://brennerm.github.io/posts/aws-launch-configuration-vs-template.html"
+      summary:    "At first sight AWS launch configurations and templates may seem very similar. Both allow you to define a blueprint for EC2 instances. This post takes a look at their differences and see which one we should prefer."
+    - title:      "How They SRE"
+      url:        "https://github.com/upgundecha/howtheysre"
+      summary:    "A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)."
+    - title:      "Parler’s Epic Fail: A Crash Course on Running Your Own Servers with a Shoestring Budget"
+      url:        "https://blog.alexgleason.me/run-your-own-server/"
+      summary:    "Cloud hosting has made it easy for anyone to run a website, but it's time to cut out the middleman. You can run a real server anywhere there's power and an internet connection. You can run a server from your home. You can run it from a datacenter in an undisclosed location."
+    - title:      "Staying Safe with .NET Containers"
+      url:        "https://devblogs.microsoft.com/dotnet/staying-safe-with-dotnet-containers/"
+      summary:    "This post describes Microsoft's approach to helping you stay safe and up-to-date with containers — largely via their container image publishing system — and with associated guidance of the images they publish."
+    - title:      "Kubernetes Failure Stories"
+      url:        "https://k8s.af/"
+      summary:    "A compiled list of links to public failure stories related to Kubernetes."
+    - title:      Threat Actors Now Target Docker via Container Escape Features""
+      url:        "https://www.trendmicro.com/en_us/research/21/b/threat-actors-now-target-docker-via-container-escape-features.html"
+      summary:    "Malicious actors are targeting popular DevOps technologies and finding new ways to attack containers and cloud environments. They are currently implementing security checks to try to exploit a bad implementation and escape from the container to the host or deploy a cryptocurrency miner and profit from their victims’ resources."
+    - title:      "12 Requests per Second"
+      url:        "https://suade.org/dev/12-requests-per-second-with-python/"
+      summary:    "In reality most of the \"super-fast\" benchmarks mean very little except for a few niche use-cases. If you look at the code in detail, you'll see that they're simple \"Hello, World!\". As soon as you introduce any actual Python work into the code you'll see those numbers plunge."
+...      

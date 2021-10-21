@@ -1,0 +1,38 @@
+---
+issue_number:   5
+release_date:   2020-12-11
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "GitHub Universe - The Global Developer Event"
+      url:        "https://githubuniverse.com/"
+      summary:    "Watch on-demand videos from this year's GitHub Universe conference. GitHub Universe is an annual product and community event featuring GitHub product experts, software leaders, and enterprise teams."
+    - title:      "Command Line Interface Guidelines"
+      url:        "https://clig.dev/"
+      summary:    "An open-source guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day."
+    - title:      "How to Make Your Code Reviewer Fall in Love with You"
+      url:        "https://mtlynch.io/code-review-love/"
+      summary:    "This article describes best practices for participating in a code review when you’re the author. In fact, by the end of this post, you’re going to be so good at sending out your code for review that your reviewer will literally fall in love with you."
+    - title:      "Why is the Google Cloud UI so Slow?"
+      url:        "https://www.debugbear.com/blog/slow-google-cloud-ui"
+      summary:    "This article will take a closer look at the page load process of the Google Cloud Functions page, and examine how it could be sped up. You can use these strategies to investigate and improve the performance of the apps you're working on."
+    - title:      "Culture Beats Strategy: Rules vs Norms"
+      url:        "https://medium.com/swlh/culture-beats-strategy-rules-vs-norms-73f9757474df"
+      summary:    "Only explicit knowledge (can be measured and managed. Tacit knowledge, because it cannot be measured, can only be led. And it is tacit knowledge (new ideas, new experiences, and creativity) that are the ultimate source of all business value."
+    - title:      "Why I Keep a Personal Log of Bugs"
+      url:        "https://josemdev.com/articles/why-i-keep-a-personal-log-of-bugs/"
+      summary:    "When creating software, you’ll make mistakes. Sometimes they’ll be huge, sometimes they’ll be small but you can always learn from them if you spend some extra time documenting them."
+    - title:      "We Burnt $72K Testing Firebase + Cloud Run and Almost Went Bankrupt"
+      url:        "https://blog.tomilkieway.com/72k-1/"
+      summary:    "Milkie Way burnt $72,000 while exploring and internally testing Cloud Run with Firebase within a few hours. This is the story of how close they came to shutting down before even launching their first product, how they survived, and the lessons they learnt."
+    - title:      "Deployments and Disasters: A Tabletop RPG for Practicing Incident Management"
+      url:        "https://antolius.github.io/deployments-and-disasters/"
+      summary:    "It's important to have a good incident management process for resolving incidents, reporting on their impact and preventing them from happening again. So Josip Antolis built a tabletop role-playing game to deal with them."
+    - title:      "Kubernetes 1.20: The Raddest Release"
+      url:        "https://kubernetes.io/blog/2020/12/08/kubernetes-1-20-release-announcement/"
+      summary:    "Kubernetes announced their 1.20 release with 42 enhancements including: volume snapshot operations, kubectl debug, API priority and fairness, process PID limiting, graceful node shutdown, Dockershim depreciation, and exec probe timeout handling."
+    - title:      "Amazon S3 Strong Consistency"
+      url:        "https://aws.amazon.com/s3/consistency/"
+      summary:    "Amazon S3 now offers strong read-after-write consistency automatically for all applications, without changes to performance or availability, without sacrificing regional isolation for applications, and at no additional cost."
+...      

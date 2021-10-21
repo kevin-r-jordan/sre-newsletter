@@ -1,0 +1,38 @@
+---
+issue_number:   24
+release_date:   2022-02-12
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "Terraform IaC from Scratch to Scale: Monolith vs. Layers"
+      url:        "https://www.padok.fr/en/blog/terraform-iac-multi-layering"
+      summary:    "When it comes to deciding how to start an Infrastructure as Code project from scratch with Terraform, you certainly will experience some struggling questions. This article explores two different approaches to organizing your code: Monolith vs. Layers."
+    - title:      "Deployment Frequency – A Key Metric in DevOps"
+      url:        "https://humanitec.com/blog/deployment-frequency-key-metric-in-devops"
+      summary:    "Having the means to measure and assess the effectiveness of your DevOps strategy is critical to achieving and surpassing your goals. This article takes a look at the benefits of monitoring deployment frequency and why top-performing companies identify frequent deployment as a measure of success."
+    - title:      "Normalizing AWS IAM Policies for Automation"
+      url:        "https://steampipe.io/blog/normalizing-aws-iam-policies-for-automated-analysis"
+      summary:    "All interactions with AWS resources are governed by policies implemented by AWS Identity and Access Management (IAM). This article discusses the choices and tradeoffs while standardizing the IAM policy format for access via SQL and shows off the potential of IAM Policy analysis when normalized."
+    - title:      "Slack’s Outage on January 4th 2021"
+      url:        "https://slack.engineering/slacks-outage-on-january-4th-2021/"
+      summary:    "Slack walks through their the investigation behind the beginning of the year outage the ultimately ends up being related to AWS auto-scaling."
+    - title:      "Buildpacks vs Dockerfiles"
+      url:        "https://technology.doximity.com/articles/buildpacks-vs-dockerfiles"
+      summary:    "Doximity has thought a lot about how to navigate the container image-building ecosystem. This is why they decided to prioritize a buildpacks-based image building workflow over a Dockerfile one."
+    - title:      "DevOps: 5 Habits of Successful Leaders"
+      url:        "https://enterprisersproject.com/article/2021/2/devops-5-habits-successful-leaders"
+      summary:    "A strong DevOps culture usually spreads widely and organically. It also requires strong leaders who manage their teams in ways that are generative to that culture – and possess many of the same attributes that they’re hoping to cultivate."
+    - title:      "Exploring Kubernetes Operator Pattern"
+      url:        "https://iximiuz.com/en/posts/kubernetes-operator-pattern/"
+      summary:    "This article takes a closer look at the Operators pattern, see which Kubernetes parts are involved in operators implementation, and what makes operators feel like first-class Kubernetes citizens."
+    - title:      "Comparing the Cloud Shells of AWS, Microsoft Azure, and Google Cloud Platform"
+      url:        "https://seroter.com/2021/02/03/lets-compare-the-cloud-shells-offered-by-aws-microsoft-azure-and-google-cloud-platform/"
+      summary:    "This post looks at the cloud shells from AWS, Azure, and GCP assessing: shell access, bash vs PowerShell, storage provided, durability period, integrations, embedded tools, code editing options, compute extensibility, and UX."
+    - title:      "A Visual Guide on Troubleshooting Kubernetes Deployments"
+      url:        "https://learnk8s.io/troubleshooting-deployments"
+      summary:    "Troubleshooting in Kubernetes can be a daunting task if you don't know where to start. Luckily this article has lots of pictures."
+    - title:      "How Cloud Services Platform Teams Can Drive The Adoption Of Effective SRE Practices"
+      url:        "https://www.forbes.com/sites/forbestechcouncil/2021/02/04/how-cloud-services-platform-teams-can-drive-the-adoption-of-effective-sre-practices"
+      summary:    "By moving to the cloud under the guidance of a cloud services team, companies can create a clear understanding of what’s in an SRE’s purview and solidify a consistent set of processes for the operations and remediation of incidents."
+...      

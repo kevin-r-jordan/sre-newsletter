@@ -1,0 +1,38 @@
+---
+issue_number:   13
+release_date:   2021-02-05
+is_latest:      false
+status:         published       # draft or published
+
+links:
+    - title:      "A Guide to the Best SRE Tools"
+      url:        "https://www.getcortexapp.com/post/a-guide-to-the-best-sre-tools"
+      summary:    "There are a lot of SRE tools out there, and it can be hard to know which ones are the most important to consider. Cortex compiled this guide to highlight the key categories of SRE tools and help you find the right fit for your team."
+    - title:      "Exploring the Multi-Account AWS Environment and Reducing Costs with It"
+      url:        "https://www.lozanomatheus.com/post/exploring-the-multi-account-aws-environment-and-reducing-costs-with-it"
+      summary:    "It’s basically having multiple accounts for specific goals, could be per team, per environment, per project. There are a lot of good things you’ll get by following this best-practice, like centralized management (consolidated billing, accounts, etc), define policies per account or Organizational Unit (like audit/log is mandatory, tag policy, MFA is mandatory, etc) and many other things."
+    - title:      "How to Hire Senior Developers: Give Them More Autonomy"
+      url:        "https://hiringengineersbook.com/post/autonomy/"
+      summary:    "If you’re in a management position, you need to realize that development is mainly decision making, which of course only works if you’re given the necessary autonomy to make those decisions. I believe this realization is one of the main reasons many successful companies have a better engineering culture."
+    - title:      "Defending Software Build Pipelines from Malicious Attack"
+      url:        "https://www.ncsc.gov.uk/blog-post/defending-software-build-pipelines-from-malicious-attack"
+      summary:    "Compromise of your software build pipeline can have wide-reaching impact; here's how to tackle the problem."
+    - title:      "Where's the Fastest Place to Put My Server? How Much Does it Matter?"
+      url:        "http://calpaterson.com/latency.html"
+      summary:    "To estimate what the theoretical best physical place to put his own server, Cal Paterson combined publicly publicly available data on latencies with his own web server accesslogs."
+    - title:      "Notes on Martin Fowler's: The Many Meanings of Event-Driven Architecture"
+      url:        "https://hugoreeves.com/notes/2021/the-many-meanings-of-event-driven-architecture/"
+      summary:    "Martin explains there are several different understandings of what Event-Driven Architecture is. All of these are valid but are distinct in their actual form. Martin delves into four of these."
+    - title:      "WTF Is Design Thinking?"
+      url:        "https://blog.container-solutions.com/wtf-is-design-thinking"
+      summary:    "Design Thinking is a method for getting solutions to problems that really work for the people you’re designing for. Applying it gives you more focus on the real problem, more understanding of the people involved, and ideas that really work."
+    - title:      "Why It Matters Whether Hashed Passwords Are Personal Information Under U.S. Law"
+      url:        "https://www.jdsupra.com/legalnews/why-it-matters-whether-hashed-passwords-3305065/"
+      summary:    "Are hashed passwords secure? Or, perhaps more importantly from a legal perspective, does an unauthorized person having access to a username/email address and an accompanying hashed password “permit access to an online account?”"
+    - title:      "Containerize All the Things with Ubuntu Core 20"
+      url:        "https://arstechnica.com/gadgets/2021/02/ubuntu-core-20-adds-secure-boot-with-hardware-backed-encryption/"
+      summary:    "Canonical released Ubuntu Core 20 this week. Ubuntu Core relies almost entirely on Canonical's relatively new snap package format which attempts to make everything a container."
+    - title:      "New Malware Hijacks Kubernetes Clusters to Mine Monero"
+      url:        "https://threatpost.com/new-malware-hijacks-kubernetes-clusters-to-mine-monero/163629/"
+      summary:    "While Hildegard, initially detected in January 2021, is initially being used to launch cryptojacking operations, researchers believe that the campaign may still be in the reconnaissance and weaponization stage. Eventually, they warn, TeamTNT may launch a more large-scale cryptojacking attack via Kubernetes environments or steal data from applications running in Kubernetes clusters."
+...      
