@@ -1,0 +1,30 @@
+---
+issue_number:   42
+release_date:   2021-10-29
+is_latest:      true
+status:         published       # draft or published
+
+introduction: |
+    You know how when you buy a new car, it seems like every other car on the road is the same as yours. How did you not notice that before? I feel like this is happening with observability. It's everywhere! 
+    My prediction, observability is THE buzz word for 2022. Expect to see job titles like "Observability Engineer". But, there are good trends and BS trends. Creating observable systems can be extremely valuable.
+
+links:
+    - title:      "[Long Read] Incident Review and Postmortem Best Practices"
+      url:        "https://newsletter.pragmaticengineer.com/p/incident-review-best-practices"
+      summary:    "Gergely Orosz surveys 60 teams and then conducts follow up interviews with Paul Osman from Honeycomb and John Allspaw (one of the early pioneers of the DevOps movement). This post does a great job digging into what teams are doing today and how we can look to other industries to define better ways to handle incidents in the future, including getting rid of the blameless post-mortem."
+    - title:      "Why Network Engineers Should Learn Go"
+      url:        "https://darrenparkinson.uk/posts/2021-10-13-why-network-engineers-should-learn-go/"
+      summary:    "Despite being a C# guy, Go is the language I recommend to anyone getting into web development for the first time. Darren Parkinson make a similar suggestion for network engineers by referencing Gornir, scrapligo, and many IaC tools."
+    - title:      "A Different and (Often) Better Way to Downsample your Prometheus Metrics"
+      url:        "https://blog.timescale.com/blog/a-different-and-often-better-way-to-downsample-your-prometheus-metrics/"
+      summary:    "One thing is true of Prometheus metric data: there is a lot of it. As that data ages, individual samples become less important and we care more about the general trends and aggregates. TimescaleDB announced the beta release of Promscale, continuous aggregation that is more timely and accurate than recording rules in many circumstances. "
+    - title:      "Building a Multi-Region Service Mesh with Kuma/Envoy, Anycast BGP, and mTLS"
+      url:        "https://www.koyeb.com/blog/building-a-multi-region-service-mesh-with-kuma-envoy-anycast-bgp-and-mtls"
+      summary:    "Koyeb is a global serverless platform. In this article they describe their own geographic load balancing, CDN, and service mesh infrastructure. This design could be applicable to other applications hosted anywhere."
+    - title:      "Habits I've Developed for Fast + Efficient Programming"
+      url:        "https://cprimozic.net/blog/programming-speed-strategies/"
+      summary:    "It you want to be a craftsman, you need to understand your tools. Casey Primozic shares some examples of how he uses his IDE to make him a more efficient programmer."
+    - title:      "This Resume got me an Interview!"
+      url:        "https://old.reddit.com/r/recruitinghell/comments/qhg5jo/this_resume_got_me_an_interview/"
+      summary:    "This one has almost nothing to do with site reliability engineering. Angelina Lee shares a fake resume with a few some big name companies and experience like \"Led team of 6 engineers to mine Ethereum on company servers\" and \"Organized team bonding through company potato sack race\". The result are hilarious and a little depressing."
+...      
