@@ -1,6 +1,11 @@
-﻿using SreNewsletter.Entities;
+﻿using Microsoft.SyndicationFeed;
+using Microsoft.SyndicationFeed.Rss;
+using SreNewsletter.Entities;
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Text;
+using System.Xml;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
@@ -9,6 +14,31 @@ namespace SreNewsletter
     class Program
     {
         static void Main(string[] args)
+        {
+            var deserializer = new DeserializerBuilder()
+               .WithNamingConvention(UnderscoredNamingConvention.Instance)
+               .Build();
+
+            var issueFiles = Directory.GetFiles(@"..\..\..\..\..\issues");
+            var publishedIssues = new List<Issue>();
+            foreach (var issueFile in issueFiles)
+            {
+                Console.WriteLine("Processing: " + issueFile);
+                string text = File.ReadAllText(issueFile);
+
+                using var reader = new StringReader(text);
+                var issue = deserializer.Deserialize<Issue>(reader);
+
+                if (issue.Status == IssueStatus.Published)
+                    publishedIssues.Add(issue);
+            }
+
+            ProcessIssues(publishedIssues);
+
+            Console.WriteLine("\n--------\n| DONE |\n--------\n");
+        }
+
+        private static void ProcessIssues(List<Issue> issues)
         {
             string issueTemplatePath = @"..\..\..\..\..\templates\issue.html";
             string issueTemplate = File.ReadAllText(issueTemplatePath);
@@ -19,30 +49,16 @@ namespace SreNewsletter
             string mailLinkTemplatePath = @"..\..\..\..\..\templates\mail_link.html";
             string mailLinkTemplate = File.ReadAllText(mailLinkTemplatePath);
 
-            var deserializer = new DeserializerBuilder()
-               .WithNamingConvention(UnderscoredNamingConvention.Instance)
-               .Build();
-
-            var issueFiles = Directory.GetFiles(@"..\..\..\..\..\issues");
-            foreach (var issueFile in issueFiles)
+            foreach (var issue in issues)
             {
-                Console.WriteLine("Processing: " + issueFile);
-                string text = File.ReadAllText(issueFile);
+                string issueContents = BuildIssueContents(issueTemplate, issueLinkTemplate, issue);
+                SaveIssue(issue, issueContents);
 
-                using var reader = new StringReader(text);
-                var issue = deserializer.Deserialize<Issue>(reader);
-
-                if (issue.Status == IssueStatus.Published)
-                {
-                    string issueContents = BuildIssueContents(issueTemplate, issueLinkTemplate, issue);
-                    SaveIssue(issue, issueContents);
-
-                    string mailContents = BuildMailContents(mailLinkTemplate, issue);
-                    SaveMail(issue, mailContents);
-                }
+                string mailContents = BuildMailContents(mailLinkTemplate, issue);
+                SaveMail(issue, mailContents);
             }
 
-            Console.WriteLine("\n--------\n| DONE |\n--------\n");
+            GenerateRssFeed(issues);
         }
 
         private static void SaveIssue(Issue issue, string issueContents)
@@ -152,6 +168,58 @@ namespace SreNewsletter
             }
 
             return mailContents;
+        }
+
+        private static void GenerateRssFeed(List<Issue> issues)
+        {
+            var sw = new StringWriterWithEncoding(Encoding.UTF8);
+
+            using (XmlWriter xmlWriter = XmlWriter.Create(sw, new XmlWriterSettings() { Async = true, Indent = true }))
+            {
+                var writer = new RssFeedWriter(xmlWriter);
+                writer.WriteTitle("SRE Newsletter");
+                writer.WriteDescription("Get a hand curated list of the best DevOps and Site Reliability Engineering articles delivered to your inbox each week.");
+                writer.Write(new SyndicationLink(new Uri("https://www.srenewsletter.com")));
+
+                foreach (var issue in issues)
+                {
+                    foreach (var link in issue.Links)
+                    {
+                        var item = new SyndicationItem()
+                        {
+                            Id = link.Url,
+                            Title = link.Title,
+                            Description = link.Summary,
+                            Published = issue.ReleaseDate,
+                        };
+                        item.AddLink(new SyndicationLink(new Uri(link.Url)));
+
+                        writer.Write(item).Wait();
+                        xmlWriter.Flush();
+                    }
+                }
+            }
+
+            string rssPath = $@"..\..\..\..\..\..\dist\feed";
+            if (!Directory.Exists(rssPath))
+                Directory.CreateDirectory(rssPath);
+
+            File.WriteAllText($"{rssPath}\\rss.xml", sw.ToString());
+        }
+    }
+
+    class StringWriterWithEncoding : StringWriter
+    {
+        private readonly Encoding _encoding;
+
+        public StringWriterWithEncoding(Encoding encoding)
+        {
+            this._encoding = encoding;
+        }
+
+        public override Encoding Encoding
+        {
+            get { return _encoding; }
         }
     }
 }

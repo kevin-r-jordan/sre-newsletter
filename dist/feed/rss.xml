@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel><title>SRE Newsletter</title>
+<description>Get a hand curated list of the best DevOps and Site Reliability Engineering articles delivered to your inbox each week.</description>
+<link>https://www.srenewsletter.com/</link>
+<item>
+  <title>Using What-if to Optimize ARM Template Deployments</title>
+  <link>https://samlearnsazure.blog/2020/11/09/using-what-if-to-optimize-arm-template-deployments/</link>
+  <description>Speed up infrastructure as code deployments to Azure using PowerShell's What-If module on your ARM templates.</description>
+  <guid isPermaLink="false">https://samlearnsazure.blog/2020/11/09/using-what-if-to-optimize-arm-template-deployments/</guid>
+  <pubDate>Fri, 13 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Testing Your Database Backups Using SQL Server on Linux Containers</title>
+  <link>https://www.sentryone.com/blog/testing-your-database-backups-using-sql-server-on-linux-containers</link>
+  <description>How SQL Server on Linux containers can be used along with Docker and Azure DevOps to create an automated process for testing your backups.</description>
+  <guid isPermaLink="false">https://www.sentryone.com/blog/testing-your-database-backups-using-sql-server-on-linux-containers</guid>
+  <pubDate>Fri, 13 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How Can We Secretly Deploy This Key to Production?</title>
+  <link>https://www.iheavy.com/2020/10/25/how-can-we-secretly-deploy-this-key-to-production/</link>
+  <description>Secrets create all sorts of issues when someone is getting fired. Here's one guys tales from the trenches.</description>
+  <guid isPermaLink="false">https://www.iheavy.com/2020/10/25/how-can-we-secretly-deploy-this-key-to-production/</guid>
+  <pubDate>Fri, 13 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Testing in Production 101</title>
+  <link>https://devops.com/testing-in-production-101/</link>
+  <description>Getting code that hasn't been fully vetted into production is the a new normal. This is one team's roll out plan using feature flags.</description>
+  <guid isPermaLink="false">https://devops.com/testing-in-production-101/</guid>
+  <pubDate>Fri, 13 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>FaaS Vs. Serverless: Resolving the Dilemma</title>
+  <link>https://stackify.com/faas-vs-serverless-resolving-the-dilemma/</link>
+  <description>This post helps shed light on the similarities and differences between FaaS vs. Serverless architecture to help you decide which is better for your organization.</description>
+  <guid isPermaLink="false">https://stackify.com/faas-vs-serverless-resolving-the-dilemma/</guid>
+  <pubDate>Fri, 13 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>What I Learned From Bombing a Technical Interview</title>
+  <link>https://www.ceoraford.com/posts/what-i-learned-from-bombing-a-technical-interview/</link>
+  <description>Some sound advice during a time when I know a lot of DevOps people are being forced to interview.</description>
+  <guid isPermaLink="false">https://www.ceoraford.com/posts/what-i-learned-from-bombing-a-technical-interview/</guid>
+  <pubDate>Fri, 13 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>This is How I Git</title>
+  <link>https://daniel.haxx.se/blog/2020/11/09/this-is-how-i-git/</link>
+  <description>Daniel, who works full time on open source projects, shares his way of working with git in curl.</description>
+  <guid isPermaLink="false">https://daniel.haxx.se/blog/2020/11/09/this-is-how-i-git/</guid>
+  <pubDate>Fri, 13 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Many Websites will Stop Working on Older Android Versions in 2021</title>
+  <link>https://www.androidpolice.com/2020/11/07/many-websites-will-stop-working-on-older-android-versions-in-2021/</link>
+  <description>Watch out! Let's Encrypt will stop signing new SSL certificates with DST Root X1.</description>
+  <guid isPermaLink="false">https://www.androidpolice.com/2020/11/07/many-websites-will-stop-working-on-older-android-versions-in-2021/</guid>
+  <pubDate>Fri, 13 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Microsoft Urges Users to Stop Using Phone-Based Multi-Factor Authentication</title>
+  <link>https://www.zdnet.com/article/microsoft-urges-users-to-stop-using-phone-based-multi-factor-authentication/</link>
+  <description>Microsoft recommends using app-based authenticators and security keys instead.</description>
+  <guid isPermaLink="false">https://www.zdnet.com/article/microsoft-urges-users-to-stop-using-phone-based-multi-factor-authentication/</guid>
+  <pubDate>Fri, 13 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Eleven Years of Go</title>
+  <link>https://blog.golang.org/11years</link>
+  <description>Go celebrates it's 11th birthday and takes a look back (and forward) of one of the fastest growing programming languages.</description>
+  <guid isPermaLink="false">https://blog.golang.org/11years</guid>
+  <pubDate>Fri, 13 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Atlassian's Definitive, Road-Tested Virtual Onboarding Checklist</title>
+  <link>https://www.atlassian.com/blog/teamwork/virtual-onboarding-checklist</link>
+  <description>Starting new team members in the time of COVID is tough. Atlassian shares their process to get people integrated quickly.</description>
+  <guid isPermaLink="false">https://www.atlassian.com/blog/teamwork/virtual-onboarding-checklist</guid>
+  <pubDate>Fri, 20 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>3 Steps to Turn a Data Deluge Into Actionable Intelligence</title>
+  <link>https://devops.com/3-steps-to-turn-a-data-deluge-into-actionable-intelligence/</link>
+  <description>Digital transformation is creating even more data for organizations to manage effectively. Here’s how to find the intelligence needle in the data haystack.</description>
+  <guid isPermaLink="false">https://devops.com/3-steps-to-turn-a-data-deluge-into-actionable-intelligence/</guid>
+  <pubDate>Fri, 20 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Handle Errors and Exceptions in Large Scale Software Projects</title>
+  <link>https://dzone.com/articles/how-to-handle-errors-and-exceptions-in-large-scale</link>
+  <description>Just because you didn't find bugs during testing, doesn't mean they aren't there. Learn to handle unhandled exceptions as they occur.</description>
+  <guid isPermaLink="false">https://dzone.com/articles/how-to-handle-errors-and-exceptions-in-large-scale</guid>
+  <pubDate>Fri, 20 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Windows Server Performance Monitoring Best Practices</title>
+  <link>https://stackify.com/windows-server-performance-monitoring-best-practices/</link>
+  <description>This post discusses Windows Server Performance monitoring, why it's important, as well as best practices for Windows Server performance monitoring.</description>
+  <guid isPermaLink="false">https://stackify.com/windows-server-performance-monitoring-best-practices/</guid>
+  <pubDate>Fri, 20 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Docker Rate Limiting by the Numbers</title>
+  <link>https://www.docker.com/blog/rate-limiting-by-the-numbers/</link>
+  <description>Docker has been rolling out limits on docker pulls to the heaviest users of Docker Hub. Here they share some of the facts and figures behind their effort.</description>
+  <guid isPermaLink="false">https://www.docker.com/blog/rate-limiting-by-the-numbers/</guid>
+  <pubDate>Fri, 20 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Engineer's Guide To Preparing For Black Friday 2020</title>
+  <link>https://dzone.com/articles/the-engineers-guide-to-preparing-for-black-friday</link>
+  <description>This post covers how SLO-based alerting, runbooks, and other practices to drive preparedness are crucial for holiday season success.</description>
+  <guid isPermaLink="false">https://dzone.com/articles/the-engineers-guide-to-preparing-for-black-friday</guid>
+  <pubDate>Fri, 20 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Taking Back DevOps</title>
+  <link>https://www.opslevel.com/2020/11/18/taking-back-devops/</link>
+  <description>We broke DevOps. If we want to get back to shipping code even faster, more securely, and with less risk, we need to reset DevOps so that it’s synonymous with Service Ownership.</description>
+  <guid isPermaLink="false">https://www.opslevel.com/2020/11/18/taking-back-devops/</guid>
+  <pubDate>Fri, 20 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Linux Foundation Adds Professional DevOps Certificate Program</title>
+  <link>https://devops.com/linux-foundation-adds-professional-devops-certificate-program/</link>
+  <description>The Linux Foundation this week made an addition to its professional certificate program that trains IT professionals on the fundamentals of best DevOps practices.</description>
+  <guid isPermaLink="false">https://devops.com/linux-foundation-adds-professional-devops-certificate-program/</guid>
+  <pubDate>Fri, 20 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Clean JSON Data at the Command Line</title>
+  <link>https://www.ezzeddinabdullah.com/posts/how-to-clean-json-data-at-the-command-line</link>
+  <description>A tutorial about cleaning a JSON file using command-line program jq.</description>
+  <guid isPermaLink="false">https://www.ezzeddinabdullah.com/posts/how-to-clean-json-data-at-the-command-line</guid>
+  <pubDate>Fri, 20 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Announcing the GitOps Working Group""</title>
+  <link>https://www.weave.works/blog/announcing-gitops-working-group</link>
+  <description>This week Amazon, Codefresh, GitHub, Microsoft, and Weaveworks are announcing the creation of the GitOps Working Group.</description>
+  <guid isPermaLink="false">https://www.weave.works/blog/announcing-gitops-working-group</guid>
+  <pubDate>Fri, 20 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>An Ex-Googler's Guide to Dev Tools</title>
+  <link>https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/</link>
+  <description>A guide to dev tools outside of Google for the ex-Googler, written with an eye toward pragmatism and practicality.</description>
+  <guid isPermaLink="false">https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/</guid>
+  <pubDate>Fri, 27 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AWS Outage has Taken Down a Big Chunk of the Internet</title>
+  <link>https://www.theverge.com/2020/11/25/21719396/amazon-web-services-aws-outage-down-internet</link>
+  <description>Amazon Web Services (AWS), the backbone of many websites and apps, experienced a multi-hour outage on Wednesday that affected a large portion of the internet.</description>
+  <guid isPermaLink="false">https://www.theverge.com/2020/11/25/21719396/amazon-web-services-aws-outage-down-internet</guid>
+  <pubDate>Fri, 27 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Salesforce Could Buy Slack Next Week</title>
+  <link>https://www.zdnet.com/article/salesforce-could-buy-microsoft-teams-rival-slack-next-week/</link>
+  <description>Salesforce wants to buy chat company Slack which hasn't benefited from the rise in demand for video meetings during the pandemic.</description>
+  <guid isPermaLink="false">https://www.zdnet.com/article/salesforce-could-buy-microsoft-teams-rival-slack-next-week/</guid>
+  <pubDate>Fri, 27 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Interview Questions To Ask DevOps Engineers</title>
+  <link>https://dzone.com/articles/devops-engineers-need-to-go-beyond-one-persons-job</link>
+  <description>10 questions you should ask (or expect to get asked) DevOps applicants to see who is a good fit for your company.</description>
+  <guid isPermaLink="false">https://dzone.com/articles/devops-engineers-need-to-go-beyond-one-persons-job</guid>
+  <pubDate>Fri, 27 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Building Your Own AIOps Platform Is a Bad Idea</title>
+  <link>https://devops.com/building-your-own-aiops-platform-is-a-bad-idea/</link>
+  <description>It takes considerable expertise to not only build, integrate and maintain an AIOps platform.</description>
+  <guid isPermaLink="false">https://devops.com/building-your-own-aiops-platform-is-a-bad-idea/</guid>
+  <pubDate>Fri, 27 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Monitor Website Performance</title>
+  <link>https://stackify.com/how-to-monitor-website-performance/</link>
+  <description>Website performance monitoring is an evolving paradigm that goes beyond simple measurement of web services and the features' ability to respond efficiently to end-users.</description>
+  <guid isPermaLink="false">https://stackify.com/how-to-monitor-website-performance/</guid>
+  <pubDate>Fri, 27 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Redis Becomes the Most Popular Database on AWS</title>
+  <link>https://www.theregister.com/2020/11/23/redis_the_most_popular_db_on_aws/</link>
+  <description>According to Sumo Logic's research of 2,100 companies that it monitors, Redis is the number one database in AWS – with 28 per cent market share.</description>
+  <guid isPermaLink="false">https://www.theregister.com/2020/11/23/redis_the_most_popular_db_on_aws/</guid>
+  <pubDate>Fri, 27 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Introducing Another Free CA as an Alternative to Let's Encrypt</title>
+  <link>https://scotthelme.co.uk/introducing-another-free-ca-as-an-alternative-to-lets-encrypt/</link>
+  <description>ZeroSSL.com is now joining the very small group of awesome CAs giving away free, 90-day certs via ACME.</description>
+  <guid isPermaLink="false">https://scotthelme.co.uk/introducing-another-free-ca-as-an-alternative-to-lets-encrypt/</guid>
+  <pubDate>Fri, 27 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>3 Git Commands You Should NEVER Use</title>
+  <link>https://mquettan.medium.com/3-git-commands-you-should-never-use-99f6ec910989</link>
+  <description>These are three git commands that you should NEVER use unless you truly understand what you’re doing: submodule, filter-branch, and rebase.</description>
+  <guid isPermaLink="false">https://mquettan.medium.com/3-git-commands-you-should-never-use-99f6ec910989</guid>
+  <pubDate>Fri, 27 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Ten Commandments of Egoless Programming</title>
+  <link>https://blog.codonomics.com/2020/11/ten-commandments-of-egoless-programming.html</link>
+  <description>Many decades ago, Gerald M. Weinberg authored The Psychology of Computer Programming. In it, he listed The Ten Commandments of Egoless Programming, which remains relevant even today for us as not just programmers but as team-members.</description>
+  <guid isPermaLink="false">https://blog.codonomics.com/2020/11/ten-commandments-of-egoless-programming.html</guid>
+  <pubDate>Fri, 27 Nov 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Don't Panic: Kubernetes and Docker</title>
+  <link>https://kubernetes.io/blog/2020/12/02/dont-panic-kubernetes-and-docker/</link>
+  <description>Kubernetes is deprecating Docker as a container in favor of runtimes that use the Container Runtime Interface(CRI) created for Kubernetes. Docker-produced images will continue to work in your cluster with all runtimes.</description>
+  <guid isPermaLink="false">https://kubernetes.io/blog/2020/12/02/dont-panic-kubernetes-and-docker/</guid>
+  <pubDate>Fri, 04 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How Microsoft Crushed Slack</title>
+  <link>https://www.platformer.news/p/how-microsoft-crushed-slack</link>
+  <description>Salesforce bought Slack for $27.7B this week and why the era of worker-centered work tools may be over.</description>
+  <guid isPermaLink="false">https://www.platformer.news/p/how-microsoft-crushed-slack</guid>
+  <pubDate>Fri, 04 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Architectures for Mitigating AWS Outages</title>
+  <link>https://www.forelse.io/posts/architectures-for-mitigating-aws-outages/</link>
+  <description>With the recent outage on AWS last week, there have been a lot of discussions about various architectures and how effective they would've been to combat the downtime.</description>
+  <guid isPermaLink="false">https://www.forelse.io/posts/architectures-for-mitigating-aws-outages/</guid>
+  <pubDate>Fri, 04 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AWS Just Went Multi-Cloud</title>
+  <link>https://acloudguru.com/blog/business/aws-just-went-multi-cloud-and-its-only-the-beginning</link>
+  <description>The FAQ for EKS Anywhere, announced this week for 2021 has references to "on-premises", bare metal compute, and VSphere. AWS's stated rationale for expanding access to their managed Kubernetes service is all about hybrid cloud.</description>
+  <guid isPermaLink="false">https://acloudguru.com/blog/business/aws-just-went-multi-cloud-and-its-only-the-beginning</guid>
+  <pubDate>Fri, 04 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Rise of Internal Developer Platforms</title>
+  <link>https://humanitec.com/blog/the-rise-of-internal-developer-platforms</link>
+  <description>Determining what knowledge is intrinsic to a team member's role and what is outside of their scope is critical to reduce the strain on their cognitive load. Internal Developer Platforms provide a way to compartmentalize complexity, and enable people to focus on what's critical to their role.</description>
+  <guid isPermaLink="false">https://humanitec.com/blog/the-rise-of-internal-developer-platforms</guid>
+  <pubDate>Fri, 04 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Hire People Who Give a Shit</title>
+  <link>https://alexw.substack.com/p/hire</link>
+  <description>Alexandr Wang of Scale shares an old company memo before growing hit team to 150: "The uncomfortable truth is that most people don't give a shit."</description>
+  <guid isPermaLink="false">https://alexw.substack.com/p/hire</guid>
+  <pubDate>Fri, 04 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How I Passed 2 AWS Solution Architect Exams in a Month</title>
+  <link>https://bhaskargandavabi.medium.com/how-i-passed-2-aws-solution-architect-exams-in-a-month-76d6e612f260</link>
+  <description>Bhaskar knocks out the AWS Associate and Professional exams and gives his insights into the two certifications.</description>
+  <guid isPermaLink="false">https://bhaskargandavabi.medium.com/how-i-passed-2-aws-solution-architect-exams-in-a-month-76d6e612f260</guid>
+  <pubDate>Fri, 04 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A Better Kubernetes, from the Ground Up</title>
+  <link>https://blog.dave.tf/post/new-kubernetes/</link>
+  <description>Dave Anderson and Vallery Lancey discuss what they would do differently if they built something new, from the ground up, with no regard for compatibility with Kubernetes.</description>
+  <guid isPermaLink="false">https://blog.dave.tf/post/new-kubernetes/</guid>
+  <pubDate>Fri, 04 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Why GitHub Built Their Own Internal Developer Platform</title>
+  <link>https://humanitec.com/blog/jason-warner-why-github-built-their-own-internal-developer-platform</link>
+  <description>An Internal Developer Platform (IDP) is an essential step for rapidly scaling companies to keep their developers working productively and happily. This is a roundtable discussion with Jason Warner, the current CTO of GitHub and previous VP of Engineering for Heroku about how IDPs help teams of that scale build efficiently.</description>
+  <guid isPermaLink="false">https://humanitec.com/blog/jason-warner-why-github-built-their-own-internal-developer-platform</guid>
+  <pubDate>Fri, 04 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Amazon's Cloudy Macs Cost $25.99 a Day</title>
+  <link>https://www.theregister.com/2020/12/02/aws_ec2_mac_pricing/</link>
+  <description>Other Mac hosts are cheaper, Azure has had cloudy Macs for months, but AWS may still have a play.</description>
+  <guid isPermaLink="false">https://www.theregister.com/2020/12/02/aws_ec2_mac_pricing/</guid>
+  <pubDate>Fri, 04 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>GitHub Universe - The Global Developer Event</title>
+  <link>https://githubuniverse.com/</link>
+  <description>Watch on-demand videos from this year's GitHub Universe conference. GitHub Universe is an annual product and community event featuring GitHub product experts, software leaders, and enterprise teams.</description>
+  <guid isPermaLink="false">https://githubuniverse.com/</guid>
+  <pubDate>Fri, 11 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Command Line Interface Guidelines</title>
+  <link>https://clig.dev/</link>
+  <description>An open-source guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day.</description>
+  <guid isPermaLink="false">https://clig.dev/</guid>
+  <pubDate>Fri, 11 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Make Your Code Reviewer Fall in Love with You</title>
+  <link>https://mtlynch.io/code-review-love/</link>
+  <description>This article describes best practices for participating in a code review when you’re the author. In fact, by the end of this post, you’re going to be so good at sending out your code for review that your reviewer will literally fall in love with you.</description>
+  <guid isPermaLink="false">https://mtlynch.io/code-review-love/</guid>
+  <pubDate>Fri, 11 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Why is the Google Cloud UI so Slow?</title>
+  <link>https://www.debugbear.com/blog/slow-google-cloud-ui</link>
+  <description>This article will take a closer look at the page load process of the Google Cloud Functions page, and examine how it could be sped up. You can use these strategies to investigate and improve the performance of the apps you're working on.</description>
+  <guid isPermaLink="false">https://www.debugbear.com/blog/slow-google-cloud-ui</guid>
+  <pubDate>Fri, 11 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Culture Beats Strategy: Rules vs Norms</title>
+  <link>https://medium.com/swlh/culture-beats-strategy-rules-vs-norms-73f9757474df</link>
+  <description>Only explicit knowledge (can be measured and managed. Tacit knowledge, because it cannot be measured, can only be led. And it is tacit knowledge (new ideas, new experiences, and creativity) that are the ultimate source of all business value.</description>
+  <guid isPermaLink="false">https://medium.com/swlh/culture-beats-strategy-rules-vs-norms-73f9757474df</guid>
+  <pubDate>Fri, 11 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Why I Keep a Personal Log of Bugs</title>
+  <link>https://josemdev.com/articles/why-i-keep-a-personal-log-of-bugs/</link>
+  <description>When creating software, you’ll make mistakes. Sometimes they’ll be huge, sometimes they’ll be small but you can always learn from them if you spend some extra time documenting them.</description>
+  <guid isPermaLink="false">https://josemdev.com/articles/why-i-keep-a-personal-log-of-bugs/</guid>
+  <pubDate>Fri, 11 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>We Burnt $72K Testing Firebase + Cloud Run and Almost Went Bankrupt</title>
+  <link>https://blog.tomilkieway.com/72k-1/</link>
+  <description>Milkie Way burnt $72,000 while exploring and internally testing Cloud Run with Firebase within a few hours. This is the story of how close they came to shutting down before even launching their first product, how they survived, and the lessons they learnt.</description>
+  <guid isPermaLink="false">https://blog.tomilkieway.com/72k-1/</guid>
+  <pubDate>Fri, 11 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Deployments and Disasters: A Tabletop RPG for Practicing Incident Management</title>
+  <link>https://antolius.github.io/deployments-and-disasters/</link>
+  <description>It's important to have a good incident management process for resolving incidents, reporting on their impact and preventing them from happening again. So Josip Antolis built a tabletop role-playing game to deal with them.</description>
+  <guid isPermaLink="false">https://antolius.github.io/deployments-and-disasters/</guid>
+  <pubDate>Fri, 11 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Kubernetes 1.20: The Raddest Release</title>
+  <link>https://kubernetes.io/blog/2020/12/08/kubernetes-1-20-release-announcement/</link>
+  <description>Kubernetes announced their 1.20 release with 42 enhancements including: volume snapshot operations, kubectl debug, API priority and fairness, process PID limiting, graceful node shutdown, Dockershim depreciation, and exec probe timeout handling.</description>
+  <guid isPermaLink="false">https://kubernetes.io/blog/2020/12/08/kubernetes-1-20-release-announcement/</guid>
+  <pubDate>Fri, 11 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Amazon S3 Strong Consistency</title>
+  <link>https://aws.amazon.com/s3/consistency/</link>
+  <description>Amazon S3 now offers strong read-after-write consistency automatically for all applications, without changes to performance or availability, without sacrificing regional isolation for applications, and at no additional cost.</description>
+  <guid isPermaLink="false">https://aws.amazon.com/s3/consistency/</guid>
+  <pubDate>Fri, 11 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SolarWinds Leaked FTP Credentials through a Public GitHub Repo</title>
+  <link>https://www.savebreach.com/solarwinds-exposed-ftp-credentials-back-in-2018-says-security-researcher-vinoth/</link>
+  <description>The leaked FTP credentials were being exposed by SolarWinds since June 2018 in mib-importer GitHub repo. There was potentially more sensitive data in that repo, says security researcher Vinoth Kumar.</description>
+  <guid isPermaLink="false">https://www.savebreach.com/solarwinds-exposed-ftp-credentials-back-in-2018-says-security-researcher-vinoth/</guid>
+  <pubDate>Fri, 18 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AWS Fault Injection Simulator</title>
+  <link>https://aws.amazon.com/fis/</link>
+  <description>Coming in 2021... AWS Fault Injection Simulator is a fully managed chaos engineering service that makes it easier for teams to discover an application’s weaknesses at scale in order to improve performance, observability, and resiliency.</description>
+  <guid isPermaLink="false">https://aws.amazon.com/fis/</guid>
+  <pubDate>Fri, 18 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>CloudQuery</title>
+  <link>https://github.com/cloudquery/cloudquery</link>
+  <description>CloudQuery is an open source tool that transforms your cloud infrastructure into queryable SQL tables for easy monitoring, governance and security.</description>
+  <guid isPermaLink="false">https://github.com/cloudquery/cloudquery</guid>
+  <pubDate>Fri, 18 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AWS CloudShell – Command-Line Access to AWS Resources</title>
+  <link>https://aws.amazon.com/blogs/aws/aws-cloudshell-command-line-access-to-aws-resources/</link>
+  <description>This week Amazon launched AWS CloudShell, with the goal of making the process of getting to an AWS-enabled shell prompt simple and secure. Every shell environment that you run with CloudShell has the AWS Command Line Interface (CLI) (v2) installed and configured so you can run aws commands fresh out of the box.</description>
+  <guid isPermaLink="false">https://aws.amazon.com/blogs/aws/aws-cloudshell-command-line-access-to-aws-resources/</guid>
+  <pubDate>Fri, 18 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>CloudLinux to Invest More Than a Million Dollars a Year into CentOS Clone</title>
+  <link>https://www.zdnet.com/article/cloudlinux-to-invest-more-than-a-million-dollar-a-year-into-centos-clone/</link>
+  <description>With Red Hat changing CentOS Linux into a rolling release, CloudLinux is the second group to announce it's making a bigger, better stable point CentOS: Lenix.</description>
+  <guid isPermaLink="false">https://www.zdnet.com/article/cloudlinux-to-invest-more-than-a-million-dollar-a-year-into-centos-clone/</guid>
+  <pubDate>Fri, 18 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Creating Small Successes to Prove DevOps Works</title>
+  <link>https://itrevolution.com/proving-devops-works/</link>
+  <description>Top experts from DevOps Enterprise Summit weigh in on DevOps small successes that you can build upon. What do those small successes actually look like? How do you start?</description>
+  <guid isPermaLink="false">https://itrevolution.com/proving-devops-works/</guid>
+  <pubDate>Fri, 18 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Kubernetes in Production: Best Practices to Follow</title>
+  <link>https://dzone.com/articles/kubernetes-in-production-best-practices-to-follow</link>
+  <description>Here are some best practices to follow while using Kubernetes in production. Following these should ensure more security and efficiency.</description>
+  <guid isPermaLink="false">https://dzone.com/articles/kubernetes-in-production-best-practices-to-follow</guid>
+  <pubDate>Fri, 18 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Automate Your Linux Deployment Using Azure DevOps</title>
+  <link>https://towardsdatascience.com/automate-your-linux-deployment-using-azure-devops-ffe4ba7c938b</link>
+  <description>A comprehensive guide on utilizing Azure DevOps to the fullest using CI/CD and shell scripts.</description>
+  <guid isPermaLink="false">https://towardsdatascience.com/automate-your-linux-deployment-using-azure-devops-ffe4ba7c938b</guid>
+  <pubDate>Fri, 18 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Run a Remote Retrospective and Have Fun Doing It</title>
+  <link>https://atlassianblog.wpengine.com/teamwork/run-retrospective-distributed-team-fun</link>
+  <description>Bringing this time-honored team tradition into the virtual world is easier than you might think. Here are a few pointers.</description>
+  <guid isPermaLink="false">https://atlassianblog.wpengine.com/teamwork/run-retrospective-distributed-team-fun</guid>
+  <pubDate>Fri, 18 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>It’s Just a Monitoring Change</title>
+  <link>https://sbg.technology/2020/12/09/its-just-a-monitoring-change/</link>
+  <description>The reality is that monitoring systems are complicated beasts, and should not be taken for granted; nor should we be complacent when making changes to what is still a production system.</description>
+  <guid isPermaLink="false">https://sbg.technology/2020/12/09/its-just-a-monitoring-change/</guid>
+  <pubDate>Fri, 18 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Why I've Been Merging Microservices Back Into The Monolith</title>
+  <link>https://www.bennadel.com/blog/3944-why-ive-been-merging-microservices-back-into-the-monolith-at-invision.htm</link>
+  <description>Ben Nadel at InVision explains why he's killing-off his microservices and share a bit more insight about this particular journey in the world of web application development.</description>
+  <guid isPermaLink="false">https://www.bennadel.com/blog/3944-why-ive-been-merging-microservices-back-into-the-monolith-at-invision.htm</guid>
+  <pubDate>Fri, 25 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>We Rendered a Million Web Pages to Find Out What Makes the Web Slow</title>
+  <link>https://itnext.io/we-rendered-a-million-web-pages-to-find-out-what-makes-the-web-slow-72bbba9ade96</link>
+  <description>Lars Eidnes and team rendered the top 1 million pages on the web, tracking every conceivable performance metric, logging every error, and noting every requested URL. In this article, he analyzes what the data can tell us about creating high performance web sites.</description>
+  <guid isPermaLink="false">https://itnext.io/we-rendered-a-million-web-pages-to-find-out-what-makes-the-web-slow-72bbba9ade96</guid>
+  <pubDate>Fri, 25 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Inside the Whale: An Interview with an Anonymous Amazonian</title>
+  <link>https://logicmag.io/commons/inside-the-whale-an-interview-with-an-anonymous-amazonian/</link>
+  <description>An inside discussion with an AWS cybersecurity engineer about how to think about the behemoth and how it feels to work inside it.</description>
+  <guid isPermaLink="false">https://logicmag.io/commons/inside-the-whale-an-interview-with-an-anonymous-amazonian/</guid>
+  <pubDate>Fri, 25 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Back to the '70s with Serverless</title>
+  <link>http://evrl.com/devops/cloud/2020/12/18/serverless.html</link>
+  <description>The Cloud was born, first as a marketing label for an old business model (offering “virtual private servers” to the public), but more and more as a marketing label for an even older business model (the mainframe - we run it, we own it, you lease capacity).</description>
+  <guid isPermaLink="false">http://evrl.com/devops/cloud/2020/12/18/serverless.html</guid>
+  <pubDate>Fri, 25 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Microsoft Reportedly Designing its Own ARM-Based Chips for Servers</title>
+  <link>https://www.theverge.com/2020/12/18/22189450/microsoft-arm-processors-chips-servers-surface-report</link>
+  <description>Microsoft is designing its own ARM-based processors for servers and possibly a future Surface device. The processors will be used in servers for Microsoft’s Azure cloud services and be based around ARM designs.</description>
+  <guid isPermaLink="false">https://www.theverge.com/2020/12/18/22189450/microsoft-arm-processors-chips-servers-surface-report</guid>
+  <pubDate>Fri, 25 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AWS Lambda is Winning, But First it had to Die</title>
+  <link>https://acloudguru.com/blog/engineering/aws-lambda-is-winning-but-first-it-had-to-die</link>
+  <description>Lambda is finally gaining serious adoption because it’s shedding the FaaS purism that marked its early days — without compromising on its real value prop, the progressive promise of own less, build more.</description>
+  <guid isPermaLink="false">https://acloudguru.com/blog/engineering/aws-lambda-is-winning-but-first-it-had-to-die</guid>
+  <pubDate>Fri, 25 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Improving Cross-Browser Testing, Part 1</title>
+  <link>https://hacks.mozilla.org/2020/12/cross-browser-testing-part-1-web-app-testing-today/</link>
+  <description>In this series of posts Mozilla explores the current web-application testing landscape and explain what Firefox is doing today to allow developers to run more kinds of tests in Firefox.</description>
+  <guid isPermaLink="false">https://hacks.mozilla.org/2020/12/cross-browser-testing-part-1-web-app-testing-today/</guid>
+  <pubDate>Fri, 25 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Google Cloud Infrastructure Components Incident Post Mortem</title>
+  <link>https://status.cloud.google.com/incident/zall/20013#20013004</link>
+  <description>On Monday December 14, for a duration of 47 minutes, customer-facing Google services that required Google OAuth access were unavailable. This is Google's root cause analysis and plan to prevent future issues.</description>
+  <guid isPermaLink="false">https://status.cloud.google.com/incident/zall/20013#20013004</guid>
+  <pubDate>Fri, 25 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Chef Cofounder on CentOS: It’s Time to Open Source Everything</title>
+  <link>https://planetstoryline.com/chef-cofounder-on-centos-its-time-to-open-source-everything/</link>
+  <description>Red Hat has been in hot water about changing the way CentOS operates, but that model looks like the exact right way for open source entrepreneurs to operate.</description>
+  <guid isPermaLink="false">https://planetstoryline.com/chef-cofounder-on-centos-its-time-to-open-source-everything/</guid>
+  <pubDate>Fri, 25 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>VMware Flaw a Vector in SolarWinds Breach</title>
+  <link>https://krebsonsecurity.com/2020/12/vmware-flaw-a-vector-in-solarwinds-breach/</link>
+  <description>The attackers behind the widespread hacking spree stemming from the compromise at network software firm SolarWinds used weaknesses in other, non-SolarWinds products to attack high-value targets. According to sources, among those was a flaw in software virtualization platform VMware.</description>
+  <guid isPermaLink="false">https://krebsonsecurity.com/2020/12/vmware-flaw-a-vector-in-solarwinds-breach/</guid>
+  <pubDate>Fri, 25 Dec 2020 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Commodification of DevOps</title>
+  <link>https://aparker.io/posts/the-commodification-of-devops/</link>
+  <description>DevOps is a reaction to the commodification of Agile, and the rise of SRE is a reaction to the commodification of DevOps. Many of the trends you see in software development and delivery can be understood as a cyclical reaction to anarchists running headlong into the invisible backhand of the free market.</description>
+  <guid isPermaLink="false">https://aparker.io/posts/the-commodification-of-devops/</guid>
+  <pubDate>Fri, 01 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How we Compress Pub/Sub Messages, Saving a Load of Money</title>
+  <link>https://blog.lawrencejones.dev/compress-everything/</link>
+  <description>Outside of well known use cases, there are a variety of opportunities to improve efficiency or save a load of money by leveraging compression. It’s useful to be aware of common use cases, so you can take these opportunities when they arise.</description>
+  <guid isPermaLink="false">https://blog.lawrencejones.dev/compress-everything/</guid>
+  <pubDate>Fri, 01 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>APIs All the Way Down</title>
+  <link>https://notboring.substack.com/p/apis-all-the-way-down</link>
+  <description>Packy, a less than technical guy goes down the API-first ecosystem rabbit hole with Shopify, Stripe, Twilio, and more.</description>
+  <guid isPermaLink="false">https://notboring.substack.com/p/apis-all-the-way-down</guid>
+  <pubDate>Fri, 01 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Let’s Encrypt Comes Up with Workaround for Abandonware Android Devices</title>
+  <link>https://arstechnica.com/gadgets/2020/12/lets-encrypt-comes-up-with-workaround-for-abandonware-android-devices/</link>
+  <description>Let's Encrypt's transition to a standalone certificate authority (CA) isn't going to break a ton of old Android phones. This was a serious concern earlier due to an expiring root certificate, but Let's Encrypt has come up with a workaround.</description>
+  <guid isPermaLink="false">https://arstechnica.com/gadgets/2020/12/lets-encrypt-comes-up-with-workaround-for-abandonware-android-devices/</guid>
+  <pubDate>Fri, 01 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Scott Hanselman's 2021 Ultimate Developer and Power Users Tool List for Windows</title>
+  <link>https://www.hanselman.com/blog/scott-hanselmans-2021-ultimate-developer-and-power-users-tool-list-for-windows</link>
+  <description>Scott Hanselman finally updates his personal list of tools that he touches at least a few times per week. If it saves him time, and seamlessly integrates with his life, it's the bomb. Many are free some aren't.</description>
+  <guid isPermaLink="false">https://www.hanselman.com/blog/scott-hanselmans-2021-ultimate-developer-and-power-users-tool-list-for-windows</guid>
+  <pubDate>Fri, 01 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AWS Lambda the Terraform Way</title>
+  <link>https://github.com/nsriram/lambda-the-terraform-way</link>
+  <description>The objective of this tutorial is to understand AWS Lambda in-depth, beyond executing functions, using Terraform. This tutorial walks through setting up Terraform, dependencies for AWS Lambda, getting your first Lambda function running, many of its important features &amp; finally integrating with other AWS services.</description>
+  <guid isPermaLink="false">https://github.com/nsriram/lambda-the-terraform-way</guid>
+  <pubDate>Fri, 01 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How are Docker Images Built? A Look into the Linux Overlay File-Systems</title>
+  <link>https://napicella.medium.com/how-are-docker-images-built-a-look-into-the-linux-overlay-file-systems-and-the-oci-specification-51d65c73c416</link>
+  <description>This post starts with a brief description of overlay filesystems. Then goes into how it applies to docker images and how docker builds an image from a dockerfile. Then conclude with layers cache and OCI format for container images.</description>
+  <guid isPermaLink="false">https://napicella.medium.com/how-are-docker-images-built-a-look-into-the-linux-overlay-file-systems-and-the-oci-specification-51d65c73c416</guid>
+  <pubDate>Fri, 01 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Linux Hardening Guide</title>
+  <link>https://madaidans-insecurities.github.io/guides/linux-hardening.html</link>
+  <description>Linux is not a secure operating system. However, there are steps you can take to improve it. This guide aims to explain how to harden Linux as much as possible for security and privacy.</description>
+  <guid isPermaLink="false">https://madaidans-insecurities.github.io/guides/linux-hardening.html</guid>
+  <pubDate>Fri, 01 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Ransomware Is Headed Down a Dire Path</title>
+  <link>https://www.wired.com/story/ransomware-2020-headed-down-dire-path/</link>
+  <description>2020 was a great year for ransomware gangs. For hospitals, schools, municipal governments, and everyone else, it’s going to get worse before it gets better.</description>
+  <guid isPermaLink="false">https://www.wired.com/story/ransomware-2020-headed-down-dire-path/</guid>
+  <pubDate>Fri, 01 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How Will DevOps Change in 2021?</title>
+  <link>https://dzone.com/articles/how-will-devops-change-in-2021</link>
+  <description>This articles goes over some hard-learned lessons from 2020 and changes to the DevOps process that developers and organizations can expect to see in the coming year.</description>
+  <guid isPermaLink="false">https://dzone.com/articles/how-will-devops-change-in-2021</guid>
+  <pubDate>Fri, 01 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>What I’ve Learned in 45 Years in the Software Industry</title>
+  <link>https://www.bti360.com/what-ive-learned-in-45-years-in-the-software-industry/</link>
+  <description>Joel Goldberg recently retired after working in the software industry for over four decades. When he left he shared with our team some of the lessons he learned over his career.</description>
+  <guid isPermaLink="false">https://www.bti360.com/what-ive-learned-in-45-years-in-the-software-industry/</guid>
+  <pubDate>Fri, 08 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Leading through Better Value Sooner Safer Happier</title>
+  <link>https://itrevolution.com/leading-through-better-value-sooner-safer-happier</link>
+  <description>Gene Kim Interviews Jonathan Smart, author of Sooner Safer Happier, a book about antipatterns and patterns for business agility.</description>
+  <guid isPermaLink="false">https://itrevolution.com/leading-through-better-value-sooner-safer-happier</guid>
+  <pubDate>Fri, 08 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Become A DevOps Engineer in 2021: A Comprehensive Guide</title>
+  <link>https://devopscube.com/become-devops-engineer/</link>
+  <description>One common question is, “How to become a DevOps engineer?” Organizations trying to achieve DevOps requires people with collaborative skills, willing to change and adopt new technologies, a good understanding of systems, automation tools, CI tools, Version control systems, networking, experience in using project management tools, etc. that are required for getting an app into production.</description>
+  <guid isPermaLink="false">https://devopscube.com/become-devops-engineer/</guid>
+  <pubDate>Fri, 08 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Dockerfile Best Practices</title>
+  <link>https://github.com/hexops/dockerfile</link>
+  <description>Writing production-worthy Dockerfiles is not as simple as you would imagine. Most Docker images in the wild fail here, and even professionals often get this wrong. This repository has best-practices for writing Dockerfiles that @slimsag has learned over the years both from his personal projects and from his work @sourcegraph.</description>
+  <guid isPermaLink="false">https://github.com/hexops/dockerfile</guid>
+  <pubDate>Fri, 08 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Code Age vs Time to Recall</title>
+  <link>https://notoriousbfg.com/code-age-vs-time-to-recall</link>
+  <description>One common developer bias is that old code is bad. The reason old code is often seen this way is because it takes longer to remember. Developers yearn for clarity but if they're not immediately able to recall under what circumstances some code was written (in a few seconds or less), they only see ambiguity.</description>
+  <guid isPermaLink="false">https://notoriousbfg.com/code-age-vs-time-to-recall</guid>
+  <pubDate>Fri, 08 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Designing Engineering Organizations</title>
+  <link>https://jacobian.org/2021/jan/5/designing-engineering-organizations/</link>
+  <description>How should you structure a larger engineering organization, one with dozens (or hundreds) of engineers? There are many tradeoffs to consider, and no single right answer. But, there are some structures that work better than others. The most effective teams are stable, multi-disciplinary, aligned to product delivery.</description>
+  <guid isPermaLink="false">https://jacobian.org/2021/jan/5/designing-engineering-organizations/</guid>
+  <pubDate>Fri, 08 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Understanding Connections &amp; Pools</title>
+  <link>https://sudhir.io/understanding-connections-pools/</link>
+  <description>What connections are, how they affect our systems, and how and why pooling works—with notes on how popular applications servers and databases handle connections.</description>
+  <guid isPermaLink="false">https://sudhir.io/understanding-connections-pools/</guid>
+  <pubDate>Fri, 08 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Load Testing is Hard, and The Tools Are Not Great. But Why?</title>
+  <link>https://ntietz.com/tech-blog/load-testing-is-hard-but-why/</link>
+  <description>If you want to see whether or not your application can handle scale, just generate scale and see if it can handle it! It sounds straightforward enough. Nicholas Tietz-Sokolsky explains why it's not so simple.</description>
+  <guid isPermaLink="false">https://ntietz.com/tech-blog/load-testing-is-hard-but-why/</guid>
+  <pubDate>Fri, 08 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SolarWinds: The More We Learn, the Worse it Looks</title>
+  <link>https://www.zdnet.com/article/solarwinds-the-more-we-learn-the-worse-it-looks/</link>
+  <description>Russia, we now know, used SolarWinds' hacked program to infiltrate at least 18,000 government and private networks. The data within these networks, user IDs, passwords, financial records, source code, you name it, can be presumed now to be in the hands of Russian intelligence agents.</description>
+  <guid isPermaLink="false">https://www.zdnet.com/article/solarwinds-the-more-we-learn-the-worse-it-looks/</guid>
+  <pubDate>Fri, 08 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Automated Combinatorial Testing for Software</title>
+  <link>https://csrc.nist.gov/projects/automated-combinatorial-testing-for-software</link>
+  <description>Combinatorial methods can reduce costs for software testing significantly. They may also be one of the few practical approaches for assurance in AI and machine learning, especially for autonomous systems, where many conventional methods cannot be used.</description>
+  <guid isPermaLink="false">https://csrc.nist.gov/projects/automated-combinatorial-testing-for-software</guid>
+  <pubDate>Fri, 08 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Engineering Manager's Booklist</title>
+  <link>https://github.com/jesselpalmer/the-engineering-managers-booklist</link>
+  <description>Books for people who are or aspire to manage/lead teams of software engineers. This includes, but isn't limited to, Team Leads, Tech Leads, Managers, Directors, VPs of Engineering and CTOs.</description>
+  <guid isPermaLink="false">https://github.com/jesselpalmer/the-engineering-managers-booklist</guid>
+  <pubDate>Fri, 15 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Building On-Call Culture at GitHub</title>
+  <link>https://github.blog/2021-01-06-building-on-call-culture-at-github/</link>
+  <description>As GitHub grows in size and our product offerings grow in number and complexity, we need to constantly evolve our on-call strategy. This post gives you a window into one of the major steps along their journey for operational excellence at GitHub.</description>
+  <guid isPermaLink="false">https://github.blog/2021-01-06-building-on-call-culture-at-github/</guid>
+  <pubDate>Fri, 15 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Lessons Learned in Incident Management</title>
+  <link>https://dropbox.tech/infrastructure/lessons-learned-in-incident-management</link>
+  <description>This post goes deeper into some of the lessons Dropbox has learned in incident management and serves as a case study for how you can take a systematic view of your organization’s own incident response and evolve it to meet your users’ needs.</description>
+  <guid isPermaLink="false">https://dropbox.tech/infrastructure/lessons-learned-in-incident-management</guid>
+  <pubDate>Fri, 15 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>8 Recommended Talks from DevOps Enterprise Summit</title>
+  <link>https://itrevolution.com/8-recommended-talks/</link>
+  <description>Gene Kim gives his recommend talks (and why they'd be of interest) from the DevOps Enterprise Summit.</description>
+  <guid isPermaLink="false">https://itrevolution.com/8-recommended-talks/</guid>
+  <pubDate>Fri, 15 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Vertical Pod Autoscaling: The Definitive Guide</title>
+  <link>https://povilasv.me/vertical-pod-autoscaling-the-definitive-guide/</link>
+  <description>This is a complete guide to Vertical Pod Autoscaling in Kubernetes which dives into the what, why, and how to do VPA.</description>
+  <guid isPermaLink="false">https://povilasv.me/vertical-pod-autoscaling-the-definitive-guide/</guid>
+  <pubDate>Fri, 15 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Many Lies About Reducing Complexity: Cloud</title>
+  <link>https://ea.rna.nl/2021/01/10/the-many-lies-about-reducing-complexity-part-2-cloud/</link>
+  <description>As we move away from our own IT ‘on-premises’ to more and more in the cloud, we are outsourcing more, we are responsible for less, our life simplifies. More cloud is cheaper, simpler and more flexible. All this, however, is for a large part a lie.</description>
+  <guid isPermaLink="false">https://ea.rna.nl/2021/01/10/the-many-lies-about-reducing-complexity-part-2-cloud/</guid>
+  <pubDate>Fri, 15 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Azure Active Directory’s Gateway is on .NET Core 3.1</title>
+  <link>https://devblogs.microsoft.com/dotnet/azure-active-directorys-gateway-service-is-on-net-core-3-1/</link>
+  <description>Microsoft reduced the number of cores required by their Azure Active Directory Gateway services from ~40k to ~20k by moving to .NET Core from .NET Framework 4.6.2.</description>
+  <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/azure-active-directorys-gateway-service-is-on-net-core-3-1/</guid>
+  <pubDate>Fri, 15 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How AWS is Helping to Secure Internet Routing</title>
+  <link>https://aws.amazon.com/blogs/networking-and-content-delivery/how-aws-is-helping-to-secure-internet-routing/</link>
+  <description>To help put an end to BGP hijacking, AWS has been working closely with other industry leaders to make an industry-wide standard practice the use of Resource Public Key Infrastructure (RPKI) to digitally sign route announcements.</description>
+  <guid isPermaLink="false">https://aws.amazon.com/blogs/networking-and-content-delivery/how-aws-is-helping-to-secure-internet-routing/</guid>
+  <pubDate>Fri, 15 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>If it Matters After Today, Stop Talking About it in a Chat Room</title>
+  <link>https://critter.blog/2021/01/12/if-it-matters-after-today-stop-talking-about-it-in-a-chat-room/</link>
+  <description>Live chat (Slack, Teams, etc.) sucks for important discussions. If a discussion will matter after today, opt for tools that better solve the problem.</description>
+  <guid isPermaLink="false">https://critter.blog/2021/01/12/if-it-matters-after-today-stop-talking-about-it-in-a-chat-room/</guid>
+  <pubDate>Fri, 15 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>2021 Cloud Report</title>
+  <link>https://www.cockroachlabs.com/guides/2021-cloud-report</link>
+  <description>The 2021 Cloud Report from Cockroach Labs compares AWS, Azure, and GCP on benchmarks that reflect critical applications and workloads. They try to answer which cloud is the most cost efficient, how to evaluate performance tradeoffs, and how to assess the cost/benefit of disks and CPU processors.</description>
+  <guid isPermaLink="false">https://www.cockroachlabs.com/guides/2021-cloud-report</guid>
+  <pubDate>Fri, 22 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Maximizing Developer Effectiveness</title>
+  <link>https://martinfowler.com/articles/developer-effectiveness.html</link>
+  <description>In this article, Tim Cochran introduces a framework for maximizing developer effectiveness. Through research he has identified key developer feedback loops, including micro-feedback loops that developers do 200 times a day.</description>
+  <guid isPermaLink="false">https://martinfowler.com/articles/developer-effectiveness.html</guid>
+  <pubDate>Fri, 22 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Building DigitalOcean's API Gateway</title>
+  <link>https://mauricio.github.io/2021/01/14/building-digitaloceans-api-gateway.html</link>
+  <description>The history of building DigitalOcean’s API gateway. How they made it easier for folks to build new microservices instead of continuing to add code to our monoliths, the successes, failures and lessons learned.</description>
+  <guid isPermaLink="false">https://mauricio.github.io/2021/01/14/building-digitaloceans-api-gateway.html</guid>
+  <pubDate>Fri, 22 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Most Underappreciated Skill for SREs</title>
+  <link>https://www.blameless.com/blog/the-most-underappreciated-skill-for-sres</link>
+  <description>Glue work often goes unrecognized as it can be more difficult to measure. This blog post highlights some examples of glue work SREs perform: building a common language, forging connections, and establishing culture.</description>
+  <guid isPermaLink="false">https://www.blameless.com/blog/the-most-underappreciated-skill-for-sres</guid>
+  <pubDate>Fri, 22 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Minimize Team Cognitive Load to Increase Flow</title>
+  <link>https://itrevolution.com/minimize-cognitive-load-of-teams/</link>
+  <description>A team working with software systems that require too high of a cognitive load cannot effectively own or safely evolve the software. This post identifies ways in which the cognitive load on teams can be detected and limited in order to safely promote fast flow of change.</description>
+  <guid isPermaLink="false">https://itrevolution.com/minimize-cognitive-load-of-teams/</guid>
+  <pubDate>Fri, 22 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Elasticsearch and Kibana are Now Business Risks</title>
+  <link>https://anonymoushash.vmbrasseur.com/2021/01/14/elasticsearch-and-kibana-are-now-business-risks</link>
+  <description>In a play to convert users of their open source projects into paying customers, today Elastic announced that they are changing the license of both Elasticsearch and Kibana from the open source Apache v2 license to Server Side Public License (SSPL).</description>
+  <guid isPermaLink="false">https://anonymoushash.vmbrasseur.com/2021/01/14/elasticsearch-and-kibana-are-now-business-risks</guid>
+  <pubDate>Fri, 22 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Next Gen Database Servers Powering Let's Encrypt</title>
+  <link>https://letsencrypt.org/2021/01/21/next-gen-database-servers.html</link>
+  <description>The Let's Encrypt SRE team discusses the process for upgrading their database servers and its effect on performance.</description>
+  <guid isPermaLink="false">https://letsencrypt.org/2021/01/21/next-gen-database-servers.html</guid>
+  <pubDate>Fri, 22 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Measuring the Business Benefits of AIOps</title>
+  <link>https://devops.com/measuring-the-business-benefits-of-aiops/</link>
+  <description>Companies are increasingly turning to AIOps – the use of machine learning and artificial intelligence to analyze large volumes of IT operations data – to help automate and optimize IT operations. But before investing in a new technology, leaders want assurances that it will bring value to end users, customers and the business at large.</description>
+  <guid isPermaLink="false">https://devops.com/measuring-the-business-benefits-of-aiops/</guid>
+  <pubDate>Fri, 22 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Five Benefits of DevOps for Database and How to Achieve Them</title>
+  <link>https://dzone.com/articles/five-benefits-of-devops-for-database-and-how-to-ac</link>
+  <description>Shorter iterations, more visibility, and more — this is what awaits you when you involve DevOps in your database ops.</description>
+  <guid isPermaLink="false">https://dzone.com/articles/five-benefits-of-devops-for-database-and-how-to-ac</guid>
+  <pubDate>Fri, 22 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>VSCode, Dev Containers and Docker: Moving Software Development Forward</title>
+  <link>https://blog.feabhas.com/2021/01/vscode-dev-containers-and-docker-moving-software-development-forward/</link>
+  <description>Microsoft introduced a Visual Studio Code (VSCode) extension Remote – Containers. With one quick stroke, this extension allows you to open a VSCode project within a Docker container.</description>
+  <guid isPermaLink="false">https://blog.feabhas.com/2021/01/vscode-dev-containers-and-docker-moving-software-development-forward/</guid>
+  <pubDate>Fri, 22 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Improving How we Deploy GitHub</title>
+  <link>https://github.blog/2021-01-25-improving-how-we-deploy-github/</link>
+  <description>Over the last year GitHub has doubled the number of developers contributing to the main GitHub.com application. While this seems like a solely positive thing on the surface, the 2x increase in folks contributing to the core software exposed some problems in terms of tooling. Tooling that worked for them a year ago no longer functioned in the same capacity.</description>
+  <guid isPermaLink="false">https://github.blog/2021-01-25-improving-how-we-deploy-github/</guid>
+  <pubDate>Fri, 29 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How We Improved SmashingMag Performance</title>
+  <link>https://www.smashingmagazine.com/2021/01/smashingmag-performance-case-study/</link>
+  <description>Smashing Magazine takes a deep look at some of the changes they've made on their site — running on JAMStack with React — to optimize the web performance and improve metrics. They includes some of the mistakes they've made, and some of the unexpected changes that helped boost all the metrics across the board.</description>
+  <guid isPermaLink="false">https://www.smashingmagazine.com/2021/01/smashingmag-performance-case-study/</guid>
+  <pubDate>Fri, 29 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Software Development Topics I've Changed my Mind on After 6 Years in the Industry</title>
+  <link>https://chriskiehl.com/article/thoughts-after-6-years</link>
+  <description>Chris lists opinions about programming, architecure, databases, and project management that 6 years have reinforced, picked up, or changed his mind.</description>
+  <guid isPermaLink="false">https://chriskiehl.com/article/thoughts-after-6-years</guid>
+  <pubDate>Fri, 29 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Cloud Native Predictions for 2021 and Beyond</title>
+  <link>https://www.aniszczyk.org/2021/01/19/cloud-native-predictions-for-2021-and-beyond/</link>
+  <description>Chris Aniszczyk has a unique and privileged vantage point of cloud native trends given to all the member companies and developers he works with, so he figured he'd share his thoughts of where things will be going in 2021 and beyond.</description>
+  <guid isPermaLink="false">https://www.aniszczyk.org/2021/01/19/cloud-native-predictions-for-2021-and-beyond/</guid>
+  <pubDate>Fri, 29 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>GitOps-based Policy Management: How to Scale in a Multi-Node, Multicloud World</title>
+  <link>https://www.weave.works/blog/gitops-based-policy-management-multicloud</link>
+  <description>This post walks you through the common challenges faced in multi-cluster environments, and discuss how GitOps and effective policy management simplifies large-scale Kubernetes deployments anywhere.</description>
+  <guid isPermaLink="false">https://www.weave.works/blog/gitops-based-policy-management-multicloud</guid>
+  <pubDate>Fri, 29 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Scaling Kubernetes to 7,500 Nodes</title>
+  <link>https://openai.com/blog/scaling-kubernetes-to-7500-nodes/</link>
+  <description>OpenAI scaled Kubernetes clusters to 7,500 nodes. Scaling a single Kubernetes cluster to this size is rarely done and requires some special care, but the upside is a simple infrastructure that allows our machine learning research teams to move faster and scale up without changing their code.</description>
+  <guid isPermaLink="false">https://openai.com/blog/scaling-kubernetes-to-7500-nodes/</guid>
+  <pubDate>Fri, 29 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A Deeper Dive into our May 2019 Security Incident</title>
+  <link>https://stackoverflow.blog/2021/01/25/a-deeper-dive-into-our-may-2019-security-incident/</link>
+  <description>Back in May 2019, Stack Overflow had a security incident. They’re now in a position to give more detail about what happened, how it happened, and what they did to address the underlying issues that allowed the incident to occur.</description>
+  <guid isPermaLink="false">https://stackoverflow.blog/2021/01/25/a-deeper-dive-into-our-may-2019-security-incident/</guid>
+  <pubDate>Fri, 29 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>After Three Decades, You Can Finally Have A Distributed SQL Database</title>
+  <link>https://www.nextplatform.com/2021/01/25/after-three-decades-you-can-finally-have-a-distributed-sql-database/</link>
+  <description>The Next Platform interviews Timothy Prickett Morgan, the CEO of Coachroach Labs to check in and see what the plan is for the years ahead and to take the pulse of the emerging database set.</description>
+  <guid isPermaLink="false">https://www.nextplatform.com/2021/01/25/after-three-decades-you-can-finally-have-a-distributed-sql-database/</guid>
+  <pubDate>Fri, 29 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Rust in Production: 1Password</title>
+  <link>https://serokell.io/blog/rust-in-production-1password</link>
+  <description>Rust has taken the programming language world by storm. In an interview with Michael Fey, VP of Engineering at 1Password, find out why they chose Rust for their product, the benefits of Rust for security-centered applications, and what cool libraries you should look into if you’re developing something similar in Rust.</description>
+  <guid isPermaLink="false">https://serokell.io/blog/rust-in-production-1password</guid>
+  <pubDate>Fri, 29 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Cloud DevOps With OpenShift and Jfrog</title>
+  <link>https://www.openshift.com/blog/cloud-devops-with-openshift-and-jfrog</link>
+  <description>How do you manage Kubernetes across the cloud providers? OpenShift, OpenShift Pipelines, and the JFrog platform achieve this goal of providing universal infrastructure and a development platform across cloud and on-premise.</description>
+  <guid isPermaLink="false">https://www.openshift.com/blog/cloud-devops-with-openshift-and-jfrog</guid>
+  <pubDate>Fri, 29 Jan 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A Guide to the Best SRE Tools</title>
+  <link>https://www.getcortexapp.com/post/a-guide-to-the-best-sre-tools</link>
+  <description>There are a lot of SRE tools out there, and it can be hard to know which ones are the most important to consider. Cortex compiled this guide to highlight the key categories of SRE tools and help you find the right fit for your team.</description>
+  <guid isPermaLink="false">https://www.getcortexapp.com/post/a-guide-to-the-best-sre-tools</guid>
+  <pubDate>Fri, 05 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Exploring the Multi-Account AWS Environment and Reducing Costs with It</title>
+  <link>https://www.lozanomatheus.com/post/exploring-the-multi-account-aws-environment-and-reducing-costs-with-it</link>
+  <description>It’s basically having multiple accounts for specific goals, could be per team, per environment, per project. There are a lot of good things you’ll get by following this best-practice, like centralized management (consolidated billing, accounts, etc), define policies per account or Organizational Unit (like audit/log is mandatory, tag policy, MFA is mandatory, etc) and many other things.</description>
+  <guid isPermaLink="false">https://www.lozanomatheus.com/post/exploring-the-multi-account-aws-environment-and-reducing-costs-with-it</guid>
+  <pubDate>Fri, 05 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Hire Senior Developers: Give Them More Autonomy</title>
+  <link>https://hiringengineersbook.com/post/autonomy/</link>
+  <description>If you’re in a management position, you need to realize that development is mainly decision making, which of course only works if you’re given the necessary autonomy to make those decisions. I believe this realization is one of the main reasons many successful companies have a better engineering culture.</description>
+  <guid isPermaLink="false">https://hiringengineersbook.com/post/autonomy/</guid>
+  <pubDate>Fri, 05 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Defending Software Build Pipelines from Malicious Attack</title>
+  <link>https://www.ncsc.gov.uk/blog-post/defending-software-build-pipelines-from-malicious-attack</link>
+  <description>Compromise of your software build pipeline can have wide-reaching impact; here's how to tackle the problem.</description>
+  <guid isPermaLink="false">https://www.ncsc.gov.uk/blog-post/defending-software-build-pipelines-from-malicious-attack</guid>
+  <pubDate>Fri, 05 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Where's the Fastest Place to Put My Server? How Much Does it Matter?</title>
+  <link>http://calpaterson.com/latency.html</link>
+  <description>To estimate what the theoretical best physical place to put his own server, Cal Paterson combined publicly publicly available data on latencies with his own web server accesslogs.</description>
+  <guid isPermaLink="false">http://calpaterson.com/latency.html</guid>
+  <pubDate>Fri, 05 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Notes on Martin Fowler's: The Many Meanings of Event-Driven Architecture</title>
+  <link>https://hugoreeves.com/notes/2021/the-many-meanings-of-event-driven-architecture/</link>
+  <description>Martin explains there are several different understandings of what Event-Driven Architecture is. All of these are valid but are distinct in their actual form. Martin delves into four of these.</description>
+  <guid isPermaLink="false">https://hugoreeves.com/notes/2021/the-many-meanings-of-event-driven-architecture/</guid>
+  <pubDate>Fri, 05 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>WTF Is Design Thinking?</title>
+  <link>https://blog.container-solutions.com/wtf-is-design-thinking</link>
+  <description>Design Thinking is a method for getting solutions to problems that really work for the people you’re designing for. Applying it gives you more focus on the real problem, more understanding of the people involved, and ideas that really work.</description>
+  <guid isPermaLink="false">https://blog.container-solutions.com/wtf-is-design-thinking</guid>
+  <pubDate>Fri, 05 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Why It Matters Whether Hashed Passwords Are Personal Information Under U.S. Law</title>
+  <link>https://www.jdsupra.com/legalnews/why-it-matters-whether-hashed-passwords-3305065/</link>
+  <description>Are hashed passwords secure? Or, perhaps more importantly from a legal perspective, does an unauthorized person having access to a username/email address and an accompanying hashed password “permit access to an online account?”</description>
+  <guid isPermaLink="false">https://www.jdsupra.com/legalnews/why-it-matters-whether-hashed-passwords-3305065/</guid>
+  <pubDate>Fri, 05 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Containerize All the Things with Ubuntu Core 20</title>
+  <link>https://arstechnica.com/gadgets/2021/02/ubuntu-core-20-adds-secure-boot-with-hardware-backed-encryption/</link>
+  <description>Canonical released Ubuntu Core 20 this week. Ubuntu Core relies almost entirely on Canonical's relatively new snap package format which attempts to make everything a container.</description>
+  <guid isPermaLink="false">https://arstechnica.com/gadgets/2021/02/ubuntu-core-20-adds-secure-boot-with-hardware-backed-encryption/</guid>
+  <pubDate>Fri, 05 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>New Malware Hijacks Kubernetes Clusters to Mine Monero</title>
+  <link>https://threatpost.com/new-malware-hijacks-kubernetes-clusters-to-mine-monero/163629/</link>
+  <description>While Hildegard, initially detected in January 2021, is initially being used to launch cryptojacking operations, researchers believe that the campaign may still be in the reconnaissance and weaponization stage. Eventually, they warn, TeamTNT may launch a more large-scale cryptojacking attack via Kubernetes environments or steal data from applications running in Kubernetes clusters.</description>
+  <guid isPermaLink="false">https://threatpost.com/new-malware-hijacks-kubernetes-clusters-to-mine-monero/163629/</guid>
+  <pubDate>Fri, 05 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Terraform IaC from Scratch to Scale: Monolith vs. Layers</title>
+  <link>https://www.padok.fr/en/blog/terraform-iac-multi-layering</link>
+  <description>When it comes to deciding how to start an Infrastructure as Code project from scratch with Terraform, you certainly will experience some struggling questions. This article explores two different approaches to organizing your code: Monolith vs. Layers.</description>
+  <guid isPermaLink="false">https://www.padok.fr/en/blog/terraform-iac-multi-layering</guid>
+  <pubDate>Fri, 12 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Deployment Frequency – A Key Metric in DevOps</title>
+  <link>https://humanitec.com/blog/deployment-frequency-key-metric-in-devops</link>
+  <description>Having the means to measure and assess the effectiveness of your DevOps strategy is critical to achieving and surpassing your goals. This article takes a look at the benefits of monitoring deployment frequency and why top-performing companies identify frequent deployment as a measure of success.</description>
+  <guid isPermaLink="false">https://humanitec.com/blog/deployment-frequency-key-metric-in-devops</guid>
+  <pubDate>Fri, 12 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Normalizing AWS IAM Policies for Automation</title>
+  <link>https://steampipe.io/blog/normalizing-aws-iam-policies-for-automated-analysis</link>
+  <description>All interactions with AWS resources are governed by policies implemented by AWS Identity and Access Management (IAM). This article discusses the choices and tradeoffs while standardizing the IAM policy format for access via SQL and shows off the potential of IAM Policy analysis when normalized.</description>
+  <guid isPermaLink="false">https://steampipe.io/blog/normalizing-aws-iam-policies-for-automated-analysis</guid>
+  <pubDate>Fri, 12 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Slack’s Outage on January 4th 2021</title>
+  <link>https://slack.engineering/slacks-outage-on-january-4th-2021/</link>
+  <description>Slack walks through their the investigation behind the beginning of the year outage the ultimately ends up being related to AWS auto-scaling.</description>
+  <guid isPermaLink="false">https://slack.engineering/slacks-outage-on-january-4th-2021/</guid>
+  <pubDate>Fri, 12 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Buildpacks vs Dockerfiles</title>
+  <link>https://technology.doximity.com/articles/buildpacks-vs-dockerfiles</link>
+  <description>Doximity has thought a lot about how to navigate the container image-building ecosystem. This is why they decided to prioritize a buildpacks-based image building workflow over a Dockerfile one.</description>
+  <guid isPermaLink="false">https://technology.doximity.com/articles/buildpacks-vs-dockerfiles</guid>
+  <pubDate>Fri, 12 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>DevOps: 5 Habits of Successful Leaders</title>
+  <link>https://enterprisersproject.com/article/2021/2/devops-5-habits-successful-leaders</link>
+  <description>A strong DevOps culture usually spreads widely and organically. It also requires strong leaders who manage their teams in ways that are generative to that culture – and possess many of the same attributes that they’re hoping to cultivate.</description>
+  <guid isPermaLink="false">https://enterprisersproject.com/article/2021/2/devops-5-habits-successful-leaders</guid>
+  <pubDate>Fri, 12 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Exploring Kubernetes Operator Pattern</title>
+  <link>https://iximiuz.com/en/posts/kubernetes-operator-pattern/</link>
+  <description>This article takes a closer look at the Operators pattern, see which Kubernetes parts are involved in operators implementation, and what makes operators feel like first-class Kubernetes citizens.</description>
+  <guid isPermaLink="false">https://iximiuz.com/en/posts/kubernetes-operator-pattern/</guid>
+  <pubDate>Fri, 12 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Comparing the Cloud Shells of AWS, Microsoft Azure, and Google Cloud Platform</title>
+  <link>https://seroter.com/2021/02/03/lets-compare-the-cloud-shells-offered-by-aws-microsoft-azure-and-google-cloud-platform/</link>
+  <description>This post looks at the cloud shells from AWS, Azure, and GCP assessing: shell access, bash vs PowerShell, storage provided, durability period, integrations, embedded tools, code editing options, compute extensibility, and UX.</description>
+  <guid isPermaLink="false">https://seroter.com/2021/02/03/lets-compare-the-cloud-shells-offered-by-aws-microsoft-azure-and-google-cloud-platform/</guid>
+  <pubDate>Fri, 12 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A Visual Guide on Troubleshooting Kubernetes Deployments</title>
+  <link>https://learnk8s.io/troubleshooting-deployments</link>
+  <description>Troubleshooting in Kubernetes can be a daunting task if you don't know where to start. Luckily this article has lots of pictures.</description>
+  <guid isPermaLink="false">https://learnk8s.io/troubleshooting-deployments</guid>
+  <pubDate>Fri, 12 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How Cloud Services Platform Teams Can Drive The Adoption Of Effective SRE Practices</title>
+  <link>https://www.forbes.com/sites/forbestechcouncil/2021/02/04/how-cloud-services-platform-teams-can-drive-the-adoption-of-effective-sre-practices</link>
+  <description>By moving to the cloud under the guidance of a cloud services team, companies can create a clear understanding of what’s in an SRE’s purview and solidify a consistent set of processes for the operations and remediation of incidents.</description>
+  <guid isPermaLink="false">https://www.forbes.com/sites/forbestechcouncil/2021/02/04/how-cloud-services-platform-teams-can-drive-the-adoption-of-effective-sre-practices</guid>
+  <pubDate>Fri, 12 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>"I'm Just Doing my Job," An SRE Myth</title>
+  <link>https://www.blameless.com/blog/im-just-doing-my-job-an-sre-myth</link>
+  <description>SRE can help ensure that teams are customer-focused, even if the best way forward breaks the rules or requires you to re-write them. Two ways SRE accomplishes this are by fostering a culture of blamelessness and using SLOs to glean insights into the customers’ experience.</description>
+  <guid isPermaLink="false">https://www.blameless.com/blog/im-just-doing-my-job-an-sre-myth</guid>
+  <pubDate>Fri, 19 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Open Source Update: School of SRE</title>
+  <link>https://engineering.linkedin.com/blog/2021/open-source-update--school-of-sre</link>
+  <description>A curated curriculum for aspiring site reliability engineers recently open sourced and made available on GitHub. Developed by LinkedIn engineers to equip their new SREs with the knowledge and skills to flourish before integrating with a specific team.</description>
+  <guid isPermaLink="false">https://engineering.linkedin.com/blog/2021/open-source-update--school-of-sre</guid>
+  <pubDate>Fri, 19 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Zero Downtime Release: Disruption-free Load Balancing of a Multi-Billion User Website</title>
+  <link>https://research.fb.com/publications/zero-downtime-release-disruption-free-load-balancing-of-a-multi-billion-user-website/</link>
+  <description>This paper shows how Facebook leverage differents networking infrastructure to prevent or mask any disruptions during releases. Zero Downtime Release is a collection of mechanisms used at Facebook to shield the end-users from any disruptions, preserve the cluster capacity and robustness of the infrastructure when updates are released globally.</description>
+  <guid isPermaLink="false">https://research.fb.com/publications/zero-downtime-release-disruption-free-load-balancing-of-a-multi-billion-user-website/</guid>
+  <pubDate>Fri, 19 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AWS EC2 Launch Configurations vs Launch Templates</title>
+  <link>https://brennerm.github.io/posts/aws-launch-configuration-vs-template.html</link>
+  <description>At first sight AWS launch configurations and templates may seem very similar. Both allow you to define a blueprint for EC2 instances. This post takes a look at their differences and see which one we should prefer.</description>
+  <guid isPermaLink="false">https://brennerm.github.io/posts/aws-launch-configuration-vs-template.html</guid>
+  <pubDate>Fri, 19 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How They SRE</title>
+  <link>https://github.com/upgundecha/howtheysre</link>
+  <description>A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE).</description>
+  <guid isPermaLink="false">https://github.com/upgundecha/howtheysre</guid>
+  <pubDate>Fri, 19 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Parler’s Epic Fail: A Crash Course on Running Your Own Servers with a Shoestring Budget</title>
+  <link>https://blog.alexgleason.me/run-your-own-server/</link>
+  <description>Cloud hosting has made it easy for anyone to run a website, but it's time to cut out the middleman. You can run a real server anywhere there's power and an internet connection. You can run a server from your home. You can run it from a datacenter in an undisclosed location.</description>
+  <guid isPermaLink="false">https://blog.alexgleason.me/run-your-own-server/</guid>
+  <pubDate>Fri, 19 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Staying Safe with .NET Containers</title>
+  <link>https://devblogs.microsoft.com/dotnet/staying-safe-with-dotnet-containers/</link>
+  <description>This post describes Microsoft's approach to helping you stay safe and up-to-date with containers — largely via their container image publishing system — and with associated guidance of the images they publish.</description>
+  <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/staying-safe-with-dotnet-containers/</guid>
+  <pubDate>Fri, 19 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Kubernetes Failure Stories</title>
+  <link>https://k8s.af/</link>
+  <description>A compiled list of links to public failure stories related to Kubernetes.</description>
+  <guid isPermaLink="false">https://k8s.af/</guid>
+  <pubDate>Fri, 19 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Threat Actors Now Target Docker via Container Escape Features""</title>
+  <link>https://www.trendmicro.com/en_us/research/21/b/threat-actors-now-target-docker-via-container-escape-features.html</link>
+  <description>Malicious actors are targeting popular DevOps technologies and finding new ways to attack containers and cloud environments. They are currently implementing security checks to try to exploit a bad implementation and escape from the container to the host or deploy a cryptocurrency miner and profit from their victims’ resources.</description>
+  <guid isPermaLink="false">https://www.trendmicro.com/en_us/research/21/b/threat-actors-now-target-docker-via-container-escape-features.html</guid>
+  <pubDate>Fri, 19 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>12 Requests per Second</title>
+  <link>https://suade.org/dev/12-requests-per-second-with-python/</link>
+  <description>In reality most of the "super-fast" benchmarks mean very little except for a few niche use-cases. If you look at the code in detail, you'll see that they're simple "Hello, World!". As soon as you introduce any actual Python work into the code you'll see those numbers plunge.</description>
+  <guid isPermaLink="false">https://suade.org/dev/12-requests-per-second-with-python/</guid>
+  <pubDate>Fri, 19 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Google Cloud vs AWS Onboarding Comparison</title>
+  <link>https://www.kevinslin.com/notes/ebd7fd65-988f-422a-93f5-b1fe5c3f29ce.html</link>
+  <description>As part of YCW21, Dendron was eligible for significant credits from all major cloud providers. This articles goes over the experience redeeming credits in two in particular: AWS and Google Cloud.</description>
+  <guid isPermaLink="false">https://www.kevinslin.com/notes/ebd7fd65-988f-422a-93f5-b1fe5c3f29ce.html</guid>
+  <pubDate>Fri, 26 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Mistakes I’ve Made as an Engineering Manager</title>
+  <link>https://css-tricks.com/mistakes-ive-made-as-an-engineering-manager/</link>
+  <description>Being a manager is tough. Your mistakes impact people. Sarah her experiences and learnings as a manager for many years at companies of different scales.</description>
+  <guid isPermaLink="false">https://css-tricks.com/mistakes-ive-made-as-an-engineering-manager/</guid>
+  <pubDate>Fri, 26 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Best Practices for REST API Design</title>
+  <link>https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/</link>
+  <description>This article, looks at how to design REST APIs to be easy to understand for anyone consuming them, future-proof, and secure and fast since they serve data to clients that may be confidential.</description>
+  <guid isPermaLink="false">https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/</guid>
+  <pubDate>Fri, 26 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How Can You Not Be Romantic About Programming?</title>
+  <link>https://thorstenball.com/blog/2020/09/08/how-can-you-not-be-romantic-about-programming/</link>
+  <description>Code, we say, can be: neat, nice, clean, crafted, baroque, minimal, solid, defensive, hacky, a hack, art, a piece of shit, the stupidest thing I’ve ever read, beautiful, like a poem.</description>
+  <guid isPermaLink="false">https://thorstenball.com/blog/2020/09/08/how-can-you-not-be-romantic-about-programming/</guid>
+  <pubDate>Fri, 26 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Modules, Monoliths, and Microservices</title>
+  <link>https://tailscale.com/blog/modules-monoliths-and-microservices/</link>
+  <description>You simply don't need to juggle a lot of microservices to get what you want. Architect things the easy way until you're absolutely forced to do them the hard way.</description>
+  <guid isPermaLink="false">https://tailscale.com/blog/modules-monoliths-and-microservices/</guid>
+  <pubDate>Fri, 26 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Engineering Dependability and Fault Tolerance in a Distributed System</title>
+  <link>https://ably.com/blog/engineering-dependability-and-fault-tolerance-in-a-distributed-system</link>
+  <description>This article discusses the concepts of dependability and fault tolerance in detail and explain how the Ably platform is designed with fault tolerant approaches to uphold its dependability guarantees.</description>
+  <guid isPermaLink="false">https://ably.com/blog/engineering-dependability-and-fault-tolerance-in-a-distributed-system</guid>
+  <pubDate>Fri, 26 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Free for Developers</title>
+  <link>https://free-for.dev/#/</link>
+  <description>This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers. This particular list is limited to things that infrastructure developers (System Administrator, DevOps Practitioners, etc.) are likely to find useful.</description>
+  <guid isPermaLink="false">https://free-for.dev/#/</guid>
+  <pubDate>Fri, 26 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>What Is True Resilience? (Hint: It’s Not About Managing Risk)</title>
+  <link>https://www.forbes.com/sites/googlecloud/2021/02/17/what-is-true-resilience-hint-its-not-about-managing-risk/</link>
+  <description>True resilience isn't about managing a particular instance of risk, but being ready for anything through the way you operate. Today’s disasters may come from wild, unanticipated success (leading to traffic spikes) as much as devastating unforeseen failure (be that a natural disaster, a political event, or a system configuration error that cascades into a global outage). </description>
+  <guid isPermaLink="false">https://www.forbes.com/sites/googlecloud/2021/02/17/what-is-true-resilience-hint-its-not-about-managing-risk/</guid>
+  <pubDate>Fri, 26 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Future of Web Software Is HTML-over-WebSockets</title>
+  <link>https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/</link>
+  <description>The dual approach of marrying a Single Page App with an API service has left many dev teams mired in endless JSON wrangling and state discrepancy bugs across two layers. But a new WebSockets-driven approach is catching web developers' attention.</description>
+  <guid isPermaLink="false">https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/</guid>
+  <pubDate>Fri, 26 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Common Nginx Misconfigurations that Leave Your Web Server Open to Attack</title>
+  <link>https://blog.detectify.com/2020/11/10/common-nginx-misconfigurations/</link>
+  <description>Nginx is the web server powering one-third of all websites in the world. Detectify Crowdsource has detected some common Nginx misconfigurations that, if left unchecked, leave your web site vulnerable to attack. Here’s how to find some of the most common misconfigurations before an attacker exploits them.</description>
+  <guid isPermaLink="false">https://blog.detectify.com/2020/11/10/common-nginx-misconfigurations/</guid>
+  <pubDate>Fri, 26 Feb 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Increment: Reliability</title>
+  <link>https://increment.com/reliability/</link>
+  <description>This months issue of Increment shares approaches to reliability and resiliency in our software, technologies, and teams, and offers perspectives on the realities of failure in the systems we build.</description>
+  <guid isPermaLink="false">https://increment.com/reliability/</guid>
+  <pubDate>Fri, 05 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>An Oral History of #hugops</title>
+  <link>https://www.protocol.com/enterprise/oral-history-hugops</link>
+  <description>A little over 10 years ago, a group of operations-oriented engineers decided they were fed up with software developers who didn't care if their code actually worked. Those engineers created the Velocity Conference in order to band together and to come together as a community. That community sparked a revolution known as DevOps.</description>
+  <guid isPermaLink="false">https://www.protocol.com/enterprise/oral-history-hugops</guid>
+  <pubDate>Fri, 05 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How We Minimized the Overhead of Kubernetes in our Job System</title>
+  <link>https://www.datadoghq.com/blog/engineering/moving-a-jobsystem-to-kubernetes/</link>
+  <description>Datadog, moved their job system to Kubernetes. It took substantially more CPU time than before, yet completed jobs at a 40-50% slower rate. This post describes how they solved this performance regression. The solution involved some performance experiment design, light performance tuning, and timing analysis to get back to parity.</description>
+  <guid isPermaLink="false">https://www.datadoghq.com/blog/engineering/moving-a-jobsystem-to-kubernetes/</guid>
+  <pubDate>Fri, 05 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How Etsy Prepared for Historic Volumes of Holiday Traffic in 2020</title>
+  <link>https://codeascraft.com/2021/02/25/how-etsy-prepared-for-historic-volumes-of-holiday-traffic-in-2020/</link>
+  <description>For Etsy, 2020 was a year of unprecedented and volatile growth. Their site traffic leapt up in the second quarter, when lockdowns went into widespread effect, by an amount it normally would have taken several years to achieve. If they over-scaled, there was a risk of wasting money. If they under-scaled, it could have been much worse for their sellers.</description>
+  <guid isPermaLink="false">https://codeascraft.com/2021/02/25/how-etsy-prepared-for-historic-volumes-of-holiday-traffic-in-2020/</guid>
+  <pubDate>Fri, 05 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Jonah Edwards - Internet Archive Infrastructure</title>
+  <link>https://archive.org/details/jonah-edwards-presentation</link>
+  <description>[Video] Jonah Edwards runs the core infrastructure team at the Internet Archive. In this video he goes through the scale of the infrastructure that runs the Internet Archive.</description>
+  <guid isPermaLink="false">https://archive.org/details/jonah-edwards-presentation</guid>
+  <pubDate>Fri, 05 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Why You Should Take a Look at Nomad before Jumping on Kubernetes</title>
+  <link>https://atodorov.me/2021/02/27/why-you-should-take-a-look-at-nomad-before-jumping-on-kubernetes/</link>
+  <description>A decent part of the proposals for a “new Kubernetes” are design choices made by Hashicorp's Nomad, which is a pretty underrated orchestrator, and drastically simpler.</description>
+  <guid isPermaLink="false">https://atodorov.me/2021/02/27/why-you-should-take-a-look-at-nomad-before-jumping-on-kubernetes/</guid>
+  <pubDate>Fri, 05 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Principles of a Good Product Roadmap</title>
+  <link>https://productcrunch.substack.com/p/principles-of-a-good-product-roadmap</link>
+  <description>Can the characteristics of an agile roadmap be distilled into a set of universal principles? Principles help you assess an existing roadmap or create a roadmap with them in mind. The result is an attempt at defining agile roadmapping principles.</description>
+  <guid isPermaLink="false">https://productcrunch.substack.com/p/principles-of-a-good-product-roadmap</guid>
+  <pubDate>Fri, 05 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Microsoft previews Windows Server 2022</title>
+  <link>https://www.theregister.com/2021/03/02/microsoft_previews_windows_server_2022/</link>
+  <description>Windows Server releases every three years or so, and continues to make progress on its goals of easier administration, removing reliance on the server desktop GUI, and stripping down the operating system so that most features are optional components.</description>
+  <guid isPermaLink="false">https://www.theregister.com/2021/03/02/microsoft_previews_windows_server_2022/</guid>
+  <pubDate>Fri, 05 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Retry Pattern in Microservices</title>
+  <link>https://engineering.mercari.com/en/blog/entry/20210126-retry-pattern-in-microservices/</link>
+  <description>This blog post provides an understanding of the retry pattern used in microservices architecture, why it should be used, a few considerations while using the retry pattern, and how to use it in Python.</description>
+  <guid isPermaLink="false">https://engineering.mercari.com/en/blog/entry/20210126-retry-pattern-in-microservices/</guid>
+  <pubDate>Fri, 05 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SolarWind, Enough with the Password Already!</title>
+  <link>https://gru.gq/2021/02/28/solarwind-enough-with-the-password-already/</link>
+  <description>This is a discussion on the complexity of the SolarWind hack. Could SolarWind have been too difficult for the KGB to use them in an enablement operation? Yes. Of course, SolarWind wasn’t close to reaching that level.</description>
+  <guid isPermaLink="false">https://gru.gq/2021/02/28/solarwind-enough-with-the-password-already/</guid>
+  <pubDate>Fri, 05 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>DevOps vs SRE: Enabling Efficiency and Resiliency</title>
+  <link>https://harness.io/blog/devops/sre-vs-devops/</link>
+  <description>Understanding the overlap and differences between the two skillsets and organizations is important. Both solve very distinct challenges with unique and innovative approaches, ushering in new paradigms in technology.</description>
+  <guid isPermaLink="false">https://harness.io/blog/devops/sre-vs-devops/</guid>
+  <pubDate>Fri, 12 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>CI/CD Review - How DevOps in Real Life &amp; Mature Organizations Works</title>
+  <link>https://julie.io/writing/ci-cd-review/</link>
+  <description>This exercise focuses on DevOps in practice, not in theory. After going through the questions, you should be able to better gauge your confidence in your practices meeting the requirements of your use case. It will also help you figure out what is the next practice you want to improve upon.</description>
+  <guid isPermaLink="false">https://julie.io/writing/ci-cd-review/</guid>
+  <pubDate>Fri, 12 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Best Practices Can Slow Your Application Down</title>
+  <link>https://stackoverflow.blog/2021/03/03/best-practices-can-slow-your-application-down/</link>
+  <description>In order to get the most performant site possible when building the codebase for the public Stack Overflow site, they didn’t always follow best practices.</description>
+  <guid isPermaLink="false">https://stackoverflow.blog/2021/03/03/best-practices-can-slow-your-application-down/</guid>
+  <pubDate>Fri, 12 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Many Faces of a 10x Software Engineer</title>
+  <link>https://www.worldofbs.com/ten-x-engineer/</link>
+  <description>Everybody wants to hire, or to be, a 10x software engineer at the company. Some forms of a 10x engineer are actually detrimental to the company. The only thing that is constant about a 10x engineer is that they produce 10x the PERCEIVED work relative to their peers.</description>
+  <guid isPermaLink="false">https://www.worldofbs.com/ten-x-engineer/</guid>
+  <pubDate>Fri, 12 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>You Don’t Need All That Complex/Expensive/Distracting Infrastructure</title>
+  <link>https://blog.usejournal.com/you-dont-need-all-that-complex-expensive-distracting-infrastructure-a70dbe0dbccb?gi=1744e357116c</link>
+  <description>How do you run your web products? Kubernetes clusters? Load balancers across multiple cloud regions? Zero-click, Blue-Green deployment based on real-time metrics from a continuous deployment pipeline? It’s all really cool. But it’s all a nightmare.</description>
+  <guid isPermaLink="false">https://blog.usejournal.com/you-dont-need-all-that-complex-expensive-distracting-infrastructure-a70dbe0dbccb?gi=1744e357116c</guid>
+  <pubDate>Fri, 12 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Building a Scalable Monolith</title>
+  <link>https://adlrocha.substack.com/p/adlrocha-building-a-scalable-monolith</link>
+  <description>Monolith or microservices? The truth is that there is no “one size fits all” solution, and each architecture will fit different purposes, systems and companies.</description>
+  <guid isPermaLink="false">https://adlrocha.substack.com/p/adlrocha-building-a-scalable-monolith</guid>
+  <pubDate>Fri, 12 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Understanding the Kubernetes Event Horizon</title>
+  <link>https://www.weave.works/blog/understanding-kubernetes-events</link>
+  <description>Every part of Kubernetes sends out Events. Events are small messages telling you what is happening inside each component purely for diagnostic purposes, not to trigger any behaviour.</description>
+  <guid isPermaLink="false">https://www.weave.works/blog/understanding-kubernetes-events</guid>
+  <pubDate>Fri, 12 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>HTTPWTF</title>
+  <link>https://httptoolkit.tech/blog/http-wtf/</link>
+  <description>HTTP is fundamental to modern development, but like any widespread standard, it's got some funky skeletons in the closet. Some of these skeletons are little-known but genuinely useful features, some of them are legacy oddities relied on by billions of connections daily, and some of them really shouldn't exist at all.</description>
+  <guid isPermaLink="false">https://httptoolkit.tech/blog/http-wtf/</guid>
+  <pubDate>Fri, 12 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Atlas: Our Journey from a Python Monolith to a Managed Platform</title>
+  <link>https://dropbox.tech/infrastructure/atlas--our-journey-from-a-python-monolith-to-a-managed-platform</link>
+  <description>Dropbox needs to be a reliable and responsive service. In this post, they’ll explain why and how they developed and deployed Atlas, a platform which provides the majority of benefits of a Service Oriented Architecture, while minimizing the operational cost that typically comes with owning a service.</description>
+  <guid isPermaLink="false">https://dropbox.tech/infrastructure/atlas--our-journey-from-a-python-monolith-to-a-managed-platform</guid>
+  <pubDate>Fri, 12 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Don’t Blame Bad Software on Developers – Blame it on their Managers (2015)</title>
+  <link>https://swreflections.blogspot.com/2015/07/dont-blame-bad-software-on-developers.html</link>
+  <description>Managers – not developers – decide what quality means for the organization. What is good, and what is “good enough”.</description>
+  <guid isPermaLink="false">https://swreflections.blogspot.com/2015/07/dont-blame-bad-software-on-developers.html</guid>
+  <pubDate>Fri, 12 Mar 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Deal with Difficult People on Software Projects</title>
+  <link>https://www.howtodeal.dev/</link>
+  <description>This fun guide is primarily meant for people in a managerial or leadership role, but it's also a tool for self-identification, self-reflection, and self-improvement.</description>
+  <guid isPermaLink="false">https://www.howtodeal.dev/</guid>
+  <pubDate>Fri, 19 Mar 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Build an SRE Team with a Growth Mindset</title>
+  <link>https://www.blameless.com/blog/how-to-build-an-sre-team-with-a-growth-mindset</link>
+  <description>SRE team should be your champions for cultural development. To drive change, SREs need to embody a growth mindset. They need to believe that their own abilities and perspectives can always grow, and encourage this mindset across the organization.</description>
+  <guid isPermaLink="false">https://www.blameless.com/blog/how-to-build-an-sre-team-with-a-growth-mindset</guid>
+  <pubDate>Fri, 19 Mar 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The 5 Common Mistakes Of New Engineering Managers</title>
+  <link>https://ochronus.online/the-5-common-mistakes-of-new-engineering-managers/</link>
+  <description>(1) Still doing much technical work (2) Not giving enough holistic feedback (3) Doing all the project management (4) Not sharing enough information with the team (5) Not doing one-on-one coaching</description>
+  <guid isPermaLink="false">https://ochronus.online/the-5-common-mistakes-of-new-engineering-managers/</guid>
+  <pubDate>Fri, 19 Mar 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How HashiCorp Works</title>
+  <link>https://works.hashicorp.com/</link>
+  <description>How HashiCorp Works started as an internal resource to document practices to help new employees be successful. This encouraged them to make the implicit explicit and turn siloed knowledge into knowledge that could be used by anyone.</description>
+  <guid isPermaLink="false">https://works.hashicorp.com/</guid>
+  <pubDate>Fri, 19 Mar 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Reverse Engineering a Docker Image</title>
+  <link>https://theartofmachinery.com/2021/03/18/reverse_engineering_a_docker_image.html</link>
+  <description>The Docker image format is a lot more transparent than it could be. A little detective work is needed, but a lot can be figured out just by pulling apart an image file.</description>
+  <guid isPermaLink="false">https://theartofmachinery.com/2021/03/18/reverse_engineering_a_docker_image.html</guid>
+  <pubDate>Fri, 19 Mar 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Awesome .NET Performance</title>
+  <link>https://github.com/adamsitnik/awesome-dot-net-performance</link>
+  <description>A curated list of awesome .NET Performance books, courses, trainings, conference talks, blogs and most inspiring open source contributors.</description>
+  <guid isPermaLink="false">https://github.com/adamsitnik/awesome-dot-net-performance</guid>
+  <pubDate>Fri, 19 Mar 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Stack Overflow for Teams is Now Free Forever for Up to 50 Users</title>
+  <link>https://stackoverflow.blog/2021/03/17/stack-overflow-for-teams-is-now-free-forever-for-up-to-50-users/</link>
+  <description>Stack Overflow for Teams, combines the best features of the public Stack Overflow platform with features tailored for companies who need a private knowledge sharing and async collaboration platform.</description>
+  <guid isPermaLink="false">https://stackoverflow.blog/2021/03/17/stack-overflow-for-teams-is-now-free-forever-for-up-to-50-users/</guid>
+  <pubDate>Fri, 19 Mar 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Open Source Solutions for Chaos Engineering in Kubernetes</title>
+  <link>https://blog.flant.com/chaos-engineering-in-kubernetes-open-source-tools/</link>
+  <description>Chaos engineering for Kubernetes gets more and more popular, and rightly so: after all, K8s was designed with the ideas of availability and resiliency in mind. Therefore these marvelous features must be tested on real-life projects occasionally. Fortunately, there are many Open Source solutions available that can help you with experimenting.</description>
+  <guid isPermaLink="false">https://blog.flant.com/chaos-engineering-in-kubernetes-open-source-tools/</guid>
+  <pubDate>Fri, 19 Mar 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>ConsoleMe: A Central Control Plane for AWS Permissions</title>
+  <link>https://netflixtechblog.com/consoleme-a-central-control-plane-for-aws-permissions-and-access-fd09afdd60a8</link>
+  <description>At AWS re:Invent 2020, Netflix open sourced two new tools for managing multi-account AWS permissions and access, ConsoleMe and its CLI utility, Weep!</description>
+  <guid isPermaLink="false">https://netflixtechblog.com/consoleme-a-central-control-plane-for-aws-permissions-and-access-fd09afdd60a8</guid>
+  <pubDate>Fri, 19 Mar 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>GitHub Action for Azure Policy Compliance Scan</title>
+  <link>https://github.com/Azure/policy-compliance-scan</link>
+  <description>With the Azure Policy Compliance Scan action, you can now easily trigger a on demand scan from your GitHub workflow on one or multiple resources, resource groups or subscriptions, and continue/fail the workflow based on the compliance state of resources. You can also use this Github Action to generate a report on the compliance state of scanned resources for further analysis or archiving.</description>
+  <guid isPermaLink="false">https://github.com/Azure/policy-compliance-scan</guid>
+  <pubDate>Fri, 19 Mar 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Long-term Strategies, OpenTelemetry, and the Value of Boring Systems</title>
+  <link>https://www.opslevel.com/blog/opslevel-convos-paul-osman/</link>
+  <description>This is an interview with Paul Osman who worked at Under Armour, PagerDuty, and now Honeycomb. In this interview, he discusses prioritizing observability through OpenTelemetry and that there's no such thing as uncool architecture - there's just architecture that works.</description>
+  <guid isPermaLink="false">https://www.opslevel.com/blog/opslevel-convos-paul-osman/</guid>
+  <pubDate>Fri, 01 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>What Developer Self-Service Shouldn't Look Like</title>
+  <link>https://humanitec.com/blog/what-developer-self-service-shouldnt-look-like</link>
+  <description>When adopting DevOps, some organizations apply the "you built it, you run it" approach while others have an ops engineer do all the lifting. The vast majority, however, end up somewhere between. Recognize that Dev and Ops are two different skill sets and seek to achieve a balance that allows them to understand what's going on without leaving them to fail or get completely bogged down in operational support.</description>
+  <guid isPermaLink="false">https://humanitec.com/blog/what-developer-self-service-shouldnt-look-like</guid>
+  <pubDate>Fri, 01 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>What is Expected in the SRE Role?</title>
+  <link>https://spike.sh/blog/sre-role-2021-analysed-30-job-postings/</link>
+  <description>There's been a huge uptick in the number of SRE jobs. This article breaks down patterns in those description and concludes the SRE role is more than infrastructure and CI / CD. While I agree with the statement, the metrics tell another story. Just like DevOps, Agile, etc. most organization adopt nomenclature without changing their actual practices.</description>
+  <guid isPermaLink="false">https://spike.sh/blog/sre-role-2021-analysed-30-job-postings/</guid>
+  <pubDate>Fri, 01 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How Big Tech Runs Projects and the Curious Absence of Scrum</title>
+  <link>https://newsletter.pragmaticengineer.com/p/project-management-in-tech</link>
+  <description>[Long Read] After surveying over 100 companies, Gergely Orosz shares some patterns across different organization types such as big tech, venture-funded startups, non-tech companies, and consultancies. By looking at developer satisfaction and what the big tech companies do, he provides recommendations for how to run projects and when Scrum actually makes sense.</description>
+  <guid isPermaLink="false">https://newsletter.pragmaticengineer.com/p/project-management-in-tech</guid>
+  <pubDate>Fri, 01 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Partitioning GitHub's Relational Databases to Handle Scale</title>
+  <link>https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/</link>
+  <description>GitHub was started 10 years ago as a simple Ruby application build on a single MySQL database. Over time, they've split out certain data, but eventually they moved to a partitioned database to support horizontal scaling. This is the story of how they executed that transition without downtime.</description>
+  <guid isPermaLink="false">https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/</guid>
+  <pubDate>Fri, 01 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Case for Developer Experience</title>
+  <link>https://future.a16z.com/the-case-for-developer-experience/</link>
+  <description>[Long Read] There are more and more developers, which of course means more developer tools. Jean Yang breaks current tools into abstraction tools and complexity-exploring tools. There's been a lot of focus on abstraction tools, but software is increasingly complex and there's still a lack of tools that help developers deal with this complexity. She encourages the creation of new observability tools that work with existing ecosystems and companies to be willing to try these tools without expecting anything to be the silver bullet.</description>
+  <guid isPermaLink="false">https://future.a16z.com/the-case-for-developer-experience/</guid>
+  <pubDate>Fri, 01 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Ask HN: How Do You Do Estimates in 2021?</title>
+  <link>https://news.ycombinator.com/item?id=28662856</link>
+  <description>In this thread, a software development managers asks Hacker News how to improve his estimates after 20 years of agile and only delivering 20-30% of promised features. You see the classic answers like: t-shirt sizing and multiplying estimates by pi. Interestingly though a large percentage of teams are no-longer doing estimation.</description>
+  <guid isPermaLink="false">https://news.ycombinator.com/item?id=28662856</guid>
+  <pubDate>Fri, 01 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Designing Low Upkeep Software</title>
+  <link>https://www.jefftk.com/p/designing-low-upkeep-software</link>
+  <description>This is a short one without a lot of actionable content, but I liked the idea of thinking about how you'd design software based primarily on future maintenance. In general, avoid dependencies and stick to core technologies and LTS releases.</description>
+  <guid isPermaLink="false">https://www.jefftk.com/p/designing-low-upkeep-software</guid>
+  <pubDate>Fri, 01 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Why we Spent the Last Month Eliminating PostgreSQL Subtransactions</title>
+  <link>https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/</link>
+  <description>[Long Read] Since last June, GitLab would mysteriously stall for minutes leading to 500 errors. While the solution is provided (even showing the specific pull requests), the beauty of this post is its detailed walkthrough of how they tracked down the issue.</description>
+  <guid isPermaLink="false">https://about.gitlab.com/blog/2021/09/29/why-we-spent-the-last-month-eliminating-postgresql-subtransactions/</guid>
+  <pubDate>Fri, 08 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>More Details About the October 4 Outage</title>
+  <link>https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/</link>
+  <description>This week, Facebook and their affiliated services WhatsApp and Instagram went down due to a faulty script and a bug in their audit tools. This is the fuffy, simplified version of the event.</description>
+  <guid isPermaLink="false">https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/</guid>
+  <pubDate>Fri, 08 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Understanding How Facebook Disappeared from the Internet</title>
+  <link>https://blog.cloudflare.com/october-2021-facebook-outage/</link>
+  <description>When Facebook and Co. went down, Cloudflare thought it might have been something on their end. This is a more indepth explanation of how BGP and DNS work in relation to the Facebook outage and how traffic on other sites was affected as everyone tried to figure out what was going on.</description>
+  <guid isPermaLink="false">https://blog.cloudflare.com/october-2021-facebook-outage/</guid>
+  <pubDate>Fri, 08 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Do Not use AWS CloudFormation</title>
+  <link>https://gswallow.medium.com/do-not-use-aws-cloudformation-7cf61f58bd5f</link>
+  <description>When should you use CloudFormation? According to Greg Swallows, almost never. Terraform works directly against AWS API which makes it faster and easier to troubleshoot.</description>
+  <guid isPermaLink="false">https://gswallow.medium.com/do-not-use-aws-cloudformation-7cf61f58bd5f</guid>
+  <pubDate>Fri, 08 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AWS Cloud Control API, a Uniform API to Access AWS &amp; Third-Party Services</title>
+  <link>https://aws.amazon.com/blogs/aws/announcing-aws-cloud-control-api/</link>
+  <description>AWS has announced their Cloud Control API, a set of common APIs to make it easy to manage AWS services. They key here is common, since before you'd have very different request and response structures when working with AWS services. It exposes five common verbs: CreateResource, GetResource, UpdateResource, DeleteResource, and ListResource.</description>
+  <guid isPermaLink="false">https://aws.amazon.com/blogs/aws/announcing-aws-cloud-control-api/</guid>
+  <pubDate>Fri, 08 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Groot: eBay’s Event-graph-based Approach for Root Cause Analysis</title>
+  <link>https://tech.ebayinc.com/research/groot-ebays-event-graph-based-approach-for-root-cause-analysis/</link>
+  <description>eBay partnered with the University of Illinois Urbana-Champaign and Peking University to create a novel, event-driven and graph-based approach to conduct root cause analysis investigations. The framework was able to provide the root cause of issues significantly more accurately than traditional service-dependency mappings.</description>
+  <guid isPermaLink="false">https://tech.ebayinc.com/research/groot-ebays-event-graph-based-approach-for-root-cause-analysis/</guid>
+  <pubDate>Fri, 08 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>2021 Accelerate State of DevOps Report</title>
+  <link>https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report</link>
+  <description>Unfortunately, you'll have to sign up if you want to download the Google's DevOps Research and Assessment team's DevOps report, but this article provide a short summary of the key insights: a healthy team culture mitigates burnout during challenging times, the highest performers continue to raise the bar, SRE and DevOps are complementary philosophies, cloud adoption continues to drive performance, a secure software supply chain is both essential and drives performance, and finally, good documentation is foundational for successfully implementing DevOps capabilities.</description>
+  <guid isPermaLink="false">https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report</guid>
+  <pubDate>Fri, 08 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>20 Things I’ve Learned in my 20 Years as a Software Engineer</title>
+  <link>https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/</link>
+  <description>A feel good list of 20 axioms from Justin Etheredge about the vocation that is software engineering.</description>
+  <guid isPermaLink="false">https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/</guid>
+  <pubDate>Fri, 15 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>From 15,000 Database Connections to Under 100</title>
+  <link>https://www.youtube.com/watch?v=J8J-RX_sULU</link>
+  <description>[Video] In 2012, Digital Ocean created less than 100 droplets per day. By 2017 they created over 140K per day. This is a walk through of how they started with a simple architecture until it no longer worked and then rearchitected for scale.</description>
+  <guid isPermaLink="false">https://www.youtube.com/watch?v=J8J-RX_sULU</guid>
+  <pubDate>Fri, 15 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AWS Lambda Battle 2021</title>
+  <link>https://filia-aleks.medium.com/aws-lambda-battle-2021-performance-comparison-for-all-languages-c1b441005fd1</link>
+  <description>Aleksandr Filichkin compares the performances of different programming languages running on AWS Lambda (NodeJs, Python, Go, Ruby, .NET Core, Java, Rust, and GraalVM). Java and .NET Core have slow cold start times. NodeJS, Ruby, Python, and Java have slow overall performance. Go and Rust are the clear winners.</description>
+  <guid isPermaLink="false">https://filia-aleks.medium.com/aws-lambda-battle-2021-performance-comparison-for-all-languages-c1b441005fd1</guid>
+  <pubDate>Fri, 15 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>.NET ReadyToRun Compilation</title>
+  <link>https://docs.microsoft.com/en-us/dotnet/core/deploying/ready-to-run</link>
+  <description>Piggie backing on the AWS Lambda battle, last month Microsoft announced ahead-of-time compilation. I'm really curious how this affects cold start times on serverless compute. This does require compiling for a specific architecture and leads to much larger binaries.</description>
+  <guid isPermaLink="false">https://docs.microsoft.com/en-us/dotnet/core/deploying/ready-to-run</guid>
+  <pubDate>Fri, 15 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Trigger a Kubernetes HPA with Prometheus Metrics</title>
+  <link>https://sysdig.com/blog/kubernetes-hpa-prometheus/</link>
+  <description>This post walks you through using Keda, an open source project that uses Prometheus queries to scale Kubernetes pods.</description>
+  <guid isPermaLink="false">https://sysdig.com/blog/kubernetes-hpa-prometheus/</guid>
+  <pubDate>Fri, 15 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>OpenTelemetry Support in the Azure SDK for .NET</title>
+  <link>https://devblogs.microsoft.com/azure-sdk/introducing-experimental-opentelemetry-support-in-the-azure-sdk-for-net/</link>
+  <description>Microsoft announced experiemental support for OpenTelemetry in the Azure SDK for .NET. OpenTelemetry unifies instrumentation, collection, and export of distributed tracing data across languages, clouds, and libraries.</description>
+  <guid isPermaLink="false">https://devblogs.microsoft.com/azure-sdk/introducing-experimental-opentelemetry-support-in-the-azure-sdk-for-net/</guid>
+  <pubDate>Fri, 15 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SRE Doesn't Scale</title>
+  <link>https://bravenewgeek.com/sre-doesnt-scale/</link>
+  <description>I didn't particularly like this article, but it gained a lot of traction this week so it's worth sharing. The group at Real Kinetic somehow thought SRE always means microservices which always means developers can choose any language, tools, platform they want. Then they say that SRE doesn't scale because you'd have to hire an army to support this type of entropy. At the end of the article they admit that Google has standards and best practices negating their arguement.</description>
+  <guid isPermaLink="false">https://bravenewgeek.com/sre-doesnt-scale/</guid>
+  <pubDate>Fri, 15 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Eating the Cloud from Outside In</title>
+  <link>https://www.swyx.io/cloudflare-go/</link>
+  <description>"AWS is playing chess. Cloudflare is playing go." Cloudflare is getting lots of love after announcing R2. This is a really good article about their unorthodox strategy of surrounding and smothering alternative services (like the game, go) as opposed to directly competing (as in chess).</description>
+  <guid isPermaLink="false">https://www.swyx.io/cloudflare-go/</guid>
+  <pubDate>Fri, 22 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Redis Anti-Patterns Every Developer Should Avoid</title>
+  <link>https://developer.redis.com/howtos/antipatterns/</link>
+  <description>Redis is the most loved database according to Stack Overflow, and I believe the most common database ran on AWS now. This article shares a list of 12 things to watch out for.</description>
+  <guid isPermaLink="false">https://developer.redis.com/howtos/antipatterns/</guid>
+  <pubDate>Fri, 22 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Multicloud Failover is Almost Always a Terrible Idea</title>
+  <link>https://cloudpundit.com/2021/10/14/multicloud-failover-is-almost-always-a-terrible-idea/</link>
+  <description>A full AWS / Azure / GCP outage of all regions is extremely rare. Even if you use IaaS or containers, there's a ton of effort just understanding the different architectures and features of each cloud provider. The odds of you making an error is higher if you don't stick to one.</description>
+  <guid isPermaLink="false">https://cloudpundit.com/2021/10/14/multicloud-failover-is-almost-always-a-terrible-idea/</guid>
+  <pubDate>Fri, 22 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SRE Toolkit: Failure Domains</title>
+  <link>http://www.willett.io/posts/domains/</link>
+  <description>A simple little article about avoiding cascading failure. Worth reading just for the cartoon cow.</description>
+  <guid isPermaLink="false">http://www.willett.io/posts/domains/</guid>
+  <pubDate>Fri, 22 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Software Developers have Stopped Caring about Reliability</title>
+  <link>https://drewdevault.com/2021/10/17/Reliability.html</link>
+  <description>An opinionated piece fighting against the concept of "move fast and break things". The article is less about reliability and mostly about the overall laziness and lack of craftsmanship in application development - especially when it comes to usability.</description>
+  <guid isPermaLink="false">https://drewdevault.com/2021/10/17/Reliability.html</guid>
+  <pubDate>Fri, 22 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How We Cut Our Load Balancing Cost by More Than 96%</title>
+  <link>https://www.setops.co/blog/aws-communism-part-1-how-we-cut-our-load-balancing-cost</link>
+  <description>I've seen this a number of times... You're overpaying in the cloud because you've provision a resource per application or per service (such as a load balancer) either due to copy and pasting IaC files or some "best practice". Save some money. Share.</description>
+  <guid isPermaLink="false">https://www.setops.co/blog/aws-communism-part-1-how-we-cut-our-load-balancing-cost</guid>
+  <pubDate>Fri, 22 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Nomad vs. Kubernetes</title>
+  <link>https://www.nomadproject.io/docs/nomad-vs-kubernetes</link>
+  <description>If you're already familiar with HashCorp's Nomad skip this one, but K8s get's so much love, I thought this was worth sharing. Nomad offers an architecturally simpler alternative to Kubernetes. This article dives goes into more detail on why Nomad may be a better fit for your containers.</description>
+  <guid isPermaLink="false">https://www.nomadproject.io/docs/nomad-vs-kubernetes</guid>
+  <pubDate>Fri, 22 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>vscode.dev</title>
+  <link>https://code.visualstudio.com/blogs/2021/10/20/vscode-dev</link>
+  <description>Now when you go to https://vscode.dev, you'll be presented with a lightweight version of VS Code running fully in the browser. Open a folder on your local machine and start coding. No install required.</description>
+  <guid isPermaLink="false">https://code.visualstudio.com/blogs/2021/10/20/vscode-dev</guid>
+  <pubDate>Fri, 22 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Four Lessons Every Company Should Learn from the Back-to-Back Facebook Outages</title>
+  <link>https://venturebeat.com/2021/10/10/4-lessons-every-company-should-learn-from-the-back-to-back-facebook-outages/</link>
+  <description>I hope you have AdBlock for this site. Yuck. Here's a summary: (1) Acknowledge human error as a given and aim to compensate for it. (2) Conduct blameless post-mortems. (3) Avoid cascading failures. (4) Favor decentralized IT architectures.</description>
+  <guid isPermaLink="false">https://venturebeat.com/2021/10/10/4-lessons-every-company-should-learn-from-the-back-to-back-facebook-outages/</guid>
+  <pubDate>Fri, 22 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>[Long Read] Incident Review and Postmortem Best Practices</title>
+  <link>https://newsletter.pragmaticengineer.com/p/incident-review-best-practices</link>
+  <description>Gergely Orosz surveys 60 teams and then conducts follow up interviews with Paul Osman from Honeycomb and John Allspaw (one of the early pioneers of the DevOps movement). This post does a great job digging into what teams are doing today and how we can look to other industries to define better ways to handle incidents in the future, including getting rid of the blameless post-mortem.</description>
+  <guid isPermaLink="false">https://newsletter.pragmaticengineer.com/p/incident-review-best-practices</guid>
+  <pubDate>Fri, 29 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Why Network Engineers Should Learn Go</title>
+  <link>https://darrenparkinson.uk/posts/2021-10-13-why-network-engineers-should-learn-go/</link>
+  <description>Despite being a C# guy, Go is the language I recommend to anyone getting into web development for the first time. Darren Parkinson make a similar suggestion for network engineers by referencing Gornir, scrapligo, and many IaC tools.</description>
+  <guid isPermaLink="false">https://darrenparkinson.uk/posts/2021-10-13-why-network-engineers-should-learn-go/</guid>
+  <pubDate>Fri, 29 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A Different and (Often) Better Way to Downsample your Prometheus Metrics</title>
+  <link>https://blog.timescale.com/blog/a-different-and-often-better-way-to-downsample-your-prometheus-metrics/</link>
+  <description>One thing is true of Prometheus metric data: there is a lot of it. As that data ages, individual samples become less important and we care more about the general trends and aggregates. TimescaleDB announced the beta release of Promscale, continuous aggregation that is more timely and accurate than recording rules in many circumstances. </description>
+  <guid isPermaLink="false">https://blog.timescale.com/blog/a-different-and-often-better-way-to-downsample-your-prometheus-metrics/</guid>
+  <pubDate>Fri, 29 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Building a Multi-Region Service Mesh with Kuma/Envoy, Anycast BGP, and mTLS</title>
+  <link>https://www.koyeb.com/blog/building-a-multi-region-service-mesh-with-kuma-envoy-anycast-bgp-and-mtls</link>
+  <description>Koyeb is a global serverless platform. In this article they describe their own geographic load balancing, CDN, and service mesh infrastructure. This design could be applicable to other applications hosted anywhere.</description>
+  <guid isPermaLink="false">https://www.koyeb.com/blog/building-a-multi-region-service-mesh-with-kuma-envoy-anycast-bgp-and-mtls</guid>
+  <pubDate>Fri, 29 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Habits I've Developed for Fast + Efficient Programming</title>
+  <link>https://cprimozic.net/blog/programming-speed-strategies/</link>
+  <description>It you want to be a craftsman, you need to understand your tools. Casey Primozic shares some examples of how he uses his IDE to make him a more efficient programmer.</description>
+  <guid isPermaLink="false">https://cprimozic.net/blog/programming-speed-strategies/</guid>
+  <pubDate>Fri, 29 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>This Resume got me an Interview!</title>
+  <link>https://old.reddit.com/r/recruitinghell/comments/qhg5jo/this_resume_got_me_an_interview/</link>
+  <description>This one has almost nothing to do with site reliability engineering. Angelina Lee shares a fake resume with a few some big name companies and experience like "Led team of 6 engineers to mine Ethereum on company servers" and "Organized team bonding through company potato sack race". The result are hilarious and a little depressing.</description>
+  <guid isPermaLink="false">https://old.reddit.com/r/recruitinghell/comments/qhg5jo/this_resume_got_me_an_interview/</guid>
+  <pubDate>Fri, 29 Oct 2021 05:00:00 GMT</pubDate>
+</item></channel>
+</rss>
