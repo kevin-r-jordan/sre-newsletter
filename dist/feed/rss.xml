@@ -1584,5 +1584,61 @@
   <description>This one has almost nothing to do with site reliability engineering. Angelina Lee shares a fake resume with a few some big name companies and experience like "Led team of 6 engineers to mine Ethereum on company servers" and "Organized team bonding through company potato sack race". The result are hilarious and a little depressing.</description>
   <guid isPermaLink="false">https://old.reddit.com/r/recruitinghell/comments/qhg5jo/this_resume_got_me_an_interview/</guid>
   <pubDate>Fri, 29 Oct 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>GitHub Gets a New CEO</title>
+  <link>https://techcrunch.com/2021/11/03/github-gets-a-new-ceo/</link>
+  <description>GitHub CEO Nat Friedman is stepping down from his role while Thomas Dohmke will become the new CEO. I chose this article over the &lt;a href="https://github.blog/2021-11-03-thank-you-github/" target="_blank"&gt;Nate's announcement&lt;/a&gt; because it gives more of Dohmke's background.</description>
+  <guid isPermaLink="false">https://techcrunch.com/2021/11/03/github-gets-a-new-ceo/</guid>
+  <pubDate>Fri, 05 Nov 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>What the Arrival of IPv6 Support in Kubernetes Means for You</title>
+  <link>https://metal.equinix.com/blog/kubernetes-ipv6-ipv4-dual-stack-networking/</link>
+  <description>IPv6 was introduced in 1995!? Kubernetes now supports using IPv4, IPv6, or both. If you decide to go with IPv6, you may be able to make more of your pods reachable from the internet. Helpful for many scenarios, but this also introduces new security risks.</description>
+  <guid isPermaLink="false">https://metal.equinix.com/blog/kubernetes-ipv6-ipv4-dual-stack-networking/</guid>
+  <pubDate>Fri, 05 Nov 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How We're Building a Production Readiness Review Process at Grafana Labs</title>
+  <link>https://grafana.com/blog/2021/10/13/how-were-building-a-production-readiness-review-process-at-grafana-labs/</link>
+  <description>Grafana shares their 13 page checklist to ensure a new application is ready to go to production. There's a lot of really important things in this list, but many of these items should be automated.</description>
+  <guid isPermaLink="false">https://grafana.com/blog/2021/10/13/how-were-building-a-production-readiness-review-process-at-grafana-labs/</guid>
+  <pubDate>Fri, 05 Nov 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Containers vs. Pods - Taking a Deeper Look</title>
+  <link>https://iximiuz.com/en/posts/containers-vs-pods/</link>
+  <description>Kubernetes containers and pods seem straightforward, but Ivan Velichko noticed some confusing capabilities. In this post, he sets up a lab to deep dive into what's going on behind the scenes of a pod.</description>
+  <guid isPermaLink="false">https://iximiuz.com/en/posts/containers-vs-pods/</guid>
+  <pubDate>Fri, 05 Nov 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How Atlassian Migrated 50 Million BitBucket Repos to AWS</title>
+  <link>https://www.theregister.com/2021/11/03/atlassian_aws/</link>
+  <description>While this article doesn't get into the details, it's interesting when big companies move from their own data center into the cloud. I wish they would describe either their cost savings or operational efficiencies. It really just mentions that most of Atlassian's products are already in AWS and their "incidents dropped to zero" (obviously a limited sample).</description>
+  <guid isPermaLink="false">https://www.theregister.com/2021/11/03/atlassian_aws/</guid>
+  <pubDate>Fri, 05 Nov 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Stand-up Meetings Are Dead (and What To Do Instead)</title>
+  <link>https://www.honeycomb.io/blog/standup-meetings-are-dead/</link>
+  <description>With so many teams being remote, I thought this would be another post on Slack based standups. Thankfully it's not, but instead replaces the idea of the 10 minute standup with a daily, hour long general purpose meeting. I'm a big believer in a daily touchbase with your team. The idea of a longer meeting, but not be popular, but may be worth trying out. Culture is key.</description>
+  <guid isPermaLink="false">https://www.honeycomb.io/blog/standup-meetings-are-dead/</guid>
+  <pubDate>Fri, 05 Nov 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>From One to Many: The Road to Multicluster</title>
+  <link>https://kaslin.rocks/from-one-to-many-the-road-to-multicluster/</link>
+  <description>This is a blog version of Kaslin Fields'' KubeCon keynote. Both are pretty short and describe why you may need a multicluster Kubernetes setup and how SIG-NETWORK could help.</description>
+  <guid isPermaLink="false">https://kaslin.rocks/from-one-to-many-the-road-to-multicluster/</guid>
+  <pubDate>Fri, 05 Nov 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>GitLab Servers are Being Exploited in DDoS Attacks</title>
+  <link>https://therecord.media/gitlab-servers-are-being-exploited-in-ddos-attacks-in-excess-of-1-tbps/</link>
+  <description>With GitHub and BitBucket getting some news, I thought GitLab should get a mention as well. 30,000 GitLab servers look to be exploitable and potentially used to conduct DDoS attacks. Uh oh!</description>
+  <guid isPermaLink="false">https://therecord.media/gitlab-servers-are-being-exploited-in-ddos-attacks-in-excess-of-1-tbps/</guid>
+  <pubDate>Fri, 05 Nov 2021 05:00:00 GMT</pubDate>
 </item></channel>
 </rss>

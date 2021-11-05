@@ -1,0 +1,36 @@
+---
+issue_number:   43
+release_date:   2021-11-05
+is_latest:      true
+status:         published       # draft or published
+
+introduction: |
+    This week the metaverse dominated the news. Facebook changed their name to Meta, and Microsoft announce their own, more business centric version of the metaverse at Ignite 2021.
+    I expect we'll see some great summaries from Ignite in next week's issue of the SRE Newsletter. This week, we hear from the big Git providers. GitHub gets a new CEO, BitBucket moves to AWS, and GitLab... well things are a little rough on GitLab right now.
+
+links:
+    - title:      "GitHub Gets a New CEO"
+      url:        "https://techcrunch.com/2021/11/03/github-gets-a-new-ceo/"
+      summary:    "GitHub CEO Nat Friedman is stepping down from his role while Thomas Dohmke will become the new CEO. I chose this article over the <a href=\"https://github.blog/2021-11-03-thank-you-github/\" target=\"_blank\">Nate's announcement</a> because it gives more of Dohmke's background."
+    - title:      "What the Arrival of IPv6 Support in Kubernetes Means for You"
+      url:        "https://metal.equinix.com/blog/kubernetes-ipv6-ipv4-dual-stack-networking/"
+      summary:    "IPv6 was introduced in 1995!? Kubernetes now supports using IPv4, IPv6, or both. If you decide to go with IPv6, you may be able to make more of your pods reachable from the internet. Helpful for many scenarios, but this also introduces new security risks."
+    - title:      "How We're Building a Production Readiness Review Process at Grafana Labs"
+      url:        "https://grafana.com/blog/2021/10/13/how-were-building-a-production-readiness-review-process-at-grafana-labs/"
+      summary:    "Grafana shares their 13 page checklist to ensure a new application is ready to go to production. There's a lot of really important things in this list, but many of these items should be automated."
+    - title:      "Containers vs. Pods - Taking a Deeper Look"
+      url:        "https://iximiuz.com/en/posts/containers-vs-pods/"
+      summary:    "Kubernetes containers and pods seem straightforward, but Ivan Velichko noticed some confusing capabilities. In this post, he sets up a lab to deep dive into what's going on behind the scenes of a pod."
+    - title:      "How Atlassian Migrated 50 Million BitBucket Repos to AWS"
+      url:        "https://www.theregister.com/2021/11/03/atlassian_aws/"
+      summary:    "While this article doesn't get into the details, it's interesting when big companies move from their own data center into the cloud. I wish they would describe either their cost savings or operational efficiencies. It really just mentions that most of Atlassian's products are already in AWS and their \"incidents dropped to zero\" (obviously a limited sample)."
+    - title:      "Stand-up Meetings Are Dead (and What To Do Instead)"
+      url:        "https://www.honeycomb.io/blog/standup-meetings-are-dead/"
+      summary:    "With so many teams being remote, I thought this would be another post on Slack based standups. Thankfully it's not, but instead replaces the idea of the 10 minute standup with a daily, hour long general purpose meeting. I'm a big believer in a daily touchbase with your team. The idea of a longer meeting, but not be popular, but may be worth trying out. Culture is key."
+    - title:      "From One to Many: The Road to Multicluster"
+      url:        "https://kaslin.rocks/from-one-to-many-the-road-to-multicluster/"
+      summary:    "This is a blog version of Kaslin Fields'' KubeCon keynote. Both are pretty short and describe why you may need a multicluster Kubernetes setup and how SIG-NETWORK could help."
+    - title:      "GitLab Servers are Being Exploited in DDoS Attacks"
+      url:        "https://therecord.media/gitlab-servers-are-being-exploited-in-ddos-attacks-in-excess-of-1-tbps/"
+      summary:    "With GitHub and BitBucket getting some news, I thought GitLab should get a mention as well. 30,000 GitLab servers look to be exploitable and potentially used to conduct DDoS attacks. Uh oh!"
+...      

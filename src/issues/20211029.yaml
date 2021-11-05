@@ -1,7 +1,7 @@
 ---
 issue_number:   42
 release_date:   2021-10-29
-is_latest:      true
+is_latest:      false
 status:         published       # draft or published
 
 introduction: |
