@@ -5,13 +5,18 @@ is_latest:      true
 status:         published       # draft or published
 
 introduction: |
-    This week's issue is a little light, partly because I'm on vacation and partly because a lot of posts just felt like fluffy marketing content.
-    I'm most excited about Visual Studio 2022 and the .NET 6 release, but there's some tidbits for building serverless applications in here, too.
+    This week we announce a lot of new tools. I'm most excited about Visual Studio 2022 and the .NET 6 release, but there's some tidbits for querying AWS, on-call management, and guidelines for building serverless applications too.
 
 links:
     - title:      "5 Anti-Patterns to Avoid in Lambda Based Apps"
       url:        "https://blog.basimhennawi.com/5-anti-patterns-to-avoid-in-lambda-based-apps"
       summary:    "I've actually seen and felt the pain of a few of these patterns. High-level the anti-patterns are: monolith, ochestrator, recursive, functions calling functions, and synchronous wait."
+    - title:      "SLO Alerting for Mortals"
+      url:        "https://ervinbarta.com/2021/10/19/slo-alerting-for-mortals/"
+      summary:    "This graphical post does a great job breaking the math for when you need to start worrying about if you're going to meet your SLOs."
+    - title:      "Querying AWS at Scale Across APIs, Regions, and Accounts"
+      url:        "https://aws.amazon.com/blogs/opensource/querying-aws-at-scale-across-apis-regions-and-accounts/ "
+      summary:    "Steampipe is an open source tool that allows you to use SQL like queries to pull and aggregate data across AWS."
     - title:      "Announcing Grafana OnCall"
       url:        "https://grafana.com/blog/2021/11/09/announcing-grafana-oncall/"
       summary:    "Grafana announced their own on-call management tool. It's currently only available as beta preview in Grafana Cloud."

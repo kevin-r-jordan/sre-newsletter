@@ -1649,9 +1649,23 @@
   <pubDate>Fri, 12 Nov 2021 06:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>SLO Alerting for Mortals</title>
+  <link>https://ervinbarta.com/2021/10/19/slo-alerting-for-mortals/</link>
+  <description>This graphical post does a great job breaking the math for when you need to start worrying about if you're going to meet your SLOs.</description>
+  <guid isPermaLink="false">https://ervinbarta.com/2021/10/19/slo-alerting-for-mortals/</guid>
+  <pubDate>Fri, 12 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Querying AWS at Scale Across APIs, Regions, and Accounts</title>
+  <link>https://aws.amazon.com/blogs/opensource/querying-aws-at-scale-across-apis-regions-and-accounts/</link>
+  <description>Steampipe is an open source tool that allows you to use SQL like queries to pull and aggregate data across AWS.</description>
+  <guid isPermaLink="false">https://aws.amazon.com/blogs/opensource/querying-aws-at-scale-across-apis-regions-and-accounts/ </guid>
+  <pubDate>Fri, 12 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Announcing Grafana OnCall</title>
   <link>https://grafana.com/blog/2021/11/09/announcing-grafana-oncall/</link>
-  <description>While this partially competes with some of the awesome tools I like to build, Grafana announced their on-call management tool. It's currently only available as beta preview in Grafana Cloud.</description>
+  <description>Grafana announced their own on-call management tool. It's currently only available as beta preview in Grafana Cloud.</description>
   <guid isPermaLink="false">https://grafana.com/blog/2021/11/09/announcing-grafana-oncall/</guid>
   <pubDate>Fri, 12 Nov 2021 06:00:00 GMT</pubDate>
 </item>
