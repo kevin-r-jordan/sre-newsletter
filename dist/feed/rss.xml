@@ -1640,5 +1640,40 @@
   <description>With GitHub and BitBucket getting some news, I thought GitLab should get a mention as well. 30,000 GitLab servers look to be exploitable and potentially used to conduct DDoS attacks. Uh oh!</description>
   <guid isPermaLink="false">https://therecord.media/gitlab-servers-are-being-exploited-in-ddos-attacks-in-excess-of-1-tbps/</guid>
   <pubDate>Fri, 05 Nov 2021 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>5 Anti-Patterns to Avoid in Lambda Based Apps</title>
+  <link>https://blog.basimhennawi.com/5-anti-patterns-to-avoid-in-lambda-based-apps</link>
+  <description>I've actually seen and felt the pain of a few of these patterns. High-level the anti-patterns are: monolith, ochestrator, recursive, functions calling functions, and synchronous wait.</description>
+  <guid isPermaLink="false">https://blog.basimhennawi.com/5-anti-patterns-to-avoid-in-lambda-based-apps</guid>
+  <pubDate>Fri, 12 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Announcing Grafana OnCall</title>
+  <link>https://grafana.com/blog/2021/11/09/announcing-grafana-oncall/</link>
+  <description>While this partially competes with some of the awesome tools I like to build, Grafana announced their on-call management tool. It's currently only available as beta preview in Grafana Cloud.</description>
+  <guid isPermaLink="false">https://grafana.com/blog/2021/11/09/announcing-grafana-oncall/</guid>
+  <pubDate>Fri, 12 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Unfulfilled Promise of Serverless</title>
+  <link>https://www.lastweekinaws.com/blog/the-unfulfilled-promise-of-serverless/</link>
+  <description>The first half of this article is good, the last half, ehhh. Luckily it's short. The biggest issue with functions as a service are vendor lock in, and, if it's complex, figuring out how to tie all the pieces together. If you can replace your functions with Wordpress, you probably made some bad decisions.</description>
+  <guid isPermaLink="false">https://www.lastweekinaws.com/blog/the-unfulfilled-promise-of-serverless/</guid>
+  <pubDate>Fri, 12 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Announcing .NET 6</title>
+  <link>https://devblogs.microsoft.com/dotnet/announcing-net-6/</link>
+  <description>Exciting news for C# developers like myself. I've been stuck using .NET Core 3.1 for production apps, but not .NET 6.0 is the next LTS release (supported for 3 years). Many are excited about hot reload which allows you to avoid rebuild + restarting your app to view a new change.</description>
+  <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/announcing-net-6/</guid>
+  <pubDate>Fri, 12 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Google Cloud for the Department of Defense</title>
+  <link>https://cloud.google.com/solutions/federal-government/defense</link>
+  <description>If you do government work and wish you could use GCP, I've got some good news for you.</description>
+  <guid isPermaLink="false">https://cloud.google.com/solutions/federal-government/defense</guid>
+  <pubDate>Fri, 12 Nov 2021 06:00:00 GMT</pubDate>
 </item></channel>
 </rss>
