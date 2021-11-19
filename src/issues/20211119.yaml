@@ -1,0 +1,36 @@
+---
+issue_number:   45
+release_date:   2021-11-19
+is_latest:      true
+status:         published       # draft or published
+
+introduction: |
+    I want to start this week's issue with Milosz Danczak's, "Do Something Different for a Week." Being a technologist means an everchanging world of tools and processes. It's easy to get into habits or lean on "best practices". By creating low risk mini experiments, we can avoid getting too set in our ways.
+    Most of the articles that follow provide an opportunity for such experiments. Try relying on your tracing tools locally instead of your debugger. Experiments with alternative ways to organize and manage your source control repos. Do some chaos engineering around your service dependencies. You may only learn what not to do, but at least you'll learn something.
+
+links:
+    - title:      "Do Something Different for a Week"
+      url:        "https://blog.sidebits.tech/do-something-different-for-a-week/"
+      summary:    "How do you know if what you're doing is really the best (especially for us old guys that think we've seen it all)? By doing weekly mini experiments, you can constantly expose yourself to new ways of doing things and maybe pick up something new along the way. The post gives some good examples to try like: draw everything before typing, measure performance of a feature and improve it, or record the screen and watch yourself."
+    - title:      "Flowchart: How Should I Run Containers on AWS?"
+      url:        "https://www.vladionescu.me/posts/flowchart-how-should-i-run-containers-on-aws-2021/"
+      summary:    "I love that Vlad created two versions of this flowchart. The second version includes justification for all his recommendation at each decision point."
+    - title:      "Logs and Tracing: Not Just for Production, for Local Development Too"
+      url:        "https://incident.io/blog/tracing/"
+      summary:    "While this post is pretty heavy on Go and GCP specific tooling, I like the emphasis on using the same observability tools to debug locally as you would in production. This way, you know your tools work and how to use them."
+    - title:      "Make your Monorepo Feel Small with Git's Sparse Index"
+      url:        "https://github.blog/2021-11-10-make-your-monorepo-feel-small-with-gits-sparse-index/"
+      summary:    "Git's sparse checkout feature allows you to pull down only a subset of files when working in large monorepos. However you'd still be working with the full Git index. The sparse index fixes this. After introducing this feature, for those that are intrested, this post dives into the actual implementation and performance results of Git's sparse index."
+    - title:      "	Ask HN: What is the Fastest Way to Ramp up on DevOps, K8 and GCP?"
+      url:        "https://news.ycombinator.com/item?id=29251343"
+      summary:    "If you've been following the SRE Newsletter for a while, you've seen my love for Hacker News comment threads. This thread contains steps, curriculum, books, and disagreements for the best ways to learn Kubernetes and GCP."
+    - title:      "How Do You Manage Your Slos if All Your Requests Depend on Integrations With a Lot of Different Third Party Services?"
+      url:        "https://old.reddit.com/r/sre/comments/qsidvs/how_do_you_manage_your_slos_if_all_your_requests/"
+      summary:    "The really long title of this Reddit thread describes one of the key problems with reliability engineering. You can only be as reliable as your least reliable service unless you strategically build around those dependencies."
+    - title:      "Stacked Changes: How Facebook and Google Engineers Stay Unblocked and Ship Faster"
+      url:        "https://graphite.dev/blog/post/DThX8ffP1gmxWJChEv0y"
+      summary:    "This is a marketing piece for Graphite, but I'm including it this week anyway because it introduced me to the concept of stacked diffs. <a class=\"underline\" href=\"https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/\" target=\"_blank\">I then read this older post</a> to learn what they actually were."
+    - title:      "RHEL 8.5 Delivers Key Container Improvements"
+      url:        "https://www.zdnet.com/article/rhel-8-5-arrives/"
+      summary:    "The new version of Red Hat has some features for containers and Ansible users including: containerized Podman, verify container signatures by default, native OverlayFS, and additional system roles."
+    

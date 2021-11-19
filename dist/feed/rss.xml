@@ -1689,5 +1689,61 @@
   <description>If you do government work and wish you could use GCP, I've got some good news for you.</description>
   <guid isPermaLink="false">https://cloud.google.com/solutions/federal-government/defense</guid>
   <pubDate>Fri, 12 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Do Something Different for a Week</title>
+  <link>https://blog.sidebits.tech/do-something-different-for-a-week/</link>
+  <description>How do you know if what you're doing is really the best (especially for us old guys that think we've seen it all)? By doing weekly mini experiments, you can constantly expose yourself to new ways of doing things and maybe pick up something new along the way. The post gives some good examples to try like: draw everything before typing, measure performance of a feature and improve it, or record the screen and watch yourself.</description>
+  <guid isPermaLink="false">https://blog.sidebits.tech/do-something-different-for-a-week/</guid>
+  <pubDate>Fri, 19 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Flowchart: How Should I Run Containers on AWS?</title>
+  <link>https://www.vladionescu.me/posts/flowchart-how-should-i-run-containers-on-aws-2021/</link>
+  <description>I love that Vlad created two versions of this flowchart. The second version includes justification for all his recommendation at each decision point.</description>
+  <guid isPermaLink="false">https://www.vladionescu.me/posts/flowchart-how-should-i-run-containers-on-aws-2021/</guid>
+  <pubDate>Fri, 19 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Logs and Tracing: Not Just for Production, for Local Development Too</title>
+  <link>https://incident.io/blog/tracing/</link>
+  <description>While this post is pretty heavy on Go and GCP specific tooling, I like the emphasis on using the same observability tools to debug locally as you would in production. This way, you know your tools work and how to use them.</description>
+  <guid isPermaLink="false">https://incident.io/blog/tracing/</guid>
+  <pubDate>Fri, 19 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Make your Monorepo Feel Small with Git's Sparse Index</title>
+  <link>https://github.blog/2021-11-10-make-your-monorepo-feel-small-with-gits-sparse-index/</link>
+  <description>Git's sparse checkout feature allows you to pull down only a subset of files when working in large monorepos. However you'd still be working with the full Git index. The sparse index fixes this. After introducing this feature, for those that are intrested, this post dives into the actual implementation and performance results of Git's sparse index.</description>
+  <guid isPermaLink="false">https://github.blog/2021-11-10-make-your-monorepo-feel-small-with-gits-sparse-index/</guid>
+  <pubDate>Fri, 19 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>	Ask HN: What is the Fastest Way to Ramp up on DevOps, K8 and GCP?</title>
+  <link>https://news.ycombinator.com/item?id=29251343</link>
+  <description>If you've been following the SRE Newsletter for a while, you've seen my love for Hacker News comment threads. This thread contains steps, curriculum, books, and disagreements for the best ways to learn Kubernetes and GCP.</description>
+  <guid isPermaLink="false">https://news.ycombinator.com/item?id=29251343</guid>
+  <pubDate>Fri, 19 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How Do You Manage Your Slos if All Your Requests Depend on Integrations With a Lot of Different Third Party Services?</title>
+  <link>https://old.reddit.com/r/sre/comments/qsidvs/how_do_you_manage_your_slos_if_all_your_requests/</link>
+  <description>The really long title of this Reddit thread describes one of the key problems with reliability engineering. You can only be as reliable as your least reliable service unless you strategically build around those dependencies.</description>
+  <guid isPermaLink="false">https://old.reddit.com/r/sre/comments/qsidvs/how_do_you_manage_your_slos_if_all_your_requests/</guid>
+  <pubDate>Fri, 19 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Stacked Changes: How Facebook and Google Engineers Stay Unblocked and Ship Faster</title>
+  <link>https://graphite.dev/blog/post/DThX8ffP1gmxWJChEv0y</link>
+  <description>This is a marketing piece for Graphite, but I'm including it this week anyway because it introduced me to the concept of stacked diffs. &lt;a class="underline" href="https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/" target="_blank"&gt;I then read this older post&lt;/a&gt; to learn what they actually were.</description>
+  <guid isPermaLink="false">https://graphite.dev/blog/post/DThX8ffP1gmxWJChEv0y</guid>
+  <pubDate>Fri, 19 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>RHEL 8.5 Delivers Key Container Improvements</title>
+  <link>https://www.zdnet.com/article/rhel-8-5-arrives/</link>
+  <description>The new version of Red Hat has some features for containers and Ansible users including: containerized Podman, verify container signatures by default, native OverlayFS, and additional system roles.</description>
+  <guid isPermaLink="false">https://www.zdnet.com/article/rhel-8-5-arrives/</guid>
+  <pubDate>Fri, 19 Nov 2021 06:00:00 GMT</pubDate>
 </item></channel>
 </rss>
