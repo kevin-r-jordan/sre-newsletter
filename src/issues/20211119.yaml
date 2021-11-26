@@ -1,7 +1,7 @@
 ---
 issue_number:   45
 release_date:   2021-11-19
-is_latest:      true
+is_latest:      false
 status:         published       # draft or published
 
 introduction: |
@@ -21,10 +21,10 @@ links:
     - title:      "Make your Monorepo Feel Small with Git's Sparse Index"
       url:        "https://github.blog/2021-11-10-make-your-monorepo-feel-small-with-gits-sparse-index/"
       summary:    "Git's sparse checkout feature allows you to pull down only a subset of files when working in large monorepos. However you'd still be working with the full Git index. The sparse index fixes this. After introducing this feature, for those that are intrested, this post dives into the actual implementation and performance results of Git's sparse index."
-    - title:      "	Ask HN: What is the Fastest Way to Ramp up on DevOps, K8 and GCP?"
+    - title:      "Ask HN: What is the Fastest Way to Ramp up on DevOps, K8 and GCP?"
       url:        "https://news.ycombinator.com/item?id=29251343"
       summary:    "If you've been following the SRE Newsletter for a while, you've seen my love for Hacker News comment threads. This thread contains steps, curriculum, books, and disagreements for the best ways to learn Kubernetes and GCP."
-    - title:      "How Do You Manage Your Slos if All Your Requests Depend on Integrations With a Lot of Different Third Party Services?"
+    - title:      "How Do You Manage Your SLOs if All Your Requests Depend on Integrations With a Lot of Different Third Party Services?"
       url:        "https://old.reddit.com/r/sre/comments/qsidvs/how_do_you_manage_your_slos_if_all_your_requests/"
       summary:    "The really long title of this Reddit thread describes one of the key problems with reliability engineering. You can only be as reliable as your least reliable service unless you strategically build around those dependencies."
     - title:      "Stacked Changes: How Facebook and Google Engineers Stay Unblocked and Ship Faster"

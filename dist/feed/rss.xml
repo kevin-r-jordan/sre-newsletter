@@ -1719,14 +1719,14 @@
   <pubDate>Fri, 19 Nov 2021 06:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>	Ask HN: What is the Fastest Way to Ramp up on DevOps, K8 and GCP?</title>
+  <title>Ask HN: What is the Fastest Way to Ramp up on DevOps, K8 and GCP?</title>
   <link>https://news.ycombinator.com/item?id=29251343</link>
   <description>If you've been following the SRE Newsletter for a while, you've seen my love for Hacker News comment threads. This thread contains steps, curriculum, books, and disagreements for the best ways to learn Kubernetes and GCP.</description>
   <guid isPermaLink="false">https://news.ycombinator.com/item?id=29251343</guid>
   <pubDate>Fri, 19 Nov 2021 06:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>How Do You Manage Your Slos if All Your Requests Depend on Integrations With a Lot of Different Third Party Services?</title>
+  <title>How Do You Manage Your SLOs if All Your Requests Depend on Integrations With a Lot of Different Third Party Services?</title>
   <link>https://old.reddit.com/r/sre/comments/qsidvs/how_do_you_manage_your_slos_if_all_your_requests/</link>
   <description>The really long title of this Reddit thread describes one of the key problems with reliability engineering. You can only be as reliable as your least reliable service unless you strategically build around those dependencies.</description>
   <guid isPermaLink="false">https://old.reddit.com/r/sre/comments/qsidvs/how_do_you_manage_your_slos_if_all_your_requests/</guid>
@@ -1745,5 +1745,68 @@
   <description>The new version of Red Hat has some features for containers and Ansible users including: containerized Podman, verify container signatures by default, native OverlayFS, and additional system roles.</description>
   <guid isPermaLink="false">https://www.zdnet.com/article/rhel-8-5-arrives/</guid>
   <pubDate>Fri, 19 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Learning Containers From The Bottom Up</title>
+  <link>https://iximiuz.com/en/posts/container-learning-path/</link>
+  <description>Want to learn how containers REALLY work? Ivan Velichko shares another great post where he gives a learning plan for how he learned containers in depth. The article is a reasonable length, but links to a lot of other resources so that you can get a better understanding of what's happening under the hood.</description>
+  <guid isPermaLink="false">https://iximiuz.com/en/posts/container-learning-path/</guid>
+  <pubDate>Fri, 26 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Root Cause Is for Plants, Not Software</title>
+  <link>https://www.verica.io/blog/root-cause-is-for-plants-not-software/</link>
+  <description>This was a good one... To quote a quote from the article - "Instead of increasing safety, post-accident remedies usually increase the coupling and complexity of the system."</description>
+  <guid isPermaLink="false">https://www.verica.io/blog/root-cause-is-for-plants-not-software/</guid>
+  <pubDate>Fri, 26 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Stable Software Release System</title>
+  <link>https://blog.kronis.dev/articles/stable-software-release-system</link>
+  <description>What does going from version 7.1.101 to 8.9.29 mean to you? Does version 2021-stable-29 make more sense?</description>
+  <guid isPermaLink="false">https://blog.kronis.dev/articles/stable-software-release-system</guid>
+  <pubDate>Fri, 26 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Ask HN: Most Interesting, Mildly Impractical, Well-Written Books on Software?</title>
+  <link>https://news.ycombinator.com/item?id=29306651</link>
+  <description>Everyone loves book lists, and it is close to that gift buying time of year... This list, however, intentionally skips the normal, "must read" books and gives you impractical ones instead.</description>
+  <guid isPermaLink="false">https://news.ycombinator.com/item?id=29306651</guid>
+  <pubDate>Fri, 26 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>DevOps in Academic Research</title>
+  <link>https://mattsegal.dev/devops-academic-research.html</link>
+  <description>Matthew Segal documents his journey using DevOps to help generate statistical models in academic research more quickly. Overall, just a good story about a DevOps transformation that's not much different than any other environment.</description>
+  <guid isPermaLink="false">https://mattsegal.dev/devops-academic-research.html</guid>
+  <pubDate>Fri, 26 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Introducing IPv6-only Subnets and EC2 Instances</title>
+  <link>https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-ipv6-only-subnets-and-ec2-instances/</link>
+  <description>Will we ever go all IPv6? AWS is helping us get one step closer.</description>
+  <guid isPermaLink="false">https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-ipv6-only-subnets-and-ec2-instances/</guid>
+  <pubDate>Fri, 26 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Amazon EKS Connector, Now Generally Available</title>
+  <link>https://aws.amazon.com/about-aws/whats-new/2021/11/visualize-kubernetes-clusters-one-place-amazon-eks-connector-generally-available/</link>
+  <description>Amazon annouces GA for EKS Connector. You can now extend the EKS console to visualize your Kubernetes clusters outside of AWS.</description>
+  <guid isPermaLink="false">https://aws.amazon.com/about-aws/whats-new/2021/11/visualize-kubernetes-clusters-one-place-amazon-eks-connector-generally-available/</guid>
+  <pubDate>Fri, 26 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>I Test in Prod</title>
+  <link>https://increment.com/testing/i-test-in-production/</link>
+  <description>This article feels like it tries way too hard, but if I got the gist: the real world is not reproducible and we should embrace it. Since you can't test for everything, building for observability is key. Since perfection is not possible, error budgets are necessary.</description>
+  <guid isPermaLink="false">https://increment.com/testing/i-test-in-production/</guid>
+  <pubDate>Fri, 26 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Microservices Architecture on Google Cloud</title>
+  <link>https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud</link>
+  <description>This post is super basic and kinda garbage, but there's a good little infographic.</description>
+  <guid isPermaLink="false">https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud</guid>
+  <pubDate>Fri, 26 Nov 2021 06:00:00 GMT</pubDate>
 </item></channel>
 </rss>
