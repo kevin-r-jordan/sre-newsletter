@@ -1,0 +1,32 @@
+---
+issue_number:   47
+release_date:   2021-12-03
+is_latest:      false
+status:         published       # draft or published
+
+introduction: |
+    This week provides a fun little spattering of topics.
+
+links:
+    - title:      "I Don't Want to Be On Call Anymore"
+      url:        "https://www.honeycomb.io/blog/devops-on-call/"
+      summary:    "There are two important statements in this article: 1) if someone is constantly getting paged because they're the only one that knows the system then you've got serious \"bus factor\" risk; 2) a manager's performance should be judged on how they protect their people from interruptions and wakeup calls."
+    - title:      "Measuring Software Complexity: What Metrics to Use?"
+      url:        "https://thevaluable.dev/complexity-metrics-software/"
+      summary:    "This article talks about the different ways to measure software complexity. If you ever wondered what your code analysis tool means when it refers to cyclomatic complexity, this is for you. The recommended measurements are: lines of code, code shape, structural coupling, and logical coupling."
+    - title:      "Five Books that Changed My Career as a Software Engineer"
+      url:        "https://julianogtz.github.io/my-personal-blog/posts/five-books-that-changed-my-career-as-a-software-engineer/"
+      summary:    "Everyone loves book lists and this one has the factors I care about: short / curated, a justification for the book, and some titles I've not heard of before."
+    - title:      "[Long Read] What Happened During Slack's DNSSEC Rollout"
+      url:        "https://slack.engineering/what-happened-during-slacks-dnssec-rollout/"
+      summary:    "The technical, indepth root cause analysis behind Slack's September 30th outage."
+    - title:      "Observability vs. Monitoring Debate"
+      url:        "https://ubuntu.com/blog/observability-vs-monitoring-debate-an-irreverent-view"
+      summary:    "Anytime a new tech buzzword is introduced a lot of experts jump in and the actual definition gets confusing. This post doesn't try to propose the \"right\" definition for observability, but uses search trends, social media, and blog posts to prove how confused everyone actually is."
+    - title:      "[Tool] Karpenter"
+      url:        "https://github.com/aws/karpenter"
+      summary:    "Karpenter is an open-source node provisioning project built for Kubernetes. Its goal is to improve the efficiency and cost of running workloads on Kubernetes clusters."
+    - title:      "Kubernetes Cluster API v1.0, Production Ready"
+      url:        "https://www.infoq.com/news/2021/11/kubernetes-cluster-api/"
+      summary:    "The Cloud Native Computing Foundation announced that the Cluster API project is production-ready and moving to v1beta1 APIs. The Cluster API project uses Kubernetes-style APIs and patterns to automate cluster lifecycle management for platform operators."
+    

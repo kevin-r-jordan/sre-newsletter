@@ -1,0 +1,34 @@
+The big news this week is, of course, the AWS outage. I actually had 3 articles to review for the SRE Newsletter from AWS re:Invent, but parts of Amazon appear to still be down.<br /><br />
+The outage highlights a couple things: 1) if it makes sense for your application, use multiple regions and 2) outages happen even to the best of us.<br /><br />
+<a href="https://www.bbc.co.uk/news/business-59568858" style="text-decoration:none;color:#ef4444;" target="_blank">Amazon Services Down for Thousands of Users</a><br />
+<span style="color:#808080; font-size:14px">// bbc.co.uk</span><br />
+There are a lot of AWS is down articles this week because, well it's kind of a big deal with the largest cloud provider has an outage. This short little article list some of the impacts like my poor Roomba vacuum.<br />
+<br />
+<a href="https://stop.lying.cloud/" style="text-decoration:none;color:#ef4444;" target="_blank">[Tool] The Honest AWS Health Dashboard</a><br />
+<span style="color:#808080; font-size:14px">// stop.lying.cloud</span><br />
+I guess it took a while for Amazon to admit it's own outage. Someone decided to create a website with one of the best URLs ever.<br />
+<br />
+<a href="https://blog.nimbleways.com/let-s-make-faster-gitlab-ci-cd-pipelines/" style="text-decoration:none;color:#ef4444;" target="_blank">[Long Read] Let's Make Faster GitLab CI/CD Pipelines</a><br />
+<span style="color:#808080; font-size:14px">// blog.nimbleways.com</span><br />
+I hate slow builds and deployments. With everything being pushed left, CI / CD pipelines keep getting slower. This post walks through the optimization process of taking a 14 minute pipeline down to 3 minutes while exploring the most common problems, their solutions, and the trade-offs.<br />
+<br />
+<a href="http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/" style="text-decoration:none;color:#ef4444;" target="_blank">[Long Read] Anti-Patterns When Building Container Images</a><br />
+<span style="color:#808080; font-size:14px">// jpetazzo.github.io</span><br />
+The list: big images (caused by all-in-one images or including large datasets), small images, rebuilding common bases, building from the root of a giant monorepo, not using BuildKit, requiring rebuilds for every change, using custom scripts instead of existing tools, forcing things to run in containers, using overly complex tools, conflicting names for scripts and images, and building with Dockerfiles.<br />
+<br />
+<a href="https://stroobants.dev/make-your-infrastructure-immutable.html" style="text-decoration:none;color:#ef4444;" target="_blank">Why Your Cloud Infrastructure Should Be Immutable</a><br />
+<span style="color:#808080; font-size:14px">// stroobants.dev</span><br />
+We've heard about immutable infrastructure for a while, but mainstream tooling is finally up to the task. Here's a post that summarizes the benefits of immutable infrastructure.<br />
+<br />
+<a href="https://www.honeycomb.io/blog/scaling-kafka-observability-pipelines/" style="text-decoration:none;color:#ef4444;" target="_blank">Scaling Kafka at Honeycomb</a><br />
+<span style="color:#808080; font-size:14px">// honeycomb.io</span><br />
+Honeycomb has grown 10x in two years while total cost of ownership for their Kafka setup has only gone up 20%. This post describes how they've managed to scale their telemetry system without dedicated Kafka engineers (with the help of some beta AWS instances).<br />
+<br />
+<a href="https://www.opslevel.com/blog/opslevel-diederik-van-liere/" style="text-decoration:none;color:#ef4444;" target="_blank">Microservices, Constant Iteration, and the Shelf Life of Good Solutions</a><br />
+<span style="color:#808080; font-size:14px">// opslevel.com</span><br />
+In an interview with Diederik van Liere, VP of Data & Engineering at Wealthsimple (previously Shopify and Wikipedia), he discusses how service ownership has changed as the company has grown. While many assume service ownership is static, as a business grows, engineering organizations need to figure out how to manage the changes to evolve with the business.<br />
+<br />
+<a href="https://www.businesswire.com/news/home/20211201005108/en/Meta-Selects-AWS-as-Key-Long-Term-Strategic-Cloud-Provider" style="text-decoration:none;color:#ef4444;" target="_blank">Meta Selects AWS as Strategic Cloud Provider</a><br />
+<span style="color:#808080; font-size:14px">// businesswire.com</span><br />
+A short little PR piece about how another major company, Meta (AKA Facebook), is going the path of AWS. The partnership will drive the use of PyTorch for ML models.<br />
+<br />

@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>SRE Newsletter - Issue #48</title>
+      <title>SRE Newsletter - Issue #47</title>
       <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
       <link href="./../../css/tailwind.min.css" rel="stylesheet" />
    </head>
@@ -14,7 +14,7 @@
                <a href="/">
                   <h1 class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">SRE <span class="text-red-500">NEWS</span>LETTER</h1>
                </a>
-               <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Issue #48 // December 10, 2021</p>
+               <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Issue #47 // December 3, 2021</p>
             </div>
          </div>
       </div>
@@ -41,7 +41,7 @@
          <div class="max-w-2xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
             <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
                <div class="px-5 py-2">
-                  <a href="/issues/047" class="text-base text-gray-500 hover:text-gray-900">
+                  <a href="/issues/046" class="text-base text-gray-500 hover:text-gray-900">
                   ← Prev Issue
                   </a>
                </div>
@@ -50,84 +50,78 @@
                   View Archive
                   </a>
                </div>
-               
+               <div class="px-5 py-2">
+                  <a href="/issues/048" class="text-base text-gray-500 hover:text-gray-900">
+                  Next Issue →
+                  </a>
+               </div>
             </nav>
             <div>
                <div class="mt-12 text-base text-gray-600">
-			      <p>The big news this week is, of course, the AWS outage. I actually had 3 articles to review for the SRE Newsletter from AWS re:Invent, but parts of Amazon appear to still be down.</p>
-                  <p class="mt-3">The outage highlights a couple things: 1) if it makes sense for your application, use multiple regions and 2) outages happen even to the best of us.</p>
+			      <p>This week provides a fun little spattering of topics.</p>
                </div>
                <dl class="mt-12 space-y-8">
                                     <div>
                      <dt class="text-lg leading-6 font-medium text-gray-900">
-                        <a href="https://www.bbc.co.uk/news/business-59568858" class="text-red-500 hover:underline" target="_blank">Amazon Services Down for Thousands of Users</a>
-                     </dt>
-                     <dd class="text-base text-gray-600">
-                        <span class="text-gray-400 text-sm">// bbc.co.uk</span><br />
-                        There are a lot of AWS is down articles this week because, well it's kind of a big deal with the largest cloud provider has an outage. This short little article list some of the impacts like my poor Roomba vacuum.
-                     </dd>
-                  </div>
-                  <div>
-                     <dt class="text-lg leading-6 font-medium text-gray-900">
-                        <a href="https://stop.lying.cloud/" class="text-red-500 hover:underline" target="_blank">[Tool] The Honest AWS Health Dashboard</a>
-                     </dt>
-                     <dd class="text-base text-gray-600">
-                        <span class="text-gray-400 text-sm">// stop.lying.cloud</span><br />
-                        I guess it took a while for Amazon to admit it's own outage. Someone decided to create a website with one of the best URLs ever.
-                     </dd>
-                  </div>
-                  <div>
-                     <dt class="text-lg leading-6 font-medium text-gray-900">
-                        <a href="https://blog.nimbleways.com/let-s-make-faster-gitlab-ci-cd-pipelines/" class="text-red-500 hover:underline" target="_blank">[Long Read] Let's Make Faster GitLab CI/CD Pipelines</a>
-                     </dt>
-                     <dd class="text-base text-gray-600">
-                        <span class="text-gray-400 text-sm">// blog.nimbleways.com</span><br />
-                        I hate slow builds and deployments. With everything being pushed left, CI / CD pipelines keep getting slower. This post walks through the optimization process of taking a 14 minute pipeline down to 3 minutes while exploring the most common problems, their solutions, and the trade-offs.
-                     </dd>
-                  </div>
-                  <div>
-                     <dt class="text-lg leading-6 font-medium text-gray-900">
-                        <a href="http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/" class="text-red-500 hover:underline" target="_blank">[Long Read] Anti-Patterns When Building Container Images</a>
-                     </dt>
-                     <dd class="text-base text-gray-600">
-                        <span class="text-gray-400 text-sm">// jpetazzo.github.io</span><br />
-                        The list: big images (caused by all-in-one images or including large datasets), small images, rebuilding common bases, building from the root of a giant monorepo, not using BuildKit, requiring rebuilds for every change, using custom scripts instead of existing tools, forcing things to run in containers, using overly complex tools, conflicting names for scripts and images, and building with Dockerfiles.
-                     </dd>
-                  </div>
-                  <div>
-                     <dt class="text-lg leading-6 font-medium text-gray-900">
-                        <a href="https://stroobants.dev/make-your-infrastructure-immutable.html" class="text-red-500 hover:underline" target="_blank">Why Your Cloud Infrastructure Should Be Immutable</a>
-                     </dt>
-                     <dd class="text-base text-gray-600">
-                        <span class="text-gray-400 text-sm">// stroobants.dev</span><br />
-                        We've heard about immutable infrastructure for a while, but mainstream tooling is finally up to the task. Here's a post that summarizes the benefits of immutable infrastructure.
-                     </dd>
-                  </div>
-                  <div>
-                     <dt class="text-lg leading-6 font-medium text-gray-900">
-                        <a href="https://www.honeycomb.io/blog/scaling-kafka-observability-pipelines/" class="text-red-500 hover:underline" target="_blank">Scaling Kafka at Honeycomb</a>
+                        <a href="https://www.honeycomb.io/blog/devops-on-call/" class="text-red-500 hover:underline" target="_blank">I Don't Want to Be On Call Anymore</a>
                      </dt>
                      <dd class="text-base text-gray-600">
                         <span class="text-gray-400 text-sm">// honeycomb.io</span><br />
-                        Honeycomb has grown 10x in two years while total cost of ownership for their Kafka setup has only gone up 20%. This post describes how they've managed to scale their telemetry system without dedicated Kafka engineers (with the help of some beta AWS instances).
+                        There are two important statements in this article: 1) if someone is constantly getting paged because they're the only one that knows the system then you've got serious "bus factor" risk; 2) a manager's performance should be judged on how they protect their people from interruptions and wakeup calls.
                      </dd>
                   </div>
                   <div>
                      <dt class="text-lg leading-6 font-medium text-gray-900">
-                        <a href="https://www.opslevel.com/blog/opslevel-diederik-van-liere/" class="text-red-500 hover:underline" target="_blank">Microservices, Constant Iteration, and the Shelf Life of Good Solutions</a>
+                        <a href="https://thevaluable.dev/complexity-metrics-software/" class="text-red-500 hover:underline" target="_blank">Measuring Software Complexity: What Metrics to Use?</a>
                      </dt>
                      <dd class="text-base text-gray-600">
-                        <span class="text-gray-400 text-sm">// opslevel.com</span><br />
-                        In an interview with Diederik van Liere, VP of Data & Engineering at Wealthsimple (previously Shopify and Wikipedia), he discusses how service ownership has changed as the company has grown. While many assume service ownership is static, as a business grows, engineering organizations need to figure out how to manage the changes to evolve with the business.
+                        <span class="text-gray-400 text-sm">// thevaluable.dev</span><br />
+                        This article talks about the different ways to measure software complexity. If you ever wondered what your code analysis tool means when it refers to cyclomatic complexity, this is for you. The recommended measurements are: lines of code, code shape, structural coupling, and logical coupling.
                      </dd>
                   </div>
                   <div>
                      <dt class="text-lg leading-6 font-medium text-gray-900">
-                        <a href="https://www.businesswire.com/news/home/20211201005108/en/Meta-Selects-AWS-as-Key-Long-Term-Strategic-Cloud-Provider" class="text-red-500 hover:underline" target="_blank">Meta Selects AWS as Strategic Cloud Provider</a>
+                        <a href="https://julianogtz.github.io/my-personal-blog/posts/five-books-that-changed-my-career-as-a-software-engineer/" class="text-red-500 hover:underline" target="_blank">Five Books that Changed My Career as a Software Engineer</a>
                      </dt>
                      <dd class="text-base text-gray-600">
-                        <span class="text-gray-400 text-sm">// businesswire.com</span><br />
-                        A short little PR piece about how another major company, Meta (AKA Facebook), is going the path of AWS. The partnership will drive the use of PyTorch for ML models.
+                        <span class="text-gray-400 text-sm">// julianogtz.github.io</span><br />
+                        Everyone loves book lists and this one has the factors I care about: short / curated, a justification for the book, and some titles I've not heard of before.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://slack.engineering/what-happened-during-slacks-dnssec-rollout/" class="text-red-500 hover:underline" target="_blank">[Long Read] What Happened During Slack's DNSSEC Rollout</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// slack.engineering</span><br />
+                        The technical, indepth root cause analysis behind Slack's September 30th outage.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://ubuntu.com/blog/observability-vs-monitoring-debate-an-irreverent-view" class="text-red-500 hover:underline" target="_blank">Observability vs. Monitoring Debate</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// ubuntu.com</span><br />
+                        Anytime a new tech buzzword is introduced a lot of experts jump in and the actual definition gets confusing. This post doesn't try to propose the "right" definition for observability, but uses search trends, social media, and blog posts to prove how confused everyone actually is.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://github.com/aws/karpenter" class="text-red-500 hover:underline" target="_blank">[Tool] Karpenter</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// github.com</span><br />
+                        Karpenter is an open-source node provisioning project built for Kubernetes. Its goal is to improve the efficiency and cost of running workloads on Kubernetes clusters.
+                     </dd>
+                  </div>
+                  <div>
+                     <dt class="text-lg leading-6 font-medium text-gray-900">
+                        <a href="https://www.infoq.com/news/2021/11/kubernetes-cluster-api/" class="text-red-500 hover:underline" target="_blank">Kubernetes Cluster API v1.0, Production Ready</a>
+                     </dt>
+                     <dd class="text-base text-gray-600">
+                        <span class="text-gray-400 text-sm">// infoq.com</span><br />
+                        The Cloud Native Computing Foundation announced that the Cluster API project is production-ready and moving to v1beta1 APIs. The Cluster API project uses Kubernetes-style APIs and patterns to automate cluster lifecycle management for platform operators.
                      </dd>
                   </div>
 

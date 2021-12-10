@@ -1808,5 +1808,110 @@
   <description>This post is super basic and kinda garbage, but there's a good little infographic.</description>
   <guid isPermaLink="false">https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud</guid>
   <pubDate>Fri, 26 Nov 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>I Don't Want to Be On Call Anymore</title>
+  <link>https://www.honeycomb.io/blog/devops-on-call/</link>
+  <description>There are two important statements in this article: 1) if someone is constantly getting paged because they're the only one that knows the system then you've got serious "bus factor" risk; 2) a manager's performance should be judged on how they protect their people from interruptions and wakeup calls.</description>
+  <guid isPermaLink="false">https://www.honeycomb.io/blog/devops-on-call/</guid>
+  <pubDate>Fri, 03 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Measuring Software Complexity: What Metrics to Use?</title>
+  <link>https://thevaluable.dev/complexity-metrics-software/</link>
+  <description>This article talks about the different ways to measure software complexity. If you ever wondered what your code analysis tool means when it refers to cyclomatic complexity, this is for you. The recommended measurements are: lines of code, code shape, structural coupling, and logical coupling.</description>
+  <guid isPermaLink="false">https://thevaluable.dev/complexity-metrics-software/</guid>
+  <pubDate>Fri, 03 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Five Books that Changed My Career as a Software Engineer</title>
+  <link>https://julianogtz.github.io/my-personal-blog/posts/five-books-that-changed-my-career-as-a-software-engineer/</link>
+  <description>Everyone loves book lists and this one has the factors I care about: short / curated, a justification for the book, and some titles I've not heard of before.</description>
+  <guid isPermaLink="false">https://julianogtz.github.io/my-personal-blog/posts/five-books-that-changed-my-career-as-a-software-engineer/</guid>
+  <pubDate>Fri, 03 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>[Long Read] What Happened During Slack's DNSSEC Rollout</title>
+  <link>https://slack.engineering/what-happened-during-slacks-dnssec-rollout/</link>
+  <description>The technical, indepth root cause analysis behind Slack's September 30th outage.</description>
+  <guid isPermaLink="false">https://slack.engineering/what-happened-during-slacks-dnssec-rollout/</guid>
+  <pubDate>Fri, 03 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Observability vs. Monitoring Debate</title>
+  <link>https://ubuntu.com/blog/observability-vs-monitoring-debate-an-irreverent-view</link>
+  <description>Anytime a new tech buzzword is introduced a lot of experts jump in and the actual definition gets confusing. This post doesn't try to propose the "right" definition for observability, but uses search trends, social media, and blog posts to prove how confused everyone actually is.</description>
+  <guid isPermaLink="false">https://ubuntu.com/blog/observability-vs-monitoring-debate-an-irreverent-view</guid>
+  <pubDate>Fri, 03 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>[Tool] Karpenter</title>
+  <link>https://github.com/aws/karpenter</link>
+  <description>Karpenter is an open-source node provisioning project built for Kubernetes. Its goal is to improve the efficiency and cost of running workloads on Kubernetes clusters.</description>
+  <guid isPermaLink="false">https://github.com/aws/karpenter</guid>
+  <pubDate>Fri, 03 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Kubernetes Cluster API v1.0, Production Ready</title>
+  <link>https://www.infoq.com/news/2021/11/kubernetes-cluster-api/</link>
+  <description>The Cloud Native Computing Foundation announced that the Cluster API project is production-ready and moving to v1beta1 APIs. The Cluster API project uses Kubernetes-style APIs and patterns to automate cluster lifecycle management for platform operators.</description>
+  <guid isPermaLink="false">https://www.infoq.com/news/2021/11/kubernetes-cluster-api/</guid>
+  <pubDate>Fri, 03 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Amazon Services Down for Thousands of Users</title>
+  <link>https://www.bbc.co.uk/news/business-59568858</link>
+  <description>There are a lot of AWS is down articles this week because, well it's kind of a big deal with the largest cloud provider has an outage. This short little article list some of the impacts like my poor Roomba vacuum.</description>
+  <guid isPermaLink="false">https://www.bbc.co.uk/news/business-59568858</guid>
+  <pubDate>Fri, 10 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>[Tool] The Honest AWS Health Dashboard</title>
+  <link>https://stop.lying.cloud/</link>
+  <description>I guess it took a while for Amazon to admit it's own outage. Someone decided to create a website with one of the best URLs ever.</description>
+  <guid isPermaLink="false">https://stop.lying.cloud/</guid>
+  <pubDate>Fri, 10 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>[Long Read] Let's Make Faster GitLab CI/CD Pipelines</title>
+  <link>https://blog.nimbleways.com/let-s-make-faster-gitlab-ci-cd-pipelines/</link>
+  <description>I hate slow builds and deployments. With everything being pushed left, CI / CD pipelines keep getting slower. This post walks through the optimization process of taking a 14 minute pipeline down to 3 minutes while exploring the most common problems, their solutions, and the trade-offs.</description>
+  <guid isPermaLink="false">https://blog.nimbleways.com/let-s-make-faster-gitlab-ci-cd-pipelines/</guid>
+  <pubDate>Fri, 10 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>[Long Read] Anti-Patterns When Building Container Images</title>
+  <link>http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/</link>
+  <description>The list: big images (caused by all-in-one images or including large datasets), small images, rebuilding common bases, building from the root of a giant monorepo, not using BuildKit, requiring rebuilds for every change, using custom scripts instead of existing tools, forcing things to run in containers, using overly complex tools, conflicting names for scripts and images, and building with Dockerfiles.</description>
+  <guid isPermaLink="false">http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/</guid>
+  <pubDate>Fri, 10 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Why Your Cloud Infrastructure Should Be Immutable</title>
+  <link>https://stroobants.dev/make-your-infrastructure-immutable.html</link>
+  <description>We've heard about immutable infrastructure for a while, but mainstream tooling is finally up to the task. Here's a post that summarizes the benefits of immutable infrastructure.</description>
+  <guid isPermaLink="false">https://stroobants.dev/make-your-infrastructure-immutable.html</guid>
+  <pubDate>Fri, 10 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Scaling Kafka at Honeycomb</title>
+  <link>https://www.honeycomb.io/blog/scaling-kafka-observability-pipelines/</link>
+  <description>Honeycomb has grown 10x in two years while total cost of ownership for their Kafka setup has only gone up 20%. This post describes how they've managed to scale their telemetry system without dedicated Kafka engineers (with the help of some beta AWS instances).</description>
+  <guid isPermaLink="false">https://www.honeycomb.io/blog/scaling-kafka-observability-pipelines/</guid>
+  <pubDate>Fri, 10 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Microservices, Constant Iteration, and the Shelf Life of Good Solutions</title>
+  <link>https://www.opslevel.com/blog/opslevel-diederik-van-liere/</link>
+  <description>In an interview with Diederik van Liere, VP of Data &amp; Engineering at Wealthsimple (previously Shopify and Wikipedia), he discusses how service ownership has changed as the company has grown. While many assume service ownership is static, as a business grows, engineering organizations need to figure out how to manage the changesto evolve with the business.</description>
+  <guid isPermaLink="false">https://www.opslevel.com/blog/opslevel-diederik-van-liere/</guid>
+  <pubDate>Fri, 10 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Meta Selects AWS as Strategic Cloud Provider</title>
+  <link>https://www.businesswire.com/news/home/20211201005108/en/Meta-Selects-AWS-as-Key-Long-Term-Strategic-Cloud-Provider</link>
+  <description>A short little PR piece about how another major company, Meta (AKA Facebook), is going the path of AWS. The partnership will drive the use of PyTorch for ML models.</description>
+  <guid isPermaLink="false">https://www.businesswire.com/news/home/20211201005108/en/Meta-Selects-AWS-as-Key-Long-Term-Strategic-Cloud-Provider</guid>
+  <pubDate>Fri, 10 Dec 2021 06:00:00 GMT</pubDate>
 </item></channel>
 </rss>

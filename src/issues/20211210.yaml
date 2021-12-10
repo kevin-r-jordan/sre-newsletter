@@ -1,0 +1,35 @@
+---
+issue_number:   48
+release_date:   2021-12-10
+is_latest:      true
+status:         published       # draft or published
+
+introduction: |
+    The big news this week is, of course, the AWS outage. I actually had 3 articles to review for the SRE Newsletter from AWS re:Invent, but parts of Amazon appear to still be down.
+    The outage highlights a couple things: 1) if it makes sense for your application, use multiple regions and 2) outages happen even to the best of us.
+
+links:
+    - title:      "Amazon Services Down for Thousands of Users"
+      url:        "https://www.bbc.co.uk/news/business-59568858"
+      summary:    "There are a lot of AWS is down articles this week because, well it's kind of a big deal with the largest cloud provider has an outage. This short little article list some of the impacts like my poor Roomba vacuum."
+    - title:      "[Tool] The Honest AWS Health Dashboard"
+      url:        "https://stop.lying.cloud/"
+      summary:    "I guess it took a while for Amazon to admit it's own outage. Someone decided to create a website with one of the best URLs ever."
+    - title:      "[Long Read] Let's Make Faster GitLab CI/CD Pipelines"
+      url:        "https://blog.nimbleways.com/let-s-make-faster-gitlab-ci-cd-pipelines/"
+      summary:    "I hate slow builds and deployments. With everything being pushed left, CI / CD pipelines keep getting slower. This post walks through the optimization process of taking a 14 minute pipeline down to 3 minutes while exploring the most common problems, their solutions, and the trade-offs."
+    - title:      "[Long Read] Anti-Patterns When Building Container Images"
+      url:        "http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns/"
+      summary:    "The list: big images (caused by all-in-one images or including large datasets), small images, rebuilding common bases, building from the root of a giant monorepo, not using BuildKit, requiring rebuilds for every change, using custom scripts instead of existing tools, forcing things to run in containers, using overly complex tools, conflicting names for scripts and images, and building with Dockerfiles."
+    - title:      "Why Your Cloud Infrastructure Should Be Immutable"
+      url:        "https://stroobants.dev/make-your-infrastructure-immutable.html"
+      summary:    "We've heard about immutable infrastructure for a while, but mainstream tooling is finally up to the task. Here's a post that summarizes the benefits of immutable infrastructure."
+    - title:      "Scaling Kafka at Honeycomb"
+      url:        "https://www.honeycomb.io/blog/scaling-kafka-observability-pipelines/"
+      summary:    "Honeycomb has grown 10x in two years while total cost of ownership for their Kafka setup has only gone up 20%. This post describes how they've managed to scale their telemetry system without dedicated Kafka engineers (with the help of some beta AWS instances)."
+    - title:      "Microservices, Constant Iteration, and the Shelf Life of Good Solutions"
+      url:        "https://www.opslevel.com/blog/opslevel-diederik-van-liere/"
+      summary:    "In an interview with Diederik van Liere, VP of Data & Engineering at Wealthsimple (previously Shopify and Wikipedia), he discusses how service ownership has changed as the company has grown. While many assume service ownership is static, as a business grows, engineering organizations need to figure out how to manage the changes to evolve with the business."
+    - title:      "Meta Selects AWS as Strategic Cloud Provider"
+      url:        "https://www.businesswire.com/news/home/20211201005108/en/Meta-Selects-AWS-as-Key-Long-Term-Strategic-Cloud-Provider"
+      summary:    "A short little PR piece about how another major company, Meta (AKA Facebook), is going the path of AWS. The partnership will drive the use of PyTorch for ML models."
