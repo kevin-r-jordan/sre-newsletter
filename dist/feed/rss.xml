@@ -1990,5 +1990,54 @@
   <description>Amazon announced event filtering for Lambdas reading from SQS, DynamoDB, and Kinesis. One of the coders gives a little history into its origins.</description>
   <guid isPermaLink="false">https://www.tbray.org/ongoing/When/202x/2021/12/03/Filtering-Lessons</guid>
   <pubDate>Fri, 17 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Best Practices Can Slow Your Application Down</title>
+  <link>https://stackoverflow.blog/2021/12/22/best-practices-can-slow-your-application-down/</link>
+  <description>Stack Overflow proves we're all doing it wrong. They probably serve close to half a billion requests per day using a server architecture that's very close to what this old man grew up on. This article slightly clarifies their use of static calls, but I'm curious how they balance this with testability going forward.</description>
+  <guid isPermaLink="false">https://stackoverflow.blog/2021/12/22/best-practices-can-slow-your-application-down/</guid>
+  <pubDate>Fri, 24 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Big DevOps Misunderstanding</title>
+  <link>https://wolfoliver.medium.com/the-big-devops-misunderstanding-8435a910a5fd</link>
+  <description>15 seconds to explain why Kubernetes and infrastructure as code ruined the spirit of DevOps. Although, "You build it, you run it" is only one definition.</description>
+  <guid isPermaLink="false">https://wolfoliver.medium.com/the-big-devops-misunderstanding-8435a910a5fd</guid>
+  <pubDate>Fri, 24 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Patterns for Authorization in Microservices</title>
+  <link>https://www.osohq.com/post/microservices-authorization-patterns</link>
+  <description>Which part of the application gets to determine access when it's in a hundred different pieces? All the solutions suck!</description>
+  <guid isPermaLink="false">https://www.osohq.com/post/microservices-authorization-patterns</guid>
+  <pubDate>Fri, 24 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Hunting Tech Debt via Org Charts</title>
+  <link>https://bellmar.medium.com/hunting-tech-debt-via-org-charts-92df0b253145</link>
+  <description>Who you report to determines your priorities and therefor where your team is failing.</description>
+  <guid isPermaLink="false">https://bellmar.medium.com/hunting-tech-debt-via-org-charts-92df0b253145</guid>
+  <pubDate>Fri, 24 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Step Away From Stack Overflow</title>
+  <link>https://elisabethirgens.github.io/notes/2021/12/step-away/</link>
+  <description>How about using your brain to figure things out instead of Google?</description>
+  <guid isPermaLink="false">https://elisabethirgens.github.io/notes/2021/12/step-away/</guid>
+  <pubDate>Fri, 24 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AWS Power Failure in US-EAST-1</title>
+  <link>https://www.theregister.com/2021/12/22/aws_outage/</link>
+  <description>The 3rd week in a row reporting an AWS outage. This one again occurs in US-EAST-1. If you lost data in this outage, it's because you decided it wasn't important enough to set it up right.</description>
+  <guid isPermaLink="false">https://www.theregister.com/2021/12/22/aws_outage/</guid>
+  <pubDate>Fri, 24 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Azure App Service Vulnerability Exposed Hundreds of Source Code Repositories</title>
+  <link>https://www.wiz.io/blog/azure-app-service-source-code-leak</link>
+  <description>If you were using Local Git based deployments with a non-.NET language on Azure App Services your code was available to the public and they're probably laughing about how messy it is.</description>
+  <guid isPermaLink="false">https://www.wiz.io/blog/azure-app-service-source-code-leak</guid>
+  <pubDate>Fri, 24 Dec 2021 06:00:00 GMT</pubDate>
 </item></channel>
 </rss>
