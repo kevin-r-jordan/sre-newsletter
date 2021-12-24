@@ -1,0 +1,46 @@
+It's been a rough week for site reliability engineers and other IT groups. Fresh off of the AWS outage last week we get another AWS outage. Azure also reported issues and there was latency in Cloudflare. Maybe we should go back on-prem. Was that production server under my desk really such a bad idea? /s<br /><br />
+Log4Shell probably has your IT department scrambling. If you're lucky, you're just responding to requests saying you're not affected. Those that are less lucky are busy updating their applications. In the worst shape are those that have no idea if they're at risk or how to find out.<br /><br />
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2021-44228" style="text-decoration:none;color:#ef4444;" target="_blank">National Vulnerability Database - Log4j</a><br />
+<span style="color:#808080; font-size:14px">// nvd.nist.gov</span><br />
+The first of a few Log4Shell links. I couldn't think of anything more official than the NIST.<br />
+<br />
+<a href="https://techcrunch.com/2021/12/13/the-race-is-on-to-patch-log4shell-as-attacks-begin-to-rise/" style="text-decoration:none;color:#ef4444;" target="_blank">Log4Shell, the Bug that's Breaking the Internet</a><br />
+<span style="color:#808080; font-size:14px">// techcrunch.com</span><br />
+On the opposite end of the NIST link is Tech Crunch. This is probably the Log4j article your CTO read.<br />
+<br />
+<a href="https://www.lunasec.io/docs/blog/log4j-zero-day-update-on-cve-2021-45046/" style="text-decoration:none;color:#ef4444;" target="_blank">Log4Shell Update: Second log4j Vulnerability Published</a><br />
+<span style="color:#808080; font-size:14px">// lunasec.io</span><br />
+After the log4j maintainers released version 2.15.0 to address the Log4Shell vulnerability, an additional attack vector was identified and reported.<br />
+<br />
+<a href="https://isc.sans.edu/diary/Log4j+2.15.0+and+previously+suggested+mitigations+may+not+be+enough/28134" style="text-decoration:none;color:#ef4444;" target="_blank">Log4j 2.15.0 and Previously Suggested Mitigations May Not Be Enough</a><br />
+<span style="color:#808080; font-size:14px">// isc.sans.edu</span><br />
+While version 2.16.0 seems fine, version 2.15.0 would still be vulnerable when the configuration has a pattern layout containing a Context Lookup.<br />
+<br />
+<a href="https://www.lastweekinaws.com/blog/lessons-in-trust-from-us-east-1/" style="text-decoration:none;color:#ef4444;" target="_blank">Lessons in Trust From us-east-1</a><br />
+<span style="color:#808080; font-size:14px">// lastweekinaws.com</span><br />
+Corey Quinn balks at AWS's RCA saying he's unconvinced they even understand their outage. Don't use Route 53 because it relies too heavily on us-east-1.<br />
+<br />
+<a href="https://www.zdnet.com/article/aws-misfires-once-more-just-days-after-a-massive-failure/" style="text-decoration:none;color:#ef4444;" target="_blank">AWS Misfires Once More, Just Days After a Massive Failure</a><br />
+<span style="color:#808080; font-size:14px">// zdnet.com</span><br />
+This time, the issue was the US-West-1 & 2. The outage impacted Duo, Zoom, and Slack.<br />
+<br />
+<a href="https://www.cyclic.sh/posts/aws-tools-suck" style="text-decoration:none;color:#ef4444;" target="_blank">AWS Tools Suck</a><br />
+<span style="color:#808080; font-size:14px">// cyclic.sh</span><br />
+As an Azure guy, I've complained about AWS developer experience for years. There are two types of people that push AWS: the people making money off the complexity (AWS Architects) or the CxOs who heard it will save them money.<br />
+<br />
+<a href="https://arnoldgalovics.com/microservices-in-production/" style="text-decoration:none;color:#ef4444;" target="_blank">Don't Start With Microservices - Monoliths Are Your Friend</a><br />
+<span style="color:#808080; font-size:14px">// arnoldgalovics.com</span><br />
+I've shared similar articles a few times in the SRE Newsletter, but it's worth repeating... Fight against over engineering.<br />
+<br />
+<a href="https://thenewstack.io/gitops-on-kubernetes-deciding-between-argo-cd-and-flux/" style="text-decoration:none;color:#ef4444;" target="_blank">GitOps on Kubernetes: Deciding Between Argo CD and Flux</a><br />
+<span style="color:#808080; font-size:14px">// thenewstack.io</span><br />
+Christian Hernandez compares two open source projects from the Cloud Native Computing Foundation: Argo CD and Flux.<br />
+<br />
+<a href="https://orkes.io/content/blog/orchestration-microservices-match-made-heaven" style="text-decoration:none;color:#ef4444;" target="_blank">Orchestration and Microservices - A Match Made in Heaven</a><br />
+<span style="color:#808080; font-size:14px">// orkes.io</span><br />
+Instead of chaining all your services together, pass them through a centralized orchestrator for better observability and future abstractions.<br />
+<br />
+<a href="https://www.tbray.org/ongoing/When/202x/2021/12/03/Filtering-Lessons" style="text-decoration:none;color:#ef4444;" target="_blank">Filtering Lessons</a><br />
+<span style="color:#808080; font-size:14px">// tbray.org</span><br />
+Amazon announced event filtering for Lambdas reading from SQS, DynamoDB, and Kinesis. One of the coders gives a little history into its origins.<br />
+<br />

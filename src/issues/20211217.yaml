@@ -1,0 +1,44 @@
+---
+issue_number:   49
+release_date:   2021-12-17
+is_latest:      true
+status:         published       # draft or published
+
+introduction: |
+    It's been a rough week for site reliability engineers and other IT groups. Fresh off of the AWS outage last week we get another AWS outage. Azure also reported issues and there was latency in Cloudflare. Maybe we should go back on-prem. Was that production server under my desk really such a bad idea? /s
+    Log4Shell probably has your IT department scrambling. If you're lucky, you're just responding to requests saying you're not affected. Those that are less lucky are busy updating their applications. In the worst shape are those that have no idea if they're at risk or how to find out.
+
+links:
+    - title:      "National Vulnerability Database - Log4j"
+      url:        "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"
+      summary:    "The first of a few Log4Shell links. I couldn't think of anything more official than the NIST."
+    - title:      "Log4Shell, the Bug that's Breaking the Internet"
+      url:        "https://techcrunch.com/2021/12/13/the-race-is-on-to-patch-log4shell-as-attacks-begin-to-rise/"
+      summary:    "On the opposite end of the NIST link is Tech Crunch. This is probably the Log4j article your CTO read."
+    - title:      "Log4Shell Update: Second log4j Vulnerability Published"
+      url:        "https://www.lunasec.io/docs/blog/log4j-zero-day-update-on-cve-2021-45046/"
+      summary:    "After the log4j maintainers released version 2.15.0 to address the Log4Shell vulnerability, an additional attack vector was identified and reported."
+    - title:      "Log4j 2.15.0 and Previously Suggested Mitigations May Not Be Enough"
+      url:        "https://isc.sans.edu/diary/Log4j+2.15.0+and+previously+suggested+mitigations+may+not+be+enough/28134"
+      summary:    "While version 2.16.0 seems fine, version 2.15.0 would still be vulnerable when the configuration has a pattern layout containing a Context Lookup."
+    - title:      "Lessons in Trust From us-east-1"
+      url:        "https://www.lastweekinaws.com/blog/lessons-in-trust-from-us-east-1/"
+      summary:    "Corey Quinn balks at AWS's RCA saying he's unconvinced they even understand their outage. Don't use Route 53 because it relies too heavily on us-east-1."
+    - title:      "AWS Misfires Once More, Just Days After a Massive Failure"
+      url:        "https://www.zdnet.com/article/aws-misfires-once-more-just-days-after-a-massive-failure/"
+      summary:    "This time, the issue was the US-West-1 & 2. The outage impacted Duo, Zoom, and Slack."
+    - title:      "AWS Tools Suck"
+      url:        "https://www.cyclic.sh/posts/aws-tools-suck"
+      summary:    "As an Azure guy, I've complained about AWS developer experience for years. There are two types of people that push AWS: the people making money off the complexity (AWS Architects) or the CxOs who heard it will save them money."
+    - title:      "Don't Start With Microservices - Monoliths Are Your Friend"
+      url:        "https://arnoldgalovics.com/microservices-in-production/"
+      summary:    "I've shared similar articles a few times in the SRE Newsletter, but it's worth repeating... Fight against over engineering."
+    - title:      "GitOps on Kubernetes: Deciding Between Argo CD and Flux"
+      url:        "https://thenewstack.io/gitops-on-kubernetes-deciding-between-argo-cd-and-flux/"
+      summary:    "Christian Hernandez compares two open source projects from the Cloud Native Computing Foundation: Argo CD and Flux."
+    - title:      "Orchestration and Microservices - A Match Made in Heaven"
+      url:        "https://orkes.io/content/blog/orchestration-microservices-match-made-heaven"
+      summary:    "Instead of chaining all your services together, pass them through a centralized orchestrator for better observability and future abstractions."
+    - title:      "Filtering Lessons"
+      url:        "https://www.tbray.org/ongoing/When/202x/2021/12/03/Filtering-Lessons"
+      summary:    "Amazon announced event filtering for Lambdas reading from SQS, DynamoDB, and Kinesis. One of the coders gives a little history into its origins."

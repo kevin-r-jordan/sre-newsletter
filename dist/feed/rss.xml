@@ -1903,7 +1903,7 @@
 <item>
   <title>Microservices, Constant Iteration, and the Shelf Life of Good Solutions</title>
   <link>https://www.opslevel.com/blog/opslevel-diederik-van-liere/</link>
-  <description>In an interview with Diederik van Liere, VP of Data &amp; Engineering at Wealthsimple (previously Shopify and Wikipedia), he discusses how service ownership has changed as the company has grown. While many assume service ownership is static, as a business grows, engineering organizations need to figure out how to manage the changesto evolve with the business.</description>
+  <description>In an interview with Diederik van Liere, VP of Data &amp; Engineering at Wealthsimple (previously Shopify and Wikipedia), he discusses how service ownership has changed as the company has grown. While many assume service ownership is static, as a business grows, engineering organizations need to figure out how to manage the changes to evolve with the business.</description>
   <guid isPermaLink="false">https://www.opslevel.com/blog/opslevel-diederik-van-liere/</guid>
   <pubDate>Fri, 10 Dec 2021 06:00:00 GMT</pubDate>
 </item>
@@ -1913,5 +1913,82 @@
   <description>A short little PR piece about how another major company, Meta (AKA Facebook), is going the path of AWS. The partnership will drive the use of PyTorch for ML models.</description>
   <guid isPermaLink="false">https://www.businesswire.com/news/home/20211201005108/en/Meta-Selects-AWS-as-Key-Long-Term-Strategic-Cloud-Provider</guid>
   <pubDate>Fri, 10 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>National Vulnerability Database - Log4j</title>
+  <link>https://nvd.nist.gov/vuln/detail/CVE-2021-44228</link>
+  <description>The first of a few Log4Shell links. I couldn't think of anything more official than the NIST.</description>
+  <guid isPermaLink="false">https://nvd.nist.gov/vuln/detail/CVE-2021-44228</guid>
+  <pubDate>Fri, 17 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Log4Shell, the Bug that's Breaking the Internet</title>
+  <link>https://techcrunch.com/2021/12/13/the-race-is-on-to-patch-log4shell-as-attacks-begin-to-rise/</link>
+  <description>On the opposite end of the NIST link is Tech Crunch. This is probably the Log4j article your CTO read.</description>
+  <guid isPermaLink="false">https://techcrunch.com/2021/12/13/the-race-is-on-to-patch-log4shell-as-attacks-begin-to-rise/</guid>
+  <pubDate>Fri, 17 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Log4Shell Update: Second log4j Vulnerability Published</title>
+  <link>https://www.lunasec.io/docs/blog/log4j-zero-day-update-on-cve-2021-45046/</link>
+  <description>After the log4j maintainers released version 2.15.0 to address the Log4Shell vulnerability, an additional attack vector was identified and reported.</description>
+  <guid isPermaLink="false">https://www.lunasec.io/docs/blog/log4j-zero-day-update-on-cve-2021-45046/</guid>
+  <pubDate>Fri, 17 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Log4j 2.15.0 and Previously Suggested Mitigations May Not Be Enough</title>
+  <link>https://isc.sans.edu/diary/Log4j+2.15.0+and+previously+suggested+mitigations+may+not+be+enough/28134</link>
+  <description>While version 2.16.0 seems fine, version 2.15.0 would still be vulnerable when the configuration has a pattern layout containing a Context Lookup.</description>
+  <guid isPermaLink="false">https://isc.sans.edu/diary/Log4j+2.15.0+and+previously+suggested+mitigations+may+not+be+enough/28134</guid>
+  <pubDate>Fri, 17 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Lessons in Trust From us-east-1</title>
+  <link>https://www.lastweekinaws.com/blog/lessons-in-trust-from-us-east-1/</link>
+  <description>Corey Quinn balks at AWS's RCA saying he's unconvinced they even understand their outage. Don't use Route 53 because it relies too heavily on us-east-1.</description>
+  <guid isPermaLink="false">https://www.lastweekinaws.com/blog/lessons-in-trust-from-us-east-1/</guid>
+  <pubDate>Fri, 17 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AWS Misfires Once More, Just Days After a Massive Failure</title>
+  <link>https://www.zdnet.com/article/aws-misfires-once-more-just-days-after-a-massive-failure/</link>
+  <description>This time, the issue was the US-West-1 &amp; 2. The outage impacted Duo, Zoom, and Slack.</description>
+  <guid isPermaLink="false">https://www.zdnet.com/article/aws-misfires-once-more-just-days-after-a-massive-failure/</guid>
+  <pubDate>Fri, 17 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AWS Tools Suck</title>
+  <link>https://www.cyclic.sh/posts/aws-tools-suck</link>
+  <description>As an Azure guy, I've complained about AWS developer experience for years. There are two types of people that push AWS: the people making money off the complexity (AWS Architects) or the CxOs who heard it will save them money.</description>
+  <guid isPermaLink="false">https://www.cyclic.sh/posts/aws-tools-suck</guid>
+  <pubDate>Fri, 17 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Don't Start With Microservices - Monoliths Are Your Friend</title>
+  <link>https://arnoldgalovics.com/microservices-in-production/</link>
+  <description>I've shared similar articles a few times in the SRE Newsletter, but it's worth repeating... Fight against over engineering.</description>
+  <guid isPermaLink="false">https://arnoldgalovics.com/microservices-in-production/</guid>
+  <pubDate>Fri, 17 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>GitOps on Kubernetes: Deciding Between Argo CD and Flux</title>
+  <link>https://thenewstack.io/gitops-on-kubernetes-deciding-between-argo-cd-and-flux/</link>
+  <description>Christian Hernandez compares two open source projects from the Cloud Native Computing Foundation: Argo CD and Flux.</description>
+  <guid isPermaLink="false">https://thenewstack.io/gitops-on-kubernetes-deciding-between-argo-cd-and-flux/</guid>
+  <pubDate>Fri, 17 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Orchestration and Microservices - A Match Made in Heaven</title>
+  <link>https://orkes.io/content/blog/orchestration-microservices-match-made-heaven</link>
+  <description>Instead of chaining all your services together, pass them through a centralized orchestrator for better observability and future abstractions.</description>
+  <guid isPermaLink="false">https://orkes.io/content/blog/orchestration-microservices-match-made-heaven</guid>
+  <pubDate>Fri, 17 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Filtering Lessons</title>
+  <link>https://www.tbray.org/ongoing/When/202x/2021/12/03/Filtering-Lessons</link>
+  <description>Amazon announced event filtering for Lambdas reading from SQS, DynamoDB, and Kinesis. One of the coders gives a little history into its origins.</description>
+  <guid isPermaLink="false">https://www.tbray.org/ongoing/When/202x/2021/12/03/Filtering-Lessons</guid>
+  <pubDate>Fri, 17 Dec 2021 06:00:00 GMT</pubDate>
 </item></channel>
 </rss>
