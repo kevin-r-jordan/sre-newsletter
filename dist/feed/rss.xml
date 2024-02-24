@@ -2039,5 +2039,96 @@
   <description>If you were using Local Git based deployments with a non-.NET language on Azure App Services your code was available to the public and they're probably laughing about how messy it is.</description>
   <guid isPermaLink="false">https://www.wiz.io/blog/azure-app-service-source-code-leak</guid>
   <pubDate>Fri, 24 Dec 2021 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>We Might Want to Regularly Keep Track of How Important Each Server Is</title>
+  <link>https://utcc.utoronto.ca/~cks/space/blog/sysadmin/TrackingMachineImportance</link>
+  <description>This short post brought me back to the early days of my career when our server room was just a big locked closet. In the modern era of cloud computing and cattle over pets, it's important to remember that managing air conditioning and counting BTUs matter at some organizations.</description>
+  <guid isPermaLink="false">https://utcc.utoronto.ca/~cks/space/blog/sysadmin/TrackingMachineImportance</guid>
+  <pubDate>Fri, 16 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Lessons From Our 8 Years Of Kubernetes In Production</title>
+  <link>https://medium.com/@.anders/learnings-from-our-8-years-of-kubernetes-in-production-two-major-cluster-crashes-ditching-self-0257c09d36cd</link>
+  <description>A startup chose to invest early (too early?) into Kubernetes. After 8 years, a couple outages, and moving from self managed to AKS, they're glad they did.</description>
+  <guid isPermaLink="false">https://medium.com/@.anders/learnings-from-our-8-years-of-kubernetes-in-production-two-major-cluster-crashes-ditching-self-0257c09d36cd</guid>
+  <pubDate>Fri, 16 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Understanding Database Replication: A Practical Overview</title>
+  <link>https://medium.com/@atakanserbes/understanding-database-replication-a-practical-overview-dbe23344acc7</link>
+  <description>Database replication is indispensable, ensuring data durability, high availability, and system scalability. This exploration delves into why replication is pivotal, various replication strategies, and their impact on system performance and consistency.</description>
+  <guid isPermaLink="false">https://medium.com/@atakanserbes/understanding-database-replication-a-practical-overview-dbe23344acc7</guid>
+  <pubDate>Fri, 16 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Rebuilding Netflix Video Processing Pipeline with Microservices</title>
+  <link>https://netflixtechblog.com/rebuilding-netflix-video-processing-pipeline-with-microservices-4e5e6310e359</link>
+  <description>This is the first blog in a multi-part series on how Netflix rebuilt its video processing pipeline with microservices, so we can maintain our rapid pace of innovation and continuously improve the system for member streaming and studio operations. This introductory blog focuses on an overview of our journey.</description>
+  <guid isPermaLink="false">https://netflixtechblog.com/rebuilding-netflix-video-processing-pipeline-with-microservices-4e5e6310e359</guid>
+  <pubDate>Fri, 16 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>PostgreSQL is Enough</title>
+  <link>https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb</link>
+  <description>Want message queues? Use Postgres. Want scheduled jobs? Use Postgres. Want functions? Use Postgres. Postgres all the things!</description>
+  <guid isPermaLink="false">https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb</guid>
+  <pubDate>Fri, 16 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>AT&amp;T Cellular Service Restored After Daylong Outage</title>
+  <link>https://www.cnbc.com/2024/02/22/cellular-outages-hit-thousands-in-us-and-att-users-most-affected.html</link>
+  <description>I'm sure many of us felt this one either as an AT&amp;T customer or trying to call one. Down for 10 hours, causes are still unknown. Communication has been less than stellar from telecommunications company.</description>
+  <guid isPermaLink="false">https://www.cnbc.com/2024/02/22/cellular-outages-hit-thousands-in-us-and-att-users-most-affected.html</guid>
+  <pubDate>Fri, 23 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>US Health Tech Giant Change Healthcare Hit by Cyber Attack</title>
+  <link>https://techcrunch.com/2024/02/21/change-healthcare-cyberattack/</link>
+  <description>Starting on Wednesday and continuing into Friday, what was first thought to be a network issue turned out to be a cyber security incident.</description>
+  <guid isPermaLink="false">https://techcrunch.com/2024/02/21/change-healthcare-cyberattack/</guid>
+  <pubDate>Fri, 23 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Monitoring Latency: Cloudflare Workers vs Fly vs Koyeb vs Railway vs Render</title>
+  <link>https://www.openstatus.dev/blog/monitoring-latency-cf-workers-fly-koyeb-raylway-render</link>
+  <description>Want to know which cloud providers offer the lowest latency? This post compares the latency of Cloudflare Workers, Fly, Koyeb, Railway and Render.</description>
+  <guid isPermaLink="false">https://www.openstatus.dev/blog/monitoring-latency-cf-workers-fly-koyeb-raylway-render</guid>
+  <pubDate>Fri, 23 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Unpacking Linux Containers: Understanding Docker and Its Alternatives</title>
+  <link>https://optimizedbyotto.com/post/linux-containers-docker/</link>
+  <description>Choosing the right container technology to use depends on where you intend to ship your containers. Ths post compares Docker, Podman, LXC and LXD.</description>
+  <guid isPermaLink="false">https://optimizedbyotto.com/post/linux-containers-docker/</guid>
+  <pubDate>Fri, 23 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Billion Row Challenge [Long Read]</title>
+  <link>https://questdb.io/blog/billion-row-challenge-step-by-step/</link>
+  <description>This one is a bit obscure, but an interesting technical challenge. Write a program for retrieving temperature measurement values from a text file and calculating the min, mean, and max temperature per weather station. There’s just one caveat: the file has 1,000,000,000 rows!</description>
+  <guid isPermaLink="false">https://questdb.io/blog/billion-row-challenge-step-by-step/</guid>
+  <pubDate>Fri, 23 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>What is Database Sharding?</title>
+  <link>https://www.pingcap.com/blog/database-sharding-defined/</link>
+  <description>If you're running into database scaling issues and haven't heard of sharding, this articles gives a good introduction into the options and trade-offs.</description>
+  <guid isPermaLink="false">https://www.pingcap.com/blog/database-sharding-defined/</guid>
+  <pubDate>Fri, 23 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>SSDs Have Become Ridiculously Fast, Except in the Cloud</title>
+  <link>https://databasearchitects.blogspot.com/2024/02/ssds-have-become-ridiculously-fast.html</link>
+  <description>Despite AWS continuing to roll out new NVMe drives, cloud IO has stagnated. The author and commenters hypothesize some reasons, but if you really need to be fast, bare metal may be required.</description>
+  <guid isPermaLink="false">https://databasearchitects.blogspot.com/2024/02/ssds-have-become-ridiculously-fast.html</guid>
+  <pubDate>Fri, 23 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Resend - Incident report for February 21st, 2024</title>
+  <link>https://resend.com/blog/incident-report-for-february-21-2024</link>
+  <description>As a counter example to the AT&amp;T outage, Resend shares a detailed postmortem from a recent outage caused by a database migration.</description>
+  <guid isPermaLink="false">https://resend.com/blog/incident-report-for-february-21-2024</guid>
+  <pubDate>Fri, 23 Feb 2024 06:00:00 GMT</pubDate>
 </item></channel>
 </rss>

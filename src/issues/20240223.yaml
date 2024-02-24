@@ -1,0 +1,35 @@
+---
+issue_number:   52
+release_date:   2024-2-23
+is_latest:      true
+status:         published       # draft or published
+
+introduction: |
+    A few big outages hit the tech world this week. We spend a lot of time considering fault tolerance, scalability, and monitoring. But, it's important to consider that sometimes an outage is intentionally caused by an outside threat. 
+    We must consider the relationship between reliability and security. While AT&T assures us that their issue wasn't caused by an cyber attack, Change Healthcare and many other's were.
+
+links:
+    - title:      "AT&T Cellular Service Restored After Daylong Outage"
+      url:        "https://www.cnbc.com/2024/02/22/cellular-outages-hit-thousands-in-us-and-att-users-most-affected.html"
+      summary:    "I'm sure many of us felt this one either as an AT&T customer or trying to call one. Down for 10 hours, causes are still unknown. Communication has been less than stellar from telecommunications company."
+    - title:      "US Health Tech Giant Change Healthcare Hit by Cyber Attack"
+      url:        "https://techcrunch.com/2024/02/21/change-healthcare-cyberattack/"
+      summary:    "Starting on Wednesday and continuing into Friday, what was first thought to be a network issue turned out to be a cyber security incident."
+    - title:      "Monitoring Latency: Cloudflare Workers vs Fly vs Koyeb vs Railway vs Render"
+      url:        "https://www.openstatus.dev/blog/monitoring-latency-cf-workers-fly-koyeb-raylway-render"
+      summary:    "Want to know which cloud providers offer the lowest latency? This post compares the latency of Cloudflare Workers, Fly, Koyeb, Railway and Render."
+    - title:      "Unpacking Linux Containers: Understanding Docker and Its Alternatives"
+      url:        "https://optimizedbyotto.com/post/linux-containers-docker/"
+      summary:    "Choosing the right container technology to use depends on where you intend to ship your containers. Ths post compares Docker, Podman, LXC and LXD."
+    - title:      "The Billion Row Challenge [Long Read]"
+      url:        "https://questdb.io/blog/billion-row-challenge-step-by-step/"
+      summary:    "This one is a bit obscure, but an interesting technical challenge. Write a program for retrieving temperature measurement values from a text file and calculating the min, mean, and max temperature per weather station. There’s just one caveat: the file has 1,000,000,000 rows!"
+    - title:      "What is Database Sharding?"
+      url:        "https://www.pingcap.com/blog/database-sharding-defined/"
+      summary:    "If you're running into database scaling issues and haven't heard of sharding, this articles gives a good introduction into the options and trade-offs."
+    - title:      "SSDs Have Become Ridiculously Fast, Except in the Cloud"
+      url:        "https://databasearchitects.blogspot.com/2024/02/ssds-have-become-ridiculously-fast.html"
+      summary:    "Despite AWS continuing to roll out new NVMe drives, cloud IO has stagnated. The author and commenters hypothesize some reasons, but if you really need to be fast, bare metal may be required."
+    - title:      "Resend - Incident report for February 21st, 2024"
+      url:        "https://resend.com/blog/incident-report-for-february-21-2024"
+      summary:    "As a counter example to the AT&T outage, Resend shares a detailed postmortem from a recent outage caused by a database migration."
