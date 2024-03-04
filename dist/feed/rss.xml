@@ -2130,5 +2130,47 @@
   <description>As a counter example to the AT&amp;T outage, Resend shares a detailed postmortem from a recent outage caused by a database migration.</description>
   <guid isPermaLink="false">https://resend.com/blog/incident-report-for-february-21-2024</guid>
   <pubDate>Fri, 23 Feb 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>All You Need is Wide Events, Not Metrics, Logs and Traces</title>
+  <link>https://isburmistrov.substack.com/p/all-you-need-is-wide-events-not-metrics</link>
+  <description>At Meta, they tackle observability using a concept called wide events. This post defines wide events and how they relate to Open Telemetry's traces, metrics, and logs.</description>
+  <guid isPermaLink="false">https://isburmistrov.substack.com/p/all-you-need-is-wide-events-not-metrics</guid>
+  <pubDate>Fri, 01 Mar 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Finding a Balance While Coding</title>
+  <link>https://breadchris.com/thinkies/finding-a-balance-while-coding/</link>
+  <description>Instead of blindly pursuing optimization at all costs, we should strive for balance. We should prioritize clear and maintainable code, robust functionality, and a positive user experience.</description>
+  <guid isPermaLink="false">https://breadchris.com/thinkies/finding-a-balance-while-coding/</guid>
+  <pubDate>Fri, 01 Mar 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Find the AWS Account ID of Any S3 Bucket</title>
+  <link>https://tracebit.com/blog/2024/02/finding-aws-account-id-of-any-s3-bucket/</link>
+  <description>This post describes a technique to find the Account ID of any S3 bucket (both private and public).</description>
+  <guid isPermaLink="false">https://tracebit.com/blog/2024/02/finding-aws-account-id-of-any-s3-bucket/</guid>
+  <pubDate>Fri, 01 Mar 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Serverless Horrors</title>
+  <link>https://serverlesshorrors.com/</link>
+  <description>ServerlessHorrors is a simple blog where you can read all the horror stories of serverless. Yikes!</description>
+  <guid isPermaLink="false">https://serverlesshorrors.com/</guid>
+  <pubDate>Fri, 01 Mar 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Agile Cult</title>
+  <link>https://milestones.dothub.cloud/blog/agile-1/</link>
+  <description>Another article about how everyone is doing agile wrong but provides some helpful anti-patterns. Agile turns into its enemy. It becomes rigid, unfocused, full of itself. </description>
+  <guid isPermaLink="false">https://milestones.dothub.cloud/blog/agile-1/</guid>
+  <pubDate>Fri, 01 Mar 2024 06:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Open Sourcing Pingora</title>
+  <link>https://blog.cloudflare.com/pingora-open-source</link>
+  <description>Cloudflare has open sourced Pingora, a Rust based alternative to NGINX that assists in constructing HTTP proxy services.</description>
+  <guid isPermaLink="false">https://blog.cloudflare.com/pingora-open-source</guid>
+  <pubDate>Fri, 01 Mar 2024 06:00:00 GMT</pubDate>
 </item></channel>
 </rss>

@@ -1,0 +1,28 @@
+---
+issue_number:   53
+release_date:   2024-3-1
+is_latest:      true
+status:         published       # draft or published
+
+introduction: |
+    A well balanced week of new and old, helpful and critical. 
+
+links:
+    - title:      "All You Need is Wide Events, Not Metrics, Logs and Traces"
+      url:        "https://isburmistrov.substack.com/p/all-you-need-is-wide-events-not-metrics"
+      summary:    "At Meta, they tackle observability using a concept called wide events. This post defines wide events and how they relate to Open Telemetry's traces, metrics, and logs."
+    - title:      "Finding a Balance While Coding"
+      url:        "https://breadchris.com/thinkies/finding-a-balance-while-coding/"
+      summary:    "Instead of blindly pursuing optimization at all costs, we should strive for balance. We should prioritize clear and maintainable code, robust functionality, and a positive user experience."
+    - title:      "How to Find the AWS Account ID of Any S3 Bucket"
+      url:        "https://tracebit.com/blog/2024/02/finding-aws-account-id-of-any-s3-bucket/"
+      summary:    "This post describes a technique to find the Account ID of any S3 bucket (both private and public)."
+    - title:      "Serverless Horrors"
+      url:        "https://serverlesshorrors.com/"
+      summary:    "ServerlessHorrors is a simple blog where you can read all the horror stories of serverless. Yikes!"
+    - title:      "Agile Cult"
+      url:        "https://milestones.dothub.cloud/blog/agile-1/"
+      summary:    "Another article about how everyone is doing agile wrong but provides some helpful anti-patterns. Agile turns into its enemy. It becomes rigid, unfocused, full of itself. "
+    - title:      "Open Sourcing Pingora"
+      url:        "https://blog.cloudflare.com/pingora-open-source"
+      summary:    "Cloudflare has open sourced Pingora, a Rust based alternative to NGINX that assists in constructing HTTP proxy services."
